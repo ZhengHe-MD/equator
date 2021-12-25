@@ -1,0 +1,117 @@
+[
+  {
+    "date": "2017-05-18",
+    "distance": 6,
+    "duration": {
+      "mins": 38,
+      "secs": 10
+    }
+  },
+  {
+    "date": "2017-07-30",
+    "distance": 10.03,
+    "duration": {
+      "mins": 57,
+      "secs": 3
+    }
+  },
+  {
+    "date": "2017-08-05",
+    "distance": 9.13,
+    "duration": {
+      "mins": 51,
+      "secs": 11
+    }
+  },
+  {
+    "date": "2017-08-06",
+    "distance": 5.04,
+    "duration": {
+      "mins": 30,
+      "secs": 55
+    }
+  },
+  {
+    "date": "2017-09-09",
+    "distance": 15.04,
+    "duration": {
+      "hours": 1,
+      "mins": 24,
+      "secs": 13
+    }
+  },
+  {
+    "date": "2017-09-16",
+    "distance": 13.08,
+    "duration": {
+      "hours": 1,
+      "mins": 10,
+      "secs": 7
+    }
+  },
+  {
+    "date": "2017-09-17",
+    "distance": 5.02,
+    "duration": {
+      "mins": 26,
+      "secs": 45
+    }
+  },
+  {
+    "date": "2017-09-24",
+    "distance": 11.84,
+    "duration": {
+      "hours": 1,
+      "mins": 12,
+      "secs": 59
+    }
+  },
+  {
+    "date": "2017-10-03",
+    "distance": 5.96,
+    "duration": {
+      "mins": 32,
+      "secs": 9
+    }
+  },
+  {
+    "date": "2017-10-06",
+    "distance": 8.45,
+    "duration": {
+      "mins": 46,
+      "secs": 1
+    }
+  },
+  {
+    "date": "2017-10-15",
+    "distance": 5.05,
+    "duration": {
+      "mins": 24,
+      "secs": 27
+    }
+  },
+  {
+    "date": "2017-10-21",
+    "distance": 8.28,
+    "duration": {
+      "mins": 48,
+      "secs": 11
+    }
+  },
+  {
+    "date": "2017-11-04",
+    "distance": 5.05,
+    "duration": {
+      "mins": 28,
+      "secs": 25
+    }
+  },
+  {
+    "date": "2017-12-27",
+    "distance": 7.42,
+    "duration": {
+      "mins": 47,
+      "secs": 58
+    }
+  }
+]
