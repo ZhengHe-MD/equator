@@ -28,10 +28,12 @@ export default function Home() {
                 <title>{`郑鹤的赤道计划 - ${progress.toFixed(2)}%`}</title>
             </Head>
             <Container>
-                <Image src="/equator-square.png" width={0} height={0} className="image-no-display"/>
-                <Typography variant="h2">
-                    {`赤道计划`}
-                </Typography>
+                <Box sx={{display: "flex"}}>
+                    <Typography variant="h2" sx={{mr: 2}}>
+                        {`赤道计划`}
+                    </Typography>
+                    <Image src="/equator-square.png" width={70} height={50}/>
+                </Box>
                 <Alert severity="info" sx={{my: 1}}>数据录入中</Alert>
 
                 <Typography variant="h5" sx={{mb: 3}}>
