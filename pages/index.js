@@ -28,7 +28,7 @@ export default function Home() {
                 <title>{`郑鹤的赤道计划 - ${progress.toFixed(2)}%`}</title>
             </Head>
             <Container>
-                <Image src="/equator-square.jpg" width={0} height={0} className="image-no-display"/>
+                <Image src="/equator-square.png" width={0} height={0} className="image-no-display"/>
                 <Typography variant="h2">
                     {`赤道计划`}
                 </Typography>
