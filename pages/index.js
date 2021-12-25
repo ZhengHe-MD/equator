@@ -1,4 +1,4 @@
-import {Alert, Box, Chip, CircularProgress, Container, Divider, LinearProgress, Typography} from "@mui/material";
+import {Alert, Box, Chip, Container, LinearProgress, Typography} from "@mui/material";
 import _ from "lodash";
 import Segment from "../src/Segment";
 import {useState} from "react";
@@ -7,10 +7,7 @@ export default function Home() {
     const [yearToDistance, setYearToDistance] = useState({})
 
     const recordYearlyDistance = (year, yearlyDistance) => {
-        setYearToDistance(_.merge(
-            yearToDistance,
-            {[year]: yearlyDistance},
-        ))
+        setYearToDistance(prev => ({...prev, [year]: yearlyDistance}))
     }
 
     const distance = _.sum(_.values(yearToDistance))
@@ -31,10 +28,10 @@ export default function Home() {
             </Typography>
             <LinearProgress
                 variant="determinate"
-                value={distance/400075.02 * 100} />
+                value={distance / 400075.02 * 100}/>
             <Box sx={{mt: 1, display: "flex", flexDirection: "row-reverse"}}>
                 <Chip icon={<span style={{fontSize: 25}}>🏃</span>}
-                      label={`${distance}/40075.02km ${(distance/40075.02 * 100).toFixed(2)}%`} />
+                      label={`${distance}/40075.02km ${(distance / 40075.02 * 100).toFixed(2)}%`}/>
             </Box>
 
             {
