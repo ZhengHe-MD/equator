@@ -1,12 +1,24 @@
-import {Alert, Box, Chip, Container, LinearProgress, Typography} from "@mui/material";
+import {Alert, Box, Container, LinearProgress, Typography} from "@mui/material";
 import _ from "lodash";
 import Segment from "../src/Segment";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import Image from "next/image";
 import Head from "next/head";
+import {useRouter} from "next/router";
 
 export default function Home() {
     const [yearToDistance, setYearToDistance] = useState({})
+    const router = useRouter()
+    useEffect(() => {
+        const currentYear = new Date().getFullYear().toString()
+        const hashYear = _.trimStart(location.hash, "#")
+        if (!hashYear) {
+            router.push(`/#${currentYear}`)
+        }
+        setTimeout(() => {
+            window.scroll(0, 0)
+        }, 500)
+    }, [])
 
     const recordYearlyDistance = (year, yearlyDistance) => {
         setYearToDistance(prev => ({...prev, [year]: yearlyDistance}))
@@ -28,7 +40,7 @@ export default function Home() {
                 <title>{`郑鹤的赤道计划 - ${progress.toFixed(2)}%`}</title>
             </Head>
             <Container>
-                <Box sx={{display: "flex"}}>
+                <Box sx={{display: "flex"}} id="top">
                     <Typography variant="h2" sx={{mr: 2}}>
                         {`赤道计划`}
                     </Typography>
@@ -54,7 +66,7 @@ export default function Home() {
                     <Typography variant="body2" sx={{fontSize: 10}}>{`${distance}/40075.02 km`}</Typography>
                 </Box>
 
-                <Box sx={{overflow: "scroll", height: 600}}>
+                <Box sx={{overflowY: "scroll", height: 800, px: 1}}>
                     {
                         _.map(years, year => (
                             <Segment
