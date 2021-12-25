@@ -32,7 +32,7 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
     return (
         <>
             <Box sx={{display: "flex", alignItems: "flex-end", justifyContent: "space-between"}}>
-                <Typography variant="h3">
+                <Typography variant="h3" id={year}>
                     {year}
                 </Typography>
                 {

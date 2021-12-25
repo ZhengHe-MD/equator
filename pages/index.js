@@ -54,16 +54,18 @@ export default function Home() {
                     <Typography variant="body2" sx={{fontSize: 10}}>{`${distance}/40075.02 km`}</Typography>
                 </Box>
 
-                {
-                    _.map(years, year => (
-                        <Segment
-                            year={year}
-                            key={year}
-                            yearlyDistance={yearToDistance[year]}
-                            recordYearlyDistance={recordYearlyDistance}
-                        />
-                    ))
-                }
+                <Box sx={{overflow: "scroll", height: 600}}>
+                    {
+                        _.map(years, year => (
+                            <Segment
+                                year={year}
+                                key={year}
+                                yearlyDistance={yearToDistance[year]}
+                                recordYearlyDistance={recordYearlyDistance}
+                            />
+                        ))
+                    }
+                </Box>
             </Container>
         </div>
     )
