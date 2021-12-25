@@ -1,5 +1,5 @@
 import 'react-calendar-heatmap/dist/styles.css';
-import {CircularProgress, Typography} from "@mui/material";
+import {Box, CircularProgress, Typography} from "@mui/material";
 import CalendarHeatmap from "react-calendar-heatmap";
 import {useEffect, useState} from "react";
 import _ from "lodash";
@@ -9,7 +9,7 @@ const ReactTooltip = dynamic(() => import("react-tooltip"), {
     ssr: false,
 });
 
-export default function Segment({year, recordYearlyDistance}) {
+export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
 
@@ -18,7 +18,6 @@ export default function Segment({year, recordYearlyDistance}) {
             .then(response => response.json())
         setLoading(false)
         setData(raw)
-        let yearlyDistance = 0;
         recordYearlyDistance(year, _.sumBy(raw, d => d.distance))
     }, [])
 
@@ -32,9 +31,16 @@ export default function Segment({year, recordYearlyDistance}) {
 
     return (
         <>
-            <Typography variant="h3" sx={{display: "flex", alignItems: "center", justifyContent: "space-between"}}>
-                {year}{loading && <CircularProgress disableShrink size={20}/>}
-            </Typography>
+            <Box sx={{display: "flex", alignItems: "flex-end", justifyContent: "space-between"}}>
+                <Typography variant="h3">
+                    {year}
+                </Typography>
+                {
+                    loading
+                        ? <CircularProgress disableShrink size={20}/>
+                        : <Typography variant="body2">{`${yearlyDistance} km ${getYearStatus(year)}`}</Typography>
+                }
+            </Box>
             <CalendarHeatmap
                 values={values}
                 gutterSize={1}
@@ -83,4 +89,15 @@ function discretization(d) {
         return 4
     }
     return 5
+}
+
+const getYearStatus = (year) => {
+    const currentYear = new Date().getFullYear()
+    if (year < currentYear) {
+        return '🔚'
+    } else if (year === currentYear) {
+        return '▶️'
+    } else {
+        return '🔜'
+    }
 }

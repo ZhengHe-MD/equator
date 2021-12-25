@@ -2,6 +2,7 @@ import {Alert, Box, Chip, Container, LinearProgress, Typography} from "@mui/mate
 import _ from "lodash";
 import Segment from "../src/Segment";
 import {useState} from "react";
+import Image from "next/image";
 
 export default function Home() {
     const [yearToDistance, setYearToDistance] = useState({})
@@ -11,11 +12,15 @@ export default function Home() {
     }
 
     const distance = _.sum(_.values(yearToDistance))
+    const progress = distance / 40075.02 * 100
 
     let years = [];
     for (let i = 0; i < 32; i++) {
         years.push(2017 + i)
     }
+
+    const translation = {pl: `${progress - 8}%`}
+
     return (
         <Container>
             <Typography variant="h2">
@@ -26,12 +31,19 @@ export default function Home() {
             <Typography variant="h5" sx={{mb: 3}}>
                 ❝ 我是郑鹤，我能在一生结束前，跑过与赤道等长的距离吗？❞
             </Typography>
+
+            <Box sx={{...translation}}>
+                <Image src="/running-girl.gif" width={30} height={30} className="running-girl"/>
+                <Image src="/running.gif" width={40} height={40}/>
+            </Box>
             <LinearProgress
                 variant="determinate"
-                value={distance / 400075.02 * 100}/>
-            <Box sx={{mt: 1, display: "flex", flexDirection: "row-reverse"}}>
-                <Chip icon={<span style={{fontSize: 25}}>🏃</span>}
-                      label={`${distance}/40075.02km ${(distance / 40075.02 * 100).toFixed(2)}%`}/>
+                value={progress}/>
+            <Box sx={{...translation}}>
+                <Typography variant="body2" sx={{fontSize: 10}}>{`${progress.toFixed(2)}%`}</Typography>
+            </Box>
+            <Box sx={{...translation}}>
+                <Typography variant="body2" sx={{fontSize: 10}}>{`${distance}/40075.02 km`}</Typography>
             </Box>
 
             {
@@ -39,6 +51,7 @@ export default function Home() {
                     <Segment
                         year={year}
                         key={year}
+                        yearlyDistance={yearToDistance[year]}
                         recordYearlyDistance={recordYearlyDistance}
                     />
                 ))

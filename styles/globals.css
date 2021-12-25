@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.running-girl {
+  left: 9px !important;
+}
