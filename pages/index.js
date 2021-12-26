@@ -37,7 +37,7 @@ export default function Home() {
                 <Alert severity="info" sx={{my: 1}}>数据录入中</Alert>
 
                 <Typography variant="h5" sx={{mb: 3}}>
-                    ❝ 我是郑鹤，我能在一生结束前，跑过与赤道等长的距离吗？❞
+                    ❝ 我叫郑鹤，我想在人生结束前跑过 40075.02 公里。 ❞
                 </Typography>
 
                 <Box sx={{...translation}}>
