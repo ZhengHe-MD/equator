@@ -22,7 +22,19 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
     }, [])
 
 
-    let values = _.map(data, d => ({
+    const keyByDate = _.keyBy(data, "date")
+    const allDates = getDateRange(year)
+    if (year === 2017) {
+        console.log(allDates)
+    }
+    _.forEach(allDates, dt => {
+        if (!_.has(keyByDate, dt)) {
+            keyByDate[dt] = newEmptyRecord(dt)
+        }
+    })
+    const filledData = _.values(keyByDate)
+
+    const values = _.map(filledData, d => ({
         date: d.date,
         distance: d.distance,
         pace: computePace(d),
@@ -38,7 +50,8 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
                 {
                     loading
                         ? <CircularProgress disableShrink size={20}/>
-                        : <Typography variant="body2">{`${yearlyDistance? yearlyDistance.toFixed(2) : 0} km ${getYearStatus(year)}`}</Typography>
+                        : <Typography
+                            variant="body2">{`${yearlyDistance ? yearlyDistance.toFixed(2) : 0} km ${getYearStatus(year)}`}</Typography>
                 }
             </Box>
             <CalendarHeatmap
@@ -67,6 +80,9 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
 }
 
 function computePace(d) {
+    if (d.duration.mins === 0 && d.duration.secs === 0) {
+        return { mins: 0, secs: 0 }
+    }
     const secs = _.get(d, "duration.hours", 0) * 3600 +
         _.get(d, "duration.mins", 0) * 60 +
         _.get(d, "duration.secs", 0)
@@ -79,7 +95,9 @@ function computePace(d) {
 
 function discretization(d) {
     const distance = d.distance
-    if (distance < 5.00) {
+    if (distance === 0) {
+        return 0
+    } else if (distance < 5.00) {
         return 1
     } else if (distance < 10.00) {
         return 2
@@ -101,3 +119,23 @@ const getYearStatus = (year) => {
         return '🔜'
     }
 }
+
+const getDateRange = (year) => {
+    const startDate = new Date(year, 0, 1)
+    const endDate = new Date(year, 11, 31)
+    let dateRange = []
+    for (let dt = startDate; dt <= endDate; dt.setDate(dt.getDate() + 1)) {
+        dateRange.push(`${dt.getFullYear().toString()}-${_.padStart((dt.getMonth()+1).toString(), 2, '0')}-${_.padStart(dt.getDate().toString(), 2, '0')}`);
+    }
+    return dateRange
+}
+
+const newEmptyRecord = (dt) => ({
+    date: dt,
+    distance: 0,
+    duration: {
+        hours: 0,
+        mins: 0,
+        secs: 0,
+    }
+})
