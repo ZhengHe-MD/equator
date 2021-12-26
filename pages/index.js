@@ -32,7 +32,7 @@ export default function Home() {
                     <Typography variant="h2" sx={{mr: 2}}>
                         {`赤道计划`}
                     </Typography>
-                    <Image src="/equator-square.png" width={70} height={50}/>
+                    <Image src="/equator-square.png" width={65} height={50}/>
                 </Box>
                 <Alert severity="info" sx={{my: 1}}>数据录入中</Alert>
 

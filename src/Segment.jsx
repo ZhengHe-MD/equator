@@ -24,9 +24,6 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
 
     const keyByDate = _.keyBy(data, "date")
     const allDates = getDateRange(year)
-    if (year === 2017) {
-        console.log(allDates)
-    }
     _.forEach(allDates, dt => {
         if (!_.has(keyByDate, dt)) {
             keyByDate[dt] = newEmptyRecord(dt)
