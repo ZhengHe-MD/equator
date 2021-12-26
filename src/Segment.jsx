@@ -38,7 +38,7 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
                 {
                     loading
                         ? <CircularProgress disableShrink size={20}/>
-                        : <Typography variant="body2">{`${yearlyDistance} km ${getYearStatus(year)}`}</Typography>
+                        : <Typography variant="body2">{`${yearlyDistance? yearlyDistance.toFixed(2) : 0} km ${getYearStatus(year)}`}</Typography>
                 }
             </Box>
             <CalendarHeatmap
@@ -73,7 +73,7 @@ function computePace(d) {
     const minsPerKM = secs / 60 / d.distance
     return {
         mins: _.floor(minsPerKM),
-        secs: _.ceil(minsPerKM - _.floor(minsPerKM)) * 60
+        secs: _.floor((minsPerKM - _.floor(minsPerKM)) * 60)
     }
 }
 
