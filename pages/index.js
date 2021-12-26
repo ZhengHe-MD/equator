@@ -51,7 +51,7 @@ export default function Home() {
                     <Typography variant="body2" sx={{fontSize: 10}}>{`${progress.toFixed(2)}%`}</Typography>
                 </Box>
                 <Box sx={{...translation}}>
-                    <Typography variant="body2" sx={{fontSize: 10}}>{`${distance}/40075.02 km`}</Typography>
+                    <Typography variant="body2" sx={{fontSize: 10}}>{`${distance.toFixed(2)}/40075.02 km`}</Typography>
                 </Box>
 
                 <Box sx={{overflowY: "scroll", flexGrow: 1, px: 1}}>
