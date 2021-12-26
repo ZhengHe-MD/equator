@@ -1,5 +1,29 @@
 [
   {
+    "date": "2017-05-05",
+    "distance": 6.05,
+    "duration": {
+      "mins": 35,
+      "secs": 48
+    }
+  },
+  {
+    "date": "2017-05-06",
+    "distance": 6.02,
+    "duration": {
+      "mins": 34,
+      "secs": 14
+    }
+  },
+  {
+    "date": "2017-05-13",
+    "distance": 5.02,
+    "duration": {
+      "mins": 26,
+      "secs": 58
+    }
+  },
+  {
     "date": "2017-05-18",
     "distance": 6,
     "duration": {

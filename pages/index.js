@@ -16,8 +16,8 @@ export default function Home() {
     const progress = distance / 40075.02 * 100
 
     let years = [];
-    for (let i = 0; i < 32; i++) {
-        years.push(2017 + i)
+    for (let i = 0; i < 34; i++) {
+        years.push(2015 + i)
     }
 
     const translation = {pl: `${progress - 8}%`}

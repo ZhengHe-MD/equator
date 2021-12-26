@@ -1,0 +1,152 @@
+[
+  {
+    "date": "2015-07-28",
+    "distance": 10.10,
+    "duration": {
+      "mins": 57,
+      "secs": 52
+    }
+  },
+  {
+    "date": "2015-07-29",
+    "distance": 10.10,
+    "duration": {
+      "hours": 1,
+      "mins": 1,
+      "secs": 41
+    }
+  },
+  {
+    "date": "2015-07-31",
+    "distance": 10.04,
+    "duration": {
+      "mins": 55,
+      "secs": 31
+    }
+  },
+  {
+    "date": "2015-08-01",
+    "distance": 2.21,
+    "duration": {
+      "mins": 12,
+      "secs": 8
+    }
+  },
+  {
+    "date": "2015-08-02",
+    "distance": 10.07,
+    "duration": {
+      "mins": 57,
+      "secs": 15
+    }
+  },
+  {
+    "date": "2015-08-06",
+    "distance": 11.44,
+    "duration": {
+      "hours": 1,
+      "mins": 5,
+      "secs": 34
+    }
+  },
+  {
+    "date": "2015-08-08",
+    "distance": 10.02,
+    "duration": {
+      "mins": 54,
+      "secs": 23
+    }
+  },
+  {
+    "date": "2015-08-12",
+    "distance": 11.26,
+    "duration": {
+      "hours": 1,
+      "mins": 4,
+      "secs": 7
+    }
+  },
+  {
+    "date": "2015-08-14",
+    "distance": 10.02,
+    "duration": {
+      "mins": 57,
+      "secs": 51
+    }
+  },
+  {
+    "date": "2015-08-16",
+    "distance": 10.10,
+    "duration": {
+      "hours": 1,
+      "mins": 24,
+      "secs": 55
+    }
+  },
+  {
+    "date": "2015-08-17",
+    "distance": 10.65,
+    "duration": {
+      "hours": 1,
+      "mins": 15,
+      "secs": 47
+    }
+  },
+  {
+    "date": "2015-08-22",
+    "distance": 9.68,
+    "duration": {
+      "mins": 55,
+      "secs": 4
+    }
+  },
+  {
+    "date": "2015-08-25",
+    "distance": 10.01,
+    "duration": {
+      "mins": 52,
+      "secs": 29
+    }
+  },
+  {
+    "date": "2015-08-27",
+    "distance": 5.02,
+    "duration": {
+      "mins": 29,
+      "secs": 1
+    }
+  },
+  {
+    "date": "2015-08-28",
+    "distance": 4.52,
+    "duration": {
+      "mins": 24,
+      "secs": 26
+    }
+  },
+  {
+    "date": "2015-09-01",
+    "distance": 5.01,
+    "duration": {
+      "mins": 27,
+      "secs": 16
+    }
+  },
+  {
+    "date": "2015-09-20",
+    "distance": 42.82,
+    "duration": {
+      "hours": 5,
+      "mins": 28,
+      "secs": 9
+    }
+  },
+  {
+    "date": "2015-10-19",
+    "distance": 7.73,
+    "duration": {
+      "mins": 43,
+      "secs": 13
+    }
+  }
+]
