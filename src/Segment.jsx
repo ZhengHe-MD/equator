@@ -102,8 +102,11 @@ function discretization(d) {
         return 3
     } else if (distance < 21.0975) {
         return 4
+    } else if (distance < 42.195) {
+        return 5
+    } else {
+        return 6
     }
-    return 5
 }
 
 const getYearStatus = (year) => {

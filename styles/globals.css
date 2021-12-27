@@ -18,3 +18,7 @@ a {
 .running-girl {
   left: 9px !important;
 }
+
+.react-calendar-heatmap .color-github-5 {
+  fill: #1e4023;
+}
