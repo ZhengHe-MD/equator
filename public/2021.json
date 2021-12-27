@@ -1,5 +1,157 @@
 [
   {
+    "date": "2021-09-01",
+    "distance": 5.02,
+    "duration": {
+      "mins": 26,
+      "secs": 34
+    }
+  },
+  {
+    "date": "2021-09-02",
+    "distance": 5.03,
+    "duration": {
+      "mins": 27,
+      "secs": 26
+    }
+  },
+  {
+    "date": "2021-09-03",
+    "distance": 5.01,
+    "duration": {
+      "mins": 27,
+      "secs": 16
+    }
+  },
+  {
+    "date": "2021-09-07",
+    "distance": 5.02,
+    "duration": {
+      "mins": 27,
+      "secs": 35
+    }
+  },
+  {
+    "date": "2021-09-09",
+    "distance": 5.03,
+    "duration": {
+      "mins": 27,
+      "secs": 58
+    }
+  },
+  {
+    "date": "2021-09-11",
+    "distance": 5.01,
+    "duration": {
+      "mins": 29,
+      "secs": 13
+    }
+  },
+  {
+    "date": "2021-09-13",
+    "distance": 5.01,
+    "duration": {
+      "mins": 29,
+      "secs": 30
+    }
+  },
+  {
+    "date": "2021-09-14",
+    "distance": 5,
+    "duration": {
+      "mins": 25,
+      "secs": 39
+    }
+  },
+  {
+    "date": "2021-09-15",
+    "distance": 5.02,
+    "duration": {
+      "mins": 26,
+      "secs": 56
+    }
+  },
+  {
+    "date": "2021-09-16",
+    "distance": 5.01,
+    "duration": {
+      "mins": 26,
+      "secs": 35
+    }
+  },
+  {
+    "date": "2021-09-20",
+    "distance": 5.02,
+    "duration": {
+      "mins": 25,
+      "secs": 59
+    }
+  },
+  {
+    "date": "2021-09-22",
+    "distance": 5.04,
+    "duration": {
+      "mins": 25,
+      "secs": 59
+    }
+  },
+  {
+    "date": "2021-09-23",
+    "distance": 5.02,
+    "duration": {
+      "mins": 25,
+      "secs": 30
+    }
+  },
+  {
+    "date": "2021-09-25",
+    "distance": 5.02,
+    "duration": {
+      "mins": 27,
+      "secs": 57
+    }
+  },
+  {
+    "date": "2021-09-26",
+    "distance": 5.02,
+    "duration": {
+      "mins": 29,
+      "secs": 38
+    }
+  },
+  {
+    "date": "2021-09-27",
+    "distance": 5.02,
+    "duration": {
+      "mins": 25,
+      "secs": 23
+    }
+  },
+  {
+    "date": "2021-09-28",
+    "distance": 5.03,
+    "duration": {
+      "mins": 25,
+      "secs": 41
+    }
+  },
+  {
+    "date": "2021-09-29",
+    "distance": 5.05,
+    "duration": {
+      "mins": 24,
+      "secs": 25
+    }
+  },
+  {
+    "date": "2021-09-30",
+    "distance": 6.68,
+    "duration": {
+      "mins": 36,
+      "secs": 24
+    }
+  },
+  {
     "date": "2021-10-01",
     "distance": 5.02,
     "duration": {
