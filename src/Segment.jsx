@@ -14,7 +14,7 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
     const [loading, setLoading] = useState(true)
 
     useEffect(async () => {
-        const raw = await fetch(`/${year}.json`)
+        const raw = await fetch(`/equator/${year}.json`)
             .then(response => response.json())
         setLoading(false)
         setData(raw)
