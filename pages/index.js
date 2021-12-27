@@ -34,7 +34,6 @@ export default function Home() {
                     </Typography>
                     <Image src="/equator-square.png" width={65} height={50}/>
                 </Box>
-                <Alert severity="info" sx={{my: 1}}>数据录入中</Alert>
 
                 <Typography variant="h5" sx={{mb: 3}}>
                     ❝ 我叫郑鹤，我想在人生结束前跑过 40075.02 公里。 ❞

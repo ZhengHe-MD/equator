@@ -24,35 +24,43 @@
     }
   },
   {
-    "date": "2017-05-18",
-    "distance": 6,
+    "date": "2017-05-16",
+    "distance": 1.26,
     "duration": {
-      "mins": 38,
-      "secs": 10
+      "mins": 7,
+      "secs": 12
+    }
+  },
+  {
+    "date": "2017-05-18",
+    "distance": 6.01,
+    "duration": {
+      "secs": 10,
+      "mins": 38
     }
   },
   {
     "date": "2017-07-30",
-    "distance": 10.03,
+    "distance": 10.04,
     "duration": {
-      "mins": 57,
-      "secs": 3
+      "secs": 3,
+      "mins": 57
     }
   },
   {
     "date": "2017-08-05",
     "distance": 9.13,
     "duration": {
-      "mins": 51,
-      "secs": 11
+      "secs": 11,
+      "mins": 51
     }
   },
   {
     "date": "2017-08-06",
-    "distance": 5.04,
+    "distance": 5.05,
     "duration": {
-      "mins": 30,
-      "secs": 55
+      "secs": 55,
+      "mins": 30
     }
   },
   {
@@ -60,8 +68,8 @@
     "distance": 15.04,
     "duration": {
       "hours": 1,
-      "mins": 24,
-      "secs": 13
+      "secs": 13,
+      "mins": 24
     }
   },
   {
@@ -69,16 +77,16 @@
     "distance": 13.08,
     "duration": {
       "hours": 1,
-      "mins": 10,
-      "secs": 7
+      "secs": 7,
+      "mins": 10
     }
   },
   {
     "date": "2017-09-17",
     "distance": 5.02,
     "duration": {
-      "mins": 26,
-      "secs": 45
+      "secs": 45,
+      "mins": 26
     }
   },
   {
@@ -86,56 +94,72 @@
     "distance": 11.84,
     "duration": {
       "hours": 1,
-      "mins": 12,
-      "secs": 59
+      "secs": 59,
+      "mins": 12
     }
   },
   {
     "date": "2017-10-03",
-    "distance": 5.96,
+    "distance": 5.03,
     "duration": {
-      "mins": 32,
-      "secs": 9
+      "secs": 12,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2017-10-03",
+    "distance": 0.93,
+    "duration": {
+      "secs": 57,
+      "mins": 5
     }
   },
   {
     "date": "2017-10-06",
-    "distance": 8.45,
+    "distance": 8.46,
     "duration": {
-      "mins": 46,
-      "secs": 1
+      "secs": 1,
+      "mins": 46
     }
   },
   {
     "date": "2017-10-15",
     "distance": 5.05,
     "duration": {
-      "mins": 24,
-      "secs": 27
+      "secs": 27,
+      "mins": 24
     }
   },
   {
     "date": "2017-10-21",
-    "distance": 8.28,
+    "distance": 2.25,
     "duration": {
-      "mins": 48,
-      "secs": 11
+      "secs": 58,
+      "mins": 16
+    }
+  },
+  {
+    "date": "2017-10-21",
+    "distance": 6.05,
+    "duration": {
+      "secs": 13,
+      "mins": 31
     }
   },
   {
     "date": "2017-11-04",
     "distance": 5.05,
     "duration": {
-      "mins": 28,
-      "secs": 25
+      "secs": 25,
+      "mins": 28
     }
   },
   {
-    "date": "2017-12-27",
+    "date": "2017-12-17",
     "distance": 7.42,
     "duration": {
-      "mins": 47,
-      "secs": 58
+      "secs": 58,
+      "mins": 47
     }
   }
 ]

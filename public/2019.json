@@ -1,1 +1,1685 @@
-[]
+[
+  {
+    "date": "2019-03-08",
+    "distance": 5.28,
+    "duration": {
+      "secs": 58,
+      "mins": 31
+    }
+  },
+  {
+    "date": "2019-03-09",
+    "distance": 5.05,
+    "duration": {
+      "secs": 16,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-03-09",
+    "distance": 0.77,
+    "duration": {
+      "secs": 46,
+      "mins": 4
+    }
+  },
+  {
+    "date": "2019-03-11",
+    "distance": 10.05,
+    "duration": {
+      "secs": 45,
+      "mins": 58
+    }
+  },
+  {
+    "date": "2019-03-13",
+    "distance": 5.05,
+    "duration": {
+      "secs": 32,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-03-14",
+    "distance": 5.59,
+    "duration": {
+      "secs": 28,
+      "mins": 36
+    }
+  },
+  {
+    "date": "2019-03-15",
+    "distance": 5.72,
+    "duration": {
+      "secs": 27,
+      "mins": 32
+    }
+  },
+  {
+    "date": "2019-03-16",
+    "distance": 3.78,
+    "duration": {
+      "secs": 25,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-03-16",
+    "distance": 2.04,
+    "duration": {
+      "secs": 4,
+      "mins": 10
+    }
+  },
+  {
+    "date": "2019-03-17",
+    "distance": 5.06,
+    "duration": {
+      "secs": 13,
+      "mins": 29
+    }
+  },
+  {
+    "date": "2019-03-20",
+    "distance": 5.06,
+    "duration": {
+      "secs": 49,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-03-22",
+    "distance": 5.05,
+    "duration": {
+      "secs": 48,
+      "mins": 30
+    }
+  },
+  {
+    "date": "2019-03-23",
+    "distance": 5.03,
+    "duration": {
+      "secs": 55,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-03-24",
+    "distance": 2.72,
+    "duration": {
+      "secs": 7,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-03-25",
+    "distance": 5.03,
+    "duration": {
+      "secs": 52,
+      "mins": 30
+    }
+  },
+  {
+    "date": "2019-03-26",
+    "distance": 5.04,
+    "duration": {
+      "secs": 43,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-03-28",
+    "distance": 10.04,
+    "duration": {
+      "secs": 55,
+      "mins": 54
+    }
+  },
+  {
+    "date": "2019-03-30",
+    "distance": 5.03,
+    "duration": {
+      "secs": 34,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-04-02",
+    "distance": 5.05,
+    "duration": {
+      "secs": 55,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-04-03",
+    "distance": 5.06,
+    "duration": {
+      "secs": 31,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-04-08",
+    "distance": 3.04,
+    "duration": {
+      "secs": 57,
+      "mins": 20
+    }
+  },
+  {
+    "date": "2019-04-10",
+    "distance": 4.11,
+    "duration": {
+      "secs": 5,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-04-11",
+    "distance": 5.05,
+    "duration": {
+      "secs": 5,
+      "mins": 31
+    }
+  },
+  {
+    "date": "2019-04-12",
+    "distance": 5.04,
+    "duration": {
+      "secs": 54,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-04-13",
+    "distance": 21.27,
+    "duration": {
+      "hours": 1,
+      "secs": 43,
+      "mins": 58
+    }
+  },
+  {
+    "date": "2019-04-16",
+    "distance": 5.03,
+    "duration": {
+      "secs": 23,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-04-17",
+    "distance": 5.04,
+    "duration": {
+      "secs": 32,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-04-18",
+    "distance": 3.05,
+    "duration": {
+      "secs": 40,
+      "mins": 16
+    }
+  },
+  {
+    "date": "2019-04-19",
+    "distance": 5.06,
+    "duration": {
+      "secs": 3,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-04-20",
+    "distance": 10.05,
+    "duration": {
+      "secs": 41,
+      "mins": 53
+    }
+  },
+  {
+    "date": "2019-04-22",
+    "distance": 5.02,
+    "duration": {
+      "secs": 27,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-04-23",
+    "distance": 5.05,
+    "duration": {
+      "secs": 56,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-04-25",
+    "distance": 5.03,
+    "duration": {
+      "secs": 12,
+      "mins": 30
+    }
+  },
+  {
+    "date": "2019-04-26",
+    "distance": 5.03,
+    "duration": {
+      "secs": 4,
+      "mins": 30
+    }
+  },
+  {
+    "date": "2019-04-28",
+    "distance": 5.03,
+    "duration": {
+      "secs": 52,
+      "mins": 29
+    }
+  },
+  {
+    "date": "2019-04-30",
+    "distance": 3.04,
+    "duration": {
+      "secs": 33,
+      "mins": 18
+    }
+  },
+  {
+    "date": "2019-05-02",
+    "distance": 4.04,
+    "duration": {
+      "secs": 45,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-05-03",
+    "distance": 21.46,
+    "duration": {
+      "hours": 1,
+      "secs": 49,
+      "mins": 49
+    }
+  },
+  {
+    "date": "2019-05-06",
+    "distance": 3.03,
+    "duration": {
+      "secs": 11,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-05-07",
+    "distance": 2.37,
+    "duration": {
+      "secs": 50,
+      "mins": 11
+    }
+  },
+  {
+    "date": "2019-05-08",
+    "distance": 5.04,
+    "duration": {
+      "secs": 59,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-05-10",
+    "distance": 3.04,
+    "duration": {
+      "secs": 41,
+      "mins": 17
+    }
+  },
+  {
+    "date": "2019-05-11",
+    "distance": 21.13,
+    "duration": {
+      "hours": 1,
+      "secs": 2,
+      "mins": 46
+    }
+  },
+  {
+    "date": "2019-05-14",
+    "distance": 5.05,
+    "duration": {
+      "secs": 32,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-05-15",
+    "distance": 5.03,
+    "duration": {
+      "secs": 50,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-05-16",
+    "distance": 5.01,
+    "duration": {
+      "secs": 55,
+      "mins": 29
+    }
+  },
+  {
+    "date": "2019-05-17",
+    "distance": 5.05,
+    "duration": {
+      "secs": 2,
+      "mins": 29
+    }
+  },
+  {
+    "date": "2019-05-18",
+    "distance": 5.05,
+    "duration": {
+      "secs": 43,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-05-20",
+    "distance": 5.23,
+    "duration": {
+      "secs": 43,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-05-21",
+    "distance": 5.04,
+    "duration": {
+      "secs": 29,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-05-22",
+    "distance": 5.05,
+    "duration": {
+      "secs": 22,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-05-23",
+    "distance": 5.05,
+    "duration": {
+      "secs": 1,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-05-24",
+    "distance": 5.03,
+    "duration": {
+      "secs": 59,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-05-25",
+    "distance": 3.6,
+    "duration": {
+      "secs": 50,
+      "mins": 22
+    }
+  },
+  {
+    "date": "2019-05-25",
+    "distance": 1.2,
+    "duration": {
+      "secs": 25,
+      "mins": 7
+    }
+  },
+  {
+    "date": "2019-05-26",
+    "distance": 7.05,
+    "duration": {
+      "secs": 12,
+      "mins": 48
+    }
+  },
+  {
+    "date": "2019-05-27",
+    "distance": 5.02,
+    "duration": {
+      "secs": 13,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-05-28",
+    "distance": 5.03,
+    "duration": {
+      "secs": 13,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-05-29",
+    "distance": 5.02,
+    "duration": {
+      "secs": 27,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-05-30",
+    "distance": 5.03,
+    "duration": {
+      "secs": 25,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-05-31",
+    "distance": 5.08,
+    "duration": {
+      "secs": 18,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-06-01",
+    "distance": 21.24,
+    "duration": {
+      "hours": 1,
+      "secs": 38,
+      "mins": 52
+    }
+  },
+  {
+    "date": "2019-06-03",
+    "distance": 3.02,
+    "duration": {
+      "secs": 59,
+      "mins": 15
+    }
+  },
+  {
+    "date": "2019-06-05",
+    "distance": 5,
+    "duration": {
+      "secs": 0,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-06-06",
+    "distance": 5.04,
+    "duration": {
+      "secs": 59,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-06-08",
+    "distance": 25.03,
+    "duration": {
+      "hours": 2,
+      "secs": 46,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-06-10",
+    "distance": 5.03,
+    "duration": {
+      "secs": 16,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-06-11",
+    "distance": 5.02,
+    "duration": {
+      "secs": 39,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-06-12",
+    "distance": 5.03,
+    "duration": {
+      "secs": 6,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-06-13",
+    "distance": 5.03,
+    "duration": {
+      "secs": 29,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-06-14",
+    "distance": 5.04,
+    "duration": {
+      "secs": 0,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-06-15",
+    "distance": 10.04,
+    "duration": {
+      "secs": 28,
+      "mins": 48
+    }
+  },
+  {
+    "date": "2019-06-17",
+    "distance": 5.03,
+    "duration": {
+      "secs": 58,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-06-18",
+    "distance": 5.04,
+    "duration": {
+      "secs": 4,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-06-19",
+    "distance": 5.04,
+    "duration": {
+      "secs": 52,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-06-20",
+    "distance": 5.01,
+    "duration": {
+      "secs": 45,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-06-21",
+    "distance": 5.02,
+    "duration": {
+      "secs": 5,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-06-24",
+    "distance": 5.04,
+    "duration": {
+      "secs": 35,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-06-26",
+    "distance": 5.03,
+    "duration": {
+      "secs": 45,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-06-27",
+    "distance": 5.02,
+    "duration": {
+      "secs": 52,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-06-28",
+    "distance": 5.03,
+    "duration": {
+      "secs": 55,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-06-29",
+    "distance": 5.02,
+    "duration": {
+      "secs": 56,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "distance": 5.04,
+    "duration": {
+      "secs": 0,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-07-02",
+    "distance": 5.03,
+    "duration": {
+      "secs": 22,
+      "mins": 22
+    }
+  },
+  {
+    "date": "2019-07-03",
+    "distance": 5.03,
+    "duration": {
+      "secs": 25,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-07-04",
+    "distance": 5.03,
+    "duration": {
+      "secs": 45,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-07-06",
+    "distance": 10.03,
+    "duration": {
+      "secs": 23,
+      "mins": 46
+    }
+  },
+  {
+    "date": "2019-07-06",
+    "distance": 0.83,
+    "duration": {
+      "secs": 54,
+      "mins": 4
+    }
+  },
+  {
+    "date": "2019-07-08",
+    "distance": 5.01,
+    "duration": {
+      "secs": 16,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-07-09",
+    "distance": 5.01,
+    "duration": {
+      "secs": 20,
+      "mins": 22
+    }
+  },
+  {
+    "date": "2019-07-10",
+    "distance": 5.03,
+    "duration": {
+      "secs": 36,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-07-11",
+    "distance": 5.05,
+    "duration": {
+      "secs": 5,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-07-12",
+    "distance": 2.56,
+    "duration": {
+      "secs": 34,
+      "mins": 15
+    }
+  },
+  {
+    "date": "2019-07-15",
+    "distance": 5.03,
+    "duration": {
+      "secs": 18,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-07-16",
+    "distance": 5.02,
+    "duration": {
+      "secs": 11,
+      "mins": 22
+    }
+  },
+  {
+    "date": "2019-07-17",
+    "distance": 5.02,
+    "duration": {
+      "secs": 19,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-07-18",
+    "distance": 5.03,
+    "duration": {
+      "secs": 16,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-07-19",
+    "distance": 5.04,
+    "duration": {
+      "secs": 33,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-07-20",
+    "distance": 5.02,
+    "duration": {
+      "secs": 43,
+      "mins": 21
+    }
+  },
+  {
+    "date": "2019-07-22",
+    "distance": 5.02,
+    "duration": {
+      "secs": 43,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-07-23",
+    "distance": 5.03,
+    "duration": {
+      "secs": 7,
+      "mins": 27
+    }
+  },
+  {
+    "date": "2019-07-24",
+    "distance": 5.03,
+    "duration": {
+      "secs": 30,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-07-25",
+    "distance": 5.03,
+    "duration": {
+      "secs": 2,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-07-26",
+    "distance": 5,
+    "duration": {
+      "secs": 52,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-07-30",
+    "distance": 6.22,
+    "duration": {
+      "secs": 58,
+      "mins": 29
+    }
+  },
+  {
+    "date": "2019-07-31",
+    "distance": 10.03,
+    "duration": {
+      "secs": 31,
+      "mins": 48
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "distance": 5.04,
+    "duration": {
+      "secs": 34,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-08-02",
+    "distance": 10.02,
+    "duration": {
+      "secs": 20,
+      "mins": 49
+    }
+  },
+  {
+    "date": "2019-08-03",
+    "distance": 5.03,
+    "duration": {
+      "secs": 3,
+      "mins": 29
+    }
+  },
+  {
+    "date": "2019-08-04",
+    "distance": 13.48,
+    "duration": {
+      "hours": 1,
+      "secs": 37,
+      "mins": 52
+    }
+  },
+  {
+    "date": "2019-08-05",
+    "distance": 5.05,
+    "duration": {
+      "secs": 32,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-08-06",
+    "distance": 5.04,
+    "duration": {
+      "secs": 55,
+      "mins": 29
+    }
+  },
+  {
+    "date": "2019-08-07",
+    "distance": 7.71,
+    "duration": {
+      "secs": 16,
+      "mins": 38
+    }
+  },
+  {
+    "date": "2019-08-08",
+    "distance": 7.43,
+    "duration": {
+      "secs": 46,
+      "mins": 35
+    }
+  },
+  {
+    "date": "2019-08-09",
+    "distance": 25,
+    "duration": {
+      "hours": 2,
+      "secs": 23,
+      "mins": 17
+    }
+  },
+  {
+    "date": "2019-08-12",
+    "distance": 5.01,
+    "duration": {
+      "secs": 45,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-08-13",
+    "distance": 10.04,
+    "duration": {
+      "secs": 19,
+      "mins": 53
+    }
+  },
+  {
+    "date": "2019-08-14",
+    "distance": 5.03,
+    "duration": {
+      "secs": 39,
+      "mins": 22
+    }
+  },
+  {
+    "date": "2019-08-15",
+    "distance": 5.04,
+    "duration": {
+      "secs": 43,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-08-16",
+    "distance": 4.36,
+    "duration": {
+      "secs": 54,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-08-17",
+    "distance": 10.04,
+    "duration": {
+      "secs": 16,
+      "mins": 51
+    }
+  },
+  {
+    "date": "2019-08-19",
+    "distance": 5.01,
+    "duration": {
+      "secs": 44,
+      "mins": 22
+    }
+  },
+  {
+    "date": "2019-08-20",
+    "distance": 5.37,
+    "duration": {
+      "secs": 56,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-08-21",
+    "distance": 5.32,
+    "duration": {
+      "secs": 58,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-08-22",
+    "distance": 5.05,
+    "duration": {
+      "secs": 16,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-08-24",
+    "distance": 42.65,
+    "duration": {
+      "hours": 4,
+      "secs": 11,
+      "mins": 42
+    }
+  },
+  {
+    "date": "2019-08-26",
+    "distance": 1.79,
+    "duration": {
+      "secs": 47,
+      "mins": 10
+    }
+  },
+  {
+    "date": "2019-08-27",
+    "distance": 5.04,
+    "duration": {
+      "secs": 59,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-08-28",
+    "distance": 5.02,
+    "duration": {
+      "secs": 56,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-08-29",
+    "distance": 5.01,
+    "duration": {
+      "secs": 18,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-08-30",
+    "distance": 5.02,
+    "duration": {
+      "secs": 47,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-09-01",
+    "distance": 5.01,
+    "duration": {
+      "secs": 19,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-09-02",
+    "distance": 5.03,
+    "duration": {
+      "secs": 35,
+      "mins": 21
+    }
+  },
+  {
+    "date": "2019-09-03",
+    "distance": 5.06,
+    "duration": {
+      "secs": 2,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-09-04",
+    "distance": 5.04,
+    "duration": {
+      "secs": 57,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-09-05",
+    "distance": 5.04,
+    "duration": {
+      "secs": 59,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-09-06",
+    "distance": 5.02,
+    "duration": {
+      "secs": 52,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-09-07",
+    "distance": 10.35,
+    "duration": {
+      "secs": 58,
+      "mins": 49
+    }
+  },
+  {
+    "date": "2019-09-08",
+    "distance": 5.05,
+    "duration": {
+      "secs": 11,
+      "mins": 31
+    }
+  },
+  {
+    "date": "2019-09-10",
+    "distance": 5.02,
+    "duration": {
+      "secs": 36,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-09-11",
+    "distance": 5.04,
+    "duration": {
+      "secs": 7,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-09-12",
+    "distance": 5.05,
+    "duration": {
+      "secs": 41,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-09-16",
+    "distance": 5.02,
+    "duration": {
+      "secs": 5,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-09-17",
+    "distance": 5.05,
+    "duration": {
+      "secs": 35,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-09-18",
+    "distance": 5.03,
+    "duration": {
+      "secs": 5,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2019-09-19",
+    "distance": 5.02,
+    "duration": {
+      "secs": 49,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-09-23",
+    "distance": 5.04,
+    "duration": {
+      "secs": 35,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-09-24",
+    "distance": 5.04,
+    "duration": {
+      "secs": 4,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-09-25",
+    "distance": 5.03,
+    "duration": {
+      "secs": 2,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-09-26",
+    "distance": 5.04,
+    "duration": {
+      "secs": 20,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-09-28",
+    "distance": 5.04,
+    "duration": {
+      "secs": 36,
+      "mins": 31
+    }
+  },
+  {
+    "date": "2019-09-30",
+    "distance": 5.33,
+    "duration": {
+      "secs": 51,
+      "mins": 30
+    }
+  },
+  {
+    "date": "2019-10-06",
+    "distance": 5.16,
+    "duration": {
+      "secs": 49,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-10-07",
+    "distance": 5.03,
+    "duration": {
+      "secs": 11,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-10-08",
+    "distance": 5.02,
+    "duration": {
+      "secs": 41,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-10-12",
+    "distance": 5.01,
+    "duration": {
+      "secs": 24,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-10-13",
+    "distance": 5.02,
+    "duration": {
+      "secs": 56,
+      "mins": 29
+    }
+  },
+  {
+    "date": "2019-10-14",
+    "distance": 5.02,
+    "duration": {
+      "secs": 19,
+      "mins": 26
+    }
+  },
+  {
+    "date": "2019-10-17",
+    "distance": 5.28,
+    "duration": {
+      "secs": 13,
+      "mins": 31
+    }
+  },
+  {
+    "date": "2019-10-18",
+    "distance": 10.03,
+    "duration": {
+      "secs": 7,
+      "mins": 46
+    }
+  },
+  {
+    "date": "2019-10-20",
+    "distance": 21.15,
+    "duration": {
+      "hours": 1,
+      "secs": 18,
+      "mins": 45
+    }
+  },
+  {
+    "date": "2019-10-21",
+    "distance": 5.02,
+    "duration": {
+      "secs": 22,
+      "mins": 22
+    }
+  },
+  {
+    "date": "2019-10-22",
+    "distance": 6.62,
+    "duration": {
+      "secs": 20,
+      "mins": 34
+    }
+  },
+  {
+    "date": "2019-10-23",
+    "distance": 6.23,
+    "duration": {
+      "secs": 23,
+      "mins": 33
+    }
+  },
+  {
+    "date": "2019-10-24",
+    "distance": 5.37,
+    "duration": {
+      "secs": 16,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-10-25",
+    "distance": 3.55,
+    "duration": {
+      "secs": 32,
+      "mins": 20
+    }
+  },
+  {
+    "date": "2019-10-28",
+    "distance": 5.03,
+    "duration": {
+      "secs": 58,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-10-29",
+    "distance": 5.01,
+    "duration": {
+      "secs": 41,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-10-30",
+    "distance": 3.56,
+    "duration": {
+      "secs": 8,
+      "mins": 20
+    }
+  },
+  {
+    "date": "2019-10-31",
+    "distance": 5.02,
+    "duration": {
+      "secs": 22,
+      "mins": 28
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "distance": 3.53,
+    "duration": {
+      "secs": 53,
+      "mins": 20
+    }
+  },
+  {
+    "date": "2019-11-02",
+    "distance": 10.1,
+    "duration": {
+      "hours": 1,
+      "secs": 46,
+      "mins": 7
+    }
+  },
+  {
+    "date": "2019-11-04",
+    "distance": 3.52,
+    "duration": {
+      "secs": 29,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-11-05",
+    "distance": 3.54,
+    "duration": {
+      "secs": 14,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-11-06",
+    "distance": 3.57,
+    "duration": {
+      "secs": 24,
+      "mins": 20
+    }
+  },
+  {
+    "date": "2019-11-07",
+    "distance": 3.58,
+    "duration": {
+      "secs": 7,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-11-10",
+    "distance": 10.05,
+    "duration": {
+      "secs": 24,
+      "mins": 45
+    }
+  },
+  {
+    "date": "2019-11-11",
+    "distance": 2.39,
+    "duration": {
+      "secs": 5,
+      "mins": 14
+    }
+  },
+  {
+    "date": "2019-11-12",
+    "distance": 3.6,
+    "duration": {
+      "secs": 29,
+      "mins": 20
+    }
+  },
+  {
+    "date": "2019-11-13",
+    "distance": 3.56,
+    "duration": {
+      "secs": 15,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-11-14",
+    "distance": 2.34,
+    "duration": {
+      "secs": 32,
+      "mins": 13
+    }
+  },
+  {
+    "date": "2019-11-16",
+    "distance": 35.79,
+    "duration": {
+      "hours": 3,
+      "secs": 32,
+      "mins": 19
+    }
+  },
+  {
+    "date": "2019-11-18",
+    "distance": 1.27,
+    "duration": {
+      "secs": 11,
+      "mins": 7
+    }
+  },
+  {
+    "date": "2019-11-19",
+    "distance": 3.32,
+    "duration": {
+      "secs": 39,
+      "mins": 18
+    }
+  },
+  {
+    "date": "2019-11-20",
+    "distance": 2.53,
+    "duration": {
+      "secs": 24,
+      "mins": 15
+    }
+  },
+  {
+    "date": "2019-11-24",
+    "distance": 5.03,
+    "duration": {
+      "secs": 56,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-11-26",
+    "distance": 2.45,
+    "duration": {
+      "secs": 43,
+      "mins": 13
+    }
+  },
+  {
+    "date": "2019-11-27",
+    "distance": 5,
+    "duration": {
+      "secs": 18,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-11-28",
+    "distance": 5.01,
+    "duration": {
+      "secs": 53,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-11-29",
+    "distance": 5.04,
+    "duration": {
+      "secs": 59,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2019-12-01",
+    "distance": 5.1,
+    "duration": {
+      "secs": 14,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "distance": 2.48,
+    "duration": {
+      "secs": 34,
+      "mins": 14
+    }
+  },
+  {
+    "date": "2019-12-03",
+    "distance": 2.42,
+    "duration": {
+      "secs": 51,
+      "mins": 13
+    }
+  },
+  {
+    "date": "2019-12-04",
+    "distance": 2.44,
+    "duration": {
+      "secs": 19,
+      "mins": 13
+    }
+  },
+  {
+    "date": "2019-12-05",
+    "distance": 2.46,
+    "duration": {
+      "secs": 8,
+      "mins": 14
+    }
+  },
+  {
+    "date": "2019-12-06",
+    "distance": 1.62,
+    "duration": {
+      "secs": 30,
+      "mins": 10
+    }
+  },
+  {
+    "date": "2019-12-10",
+    "distance": 5.02,
+    "duration": {
+      "secs": 39,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-12-11",
+    "distance": 5.01,
+    "duration": {
+      "secs": 22,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-12-12",
+    "distance": 5.01,
+    "duration": {
+      "secs": 31,
+      "mins": 25
+    }
+  },
+  {
+    "date": "2019-12-13",
+    "distance": 2.47,
+    "duration": {
+      "secs": 24,
+      "mins": 15
+    }
+  },
+  {
+    "date": "2019-12-17",
+    "distance": 2.44,
+    "duration": {
+      "secs": 45,
+      "mins": 14
+    }
+  },
+  {
+    "date": "2019-12-18",
+    "distance": 2.38,
+    "duration": {
+      "secs": 55,
+      "mins": 14
+    }
+  },
+  {
+    "date": "2019-12-19",
+    "distance": 3.25,
+    "duration": {
+      "secs": 18,
+      "mins": 17
+    }
+  },
+  {
+    "date": "2019-12-20",
+    "distance": 3.29,
+    "duration": {
+      "secs": 31,
+      "mins": 17
+    }
+  },
+  {
+    "date": "2019-12-23",
+    "distance": 4.11,
+    "duration": {
+      "secs": 30,
+      "mins": 20
+    }
+  },
+  {
+    "date": "2019-12-25",
+    "distance": 3.44,
+    "duration": {
+      "secs": 10,
+      "mins": 20
+    }
+  },
+  {
+    "date": "2019-12-26",
+    "distance": 3.26,
+    "duration": {
+      "secs": 45,
+      "mins": 16
+    }
+  },
+  {
+    "date": "2019-12-27",
+    "distance": 3.22,
+    "duration": {
+      "secs": 23,
+      "mins": 17
+    }
+  },
+  {
+    "date": "2019-12-29",
+    "distance": 10.02,
+    "duration": {
+      "secs": 26,
+      "mins": 54
+    }
+  }
+]
