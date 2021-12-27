@@ -32,7 +32,7 @@ export default function Home() {
                     <Typography variant="h2" sx={{mr: 2}}>
                         {`赤道计划`}
                     </Typography>
-                    <Image src="/equator-square.png" width={65} height={50}/>
+                    <Image src="/equator/equator-square.png" width={65} height={50}/>
                 </Box>
 
                 <Typography variant="h5" sx={{mb: 3}}>
