@@ -2185,5 +2185,45 @@
       "secs": 57,
       "mins": 50
     }
+  },
+  {
+    "date": "2021-12-27",
+    "distance": 5.01,
+    "duration": {
+      "secs": 28,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2021-12-28",
+    "distance": 5.05,
+    "duration": {
+      "secs": 2,
+      "mins": 24
+    }
+  },
+  {
+    "date": "2021-12-29",
+    "distance": 5.03,
+    "duration": {
+      "secs": 43,
+      "mins": 23
+    }
+  },
+  {
+    "date": "2021-12-30",
+    "distance": 5.02,
+    "duration": {
+      "secs": 45,
+      "mins": 22
+    }
+  },
+  {
+    "date": "2021-12-31",
+    "distance": 5,
+    "duration": {
+      "secs": 21,
+      "mins": 23
+    }
   }
 ]
