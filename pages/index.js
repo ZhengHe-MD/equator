@@ -20,7 +20,7 @@ export default function Home() {
     const [loading, setLoading] = useState(true)
 
     useEffect(async () => {
-        const raw = await fetch("https://raw.githubusercontent.com/ZhengHe-MD/equator/main/public/data.json")
+        const raw = await fetch("https://equator.vercel.app/data.json")
             .then(response => response.json())
 
         const nextYearToData = {}
