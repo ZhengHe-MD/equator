@@ -1,25 +1,48 @@
-import {Alert, Box, Container, LinearProgress, Typography} from "@mui/material";
+import {Box, Container, LinearProgress, Typography} from "@mui/material";
 import _ from "lodash";
 import Segment from "../src/Segment";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import Image from "next/image";
 import Head from "next/head";
 
 export default function Home() {
-    const [yearToDistance, setYearToDistance] = useState({})
-
-    const recordYearlyDistance = (year, yearlyDistance) => {
-        setYearToDistance(prev => ({...prev, [year]: yearlyDistance}))
+    let years = [];
+    let initYearToData = {};
+    let yearToDistance = {};
+    for (let i = 0; i < 34; i++) {
+        const year = 2015 + i
+        years.push(year)
+        initYearToData[year] = []
+        yearToDistance[year] = 0
     }
+
+    const [yearToData, setYearToData] = useState(initYearToData)
+    const [loading, setLoading] = useState(true)
+
+    useEffect(async () => {
+        const raw = await fetch("https://raw.githubusercontent.com/ZhengHe-MD/equator/main/public/data.json")
+            .then(response => response.json())
+
+        const nextYearToData = {}
+        _.forEach(yearToData, (_, year) => {
+            nextYearToData[year] = []
+        })
+        _.forEach(raw, record => {
+            const year = parseInt(record.date.slice(0, 4), 10)
+            nextYearToData[year].push(record)
+        })
+        setYearToData(nextYearToData)
+        setLoading(false)
+    }, [])
+
+    _.forEach(yearToData, (data, year) => {
+        _.forEach(data, record => {
+            yearToDistance[year] += record.distance
+        })
+    })
 
     const distance = _.sum(_.values(yearToDistance))
     const progress = distance / 40075.02 * 100
-
-    let years = [];
-    for (let i = 0; i < 34; i++) {
-        years.push(2015 + i)
-    }
-
     const translation = {pl: `${progress - 8}%`}
 
     return (
@@ -60,7 +83,8 @@ export default function Home() {
                                 year={year}
                                 key={year}
                                 yearlyDistance={yearToDistance[year]}
-                                recordYearlyDistance={recordYearlyDistance}
+                                yearlyData={yearToData[year]}
+                                loading={loading}
                             />
                         ))
                     }

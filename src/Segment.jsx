@@ -1,7 +1,6 @@
 import 'react-calendar-heatmap/dist/styles.css';
 import {Box, CircularProgress, Typography} from "@mui/material";
 import CalendarHeatmap from "react-calendar-heatmap";
-import {useEffect, useState} from "react";
 import _ from "lodash";
 import dynamic from "next/dynamic";
 
@@ -9,20 +8,8 @@ const ReactTooltip = dynamic(() => import("react-tooltip"), {
     ssr: false,
 });
 
-export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
-    const [data, setData] = useState([])
-    const [loading, setLoading] = useState(true)
-
-    useEffect(async () => {
-        const raw = await fetch(`/${year}.json`)
-            .then(response => response.json())
-        setLoading(false)
-        setData(raw)
-        recordYearlyDistance(year, _.sumBy(raw, d => d.distance))
-    }, [])
-
-
-    const keyByDate = _.keyBy(data, "date")
+export default function Segment({year, yearlyDistance, yearlyData, loading}) {
+    const keyByDate = _.keyBy(yearlyData, "date")
     const allDates = getDateRange(year)
     _.forEach(allDates, dt => {
         if (!_.has(keyByDate, dt)) {
@@ -54,7 +41,7 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
             <CalendarHeatmap
                 values={values}
                 gutterSize={1}
-                startDate={new Date(`${year}-01-01`)}
+                startDate={new Date(`${year-1}-12-31`)}
                 endDate={new Date(`${year}-12-31`)}
                 classForValue={value => {
                     if (!value) {
@@ -78,7 +65,7 @@ export default function Segment({year, yearlyDistance, recordYearlyDistance}) {
 
 function computePace(d) {
     if (d.duration.mins === 0 && d.duration.secs === 0) {
-        return { mins: 0, secs: 0 }
+        return {mins: 0, secs: 0}
     }
     const secs = _.get(d, "duration.hours", 0) * 3600 +
         _.get(d, "duration.mins", 0) * 60 +
@@ -121,11 +108,11 @@ const getYearStatus = (year) => {
 }
 
 const getDateRange = (year) => {
-    const startDate = new Date(year, 0, 1)
-    const endDate = new Date(year, 11, 31)
+    const startDate = new Date(Date.UTC(year, 0, 1))
+    const endDate = new Date(Date.UTC(year, 11, 31))
     let dateRange = []
     for (let dt = startDate; dt <= endDate; dt.setDate(dt.getDate() + 1)) {
-        dateRange.push(`${dt.getFullYear().toString()}-${_.padStart((dt.getMonth()+1).toString(), 2, '0')}-${_.padStart(dt.getDate().toString(), 2, '0')}`);
+        dateRange.push(`${dt.getFullYear().toString()}-${_.padStart((dt.getMonth() + 1).toString(), 2, '0')}-${_.padStart(dt.getDate().toString(), 2, '0')}`);
     }
     return dateRange
 }
