@@ -6744,5 +6744,37 @@
       "mins": 44,
       "secs": 24
     }
+  },
+  {
+    "date": "2022-01-04",
+    "distance": 5.02,
+    "duration": {
+      "mins": 24,
+      "secs": 9
+    }
+  },
+  {
+    "date": "2022-01-05",
+    "distance": 5.18,
+    "duration": {
+      "mins": 24,
+      "secs": 46
+    }
+  },
+  {
+    "date": "2022-01-06",
+    "distance": 5.02,
+    "duration": {
+      "mins": 23,
+      "secs": 58
+    }
+  },
+  {
+    "date": "2022-01-07",
+    "distance": 10.03,
+    "duration": {
+      "mins": 49,
+      "secs": 15
+    }
   }
 ]
