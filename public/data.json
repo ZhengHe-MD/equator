@@ -6816,5 +6816,38 @@
       "mins": 25,
       "secs": 1
     }
+  },
+  {
+    "date": "2022-01-17",
+    "distance": 5.05,
+    "duration": {
+      "mins": 25,
+      "secs": 8
+    }
+  },
+  {
+    "date": "2022-01-18",
+    "distance": 5.03,
+    "duration": {
+      "mins": 24,
+      "secs": 2
+    }
+  },
+  {
+    "date": "2022-01-19",
+    "distance": 5.02,
+    "duration": {
+      "mins": 24,
+      "secs": 33
+    }
+  },
+  {
+    "date": "2022-01-21",
+    "distance": 5.03,
+    "duration": {
+      "mins": 31,
+      "secs": 59
+    }
   }
+
 ]
