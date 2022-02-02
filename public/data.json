@@ -6856,5 +6856,69 @@
       "mins": 30,
       "secs": 13
     }
+  },
+  {
+    "date": "2022-01-24",
+    "distance": 5.07,
+    "duration": {
+      "mins": 27,
+      "secs": 30
+    }
+  },
+  {
+    "date": "2022-01-25",
+    "distance": 5.04,
+    "duration": {
+      "mins": 24,
+      "secs": 31
+    }
+  },
+  {
+    "date": "2022-01-26",
+    "distance": 5.03,
+    "duration": {
+      "mins": 24,
+      "secs": 57
+    }
+  },
+  {
+    "date": "2022-01-27",
+    "distance": 4.99,
+    "duration": {
+      "mins": 25,
+      "secs": 1
+    }
+  },
+  {
+    "date": "2022-01-28",
+    "distance": 5.02,
+    "duration": {
+      "mins": 23,
+      "secs": 23
+    }
+  },
+  {
+    "date": "2022-01-29",
+    "distance": 5.03,
+    "duration": {
+      "mins": 25,
+      "secs": 51
+    }
+  },
+  {
+    "date": "2022-01-31",
+    "distance": 2.94,
+    "duration": {
+      "mins": 18,
+      "secs": 12
+    }
+  },
+  {
+    "date": "2022-02-02",
+    "distance": 5.01,
+    "duration": {
+      "mins": 24,
+      "secs": 2
+    }
   }
 ]
