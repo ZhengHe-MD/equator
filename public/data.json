@@ -6984,5 +6984,45 @@
       "mins": 50,
       "secs": 5
     }
+  },
+  {
+    "date": "2022-02-11",
+    "distance": 10.01,
+    "duration": {
+      "mins": 50,
+      "secs": 5
+    }
+  },
+  {
+    "date": "2022-02-15",
+    "distance": 5.02,
+    "duration": {
+      "mins": 26,
+      "secs": 50
+    }
+  },
+  {
+    "date": "2022-02-16",
+    "distance": 5.02,
+    "duration": {
+      "mins": 27,
+      "secs": 8
+    }
+  },
+  {
+    "date": "2022-02-17",
+    "distance": 5.02,
+    "duration": {
+      "mins": 27,
+      "secs": 25
+    }
+  },
+  {
+    "date": "2022-02-18",
+    "distance": 5.02,
+    "duration": {
+      "mins": 26,
+      "secs": 37
+    }
   }
 ]
