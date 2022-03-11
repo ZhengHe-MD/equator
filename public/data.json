@@ -7064,5 +7064,77 @@
       "mins": 24,
       "secs": 37
     }
+  },
+  {
+    "date": "2022-02-28",
+    "distance": 5.02,
+    "duration": {
+      "mins": 26,
+      "secs": 48
+    }
+  },
+  {
+    "date": "2022-03-01",
+    "distance": 5.01,
+    "duration": {
+      "mins": 24,
+      "secs": 21
+    }
+  },
+  {
+    "date": "2022-03-02",
+    "distance": 5.04,
+    "duration": {
+      "mins": 26,
+      "secs": 7
+    }
+  },
+  {
+    "date": "2022-03-03",
+    "distance": 5.02,
+    "duration": {
+      "mins": 24,
+      "secs": 18
+    }
+  },
+  {
+    "date": "2022-03-04",
+    "distance": 5.03,
+    "duration": {
+      "mins": 33,
+      "secs": 0
+    }
+  },
+  {
+    "date": "2022-03-07",
+    "distance": 5.03,
+    "duration": {
+      "mins": 24,
+      "secs": 47
+    }
+  },
+  {
+    "date": "2022-03-08",
+    "distance": 5.03,
+    "duration": {
+      "mins": 25,
+      "secs": 54
+    }
+  },
+  {
+    "date": "2022-03-09",
+    "distance": 5.04,
+    "duration": {
+      "mins": 23,
+      "secs": 31
+    }
+  },
+  {
+    "date": "2022-03-10",
+    "distance": 5.03,
+    "duration": {
+      "mins": 24,
+      "secs": 40
+    }
   }
 ]
