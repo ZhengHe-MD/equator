@@ -7601,5 +7601,270 @@
       "mins": 26,
       "secs": 38 
     }
+  },
+  {
+    "date": "2022-05-30",
+    "distance": 5.02,
+    "duration": {
+      "mins": 24,
+      "secs": 50 
+    }
+  },
+  {
+    "date": "2022-05-31",
+    "distance": 5.10,
+    "duration": {
+      "mins": 26,
+      "secs": 49 
+    }
+  },
+  {
+    "date": "2022-06-01",
+    "distance": 5.02,
+    "duration": {
+      "mins": 24,
+      "secs": 35 
+    }
+  },
+  {
+    "date": "2022-06-02",
+    "distance": 5.02,
+    "duration": {
+      "mins": 23,
+      "secs": 43 
+    }
+  },
+  {
+    "date": "2022-06-04",
+    "distance": 5.04,
+    "duration": {
+      "mins": 27,
+      "secs": 39 
+    }
+  },
+  {
+    "date": "2022-06-05",
+    "distance": 5.02,
+    "duration": {
+      "mins": 27,
+      "secs": 59 
+    }
+  },
+  {
+    "date": "2022-06-06",
+    "distance": 5.03,
+    "duration": {
+      "mins": 26,
+      "secs": 37 
+    }
+  },
+  {
+    "date": "2022-06-07",
+    "distance": 5.03,
+    "duration": {
+      "mins": 24,
+      "secs": 31 
+    }
+  },
+  {
+    "date": "2022-06-08",
+    "distance": 5.02,
+    "duration": {
+      "mins": 23,
+      "secs": 58 
+    }
+  },
+  {
+    "date": "2022-06-09",
+    "distance": 5.01,
+    "duration": {
+      "mins": 23,
+      "secs": 38 
+    }
+  },
+  {
+    "date": "2022-06-10",
+    "distance": 5.03,
+    "duration": {
+      "mins": 24,
+      "secs": 0
+    }
+  },
+  {
+    "date": "2022-06-12",
+    "distance": 5.01,
+    "duration": {
+      "mins": 27,
+      "secs": 50 
+    }
+  },
+  {
+    "date": "2022-06-13",
+    "distance": 5,
+    "duration": {
+      "mins": 23,
+      "secs": 2
+    }
+  },
+  {
+    "date": "2022-06-14",
+    "distance": 5.02,
+    "duration": {
+      "mins": 23,
+      "secs": 56 
+    }
+  },
+  {
+    "date": "2022-06-15",
+    "distance": 5.03,
+    "duration": {
+      "mins": 24,
+      "secs": 22 
+    }
+  },
+  {
+    "date": "2022-06-16",
+    "distance": 5.02,
+    "duration": {
+      "mins": 29,
+      "secs": 39 
+    }
+  },
+  {
+    "date": "2022-06-17",
+    "distance": 5.03,
+    "duration": {
+      "mins": 22,
+      "secs": 2 
+    }
+  },
+  {
+    "date": "2022-06-20",
+    "distance": 5.01,
+    "duration": {
+      "mins": 24,
+      "secs": 17 
+    }
+  },
+  {
+    "date": "2022-06-21",
+    "distance": 5,
+    "duration": {
+      "mins": 26,
+      "secs": 57 
+    }
+  },
+  {
+    "date": "2022-06-22",
+    "distance": 5,
+    "duration": {
+      "mins": 27,
+      "secs": 28
+    }
+  },
+  {
+    "date": "2022-06-23",
+    "distance": 5,
+    "duration": {
+      "mins": 23,
+      "secs": 56
+    }
+  },
+  {
+    "date": "2022-06-24",
+    "distance": 10.01,
+    "duration": {
+      "hours": 1,
+      "mins": 1,
+      "secs": 35
+    }
+  },
+  {
+    "date": "2022-06-27",
+    "distance": 5.01,
+    "duration": {
+      "mins": 26,
+      "secs": 21
+    }
+  },
+  {
+    "date": "2022-06-28",
+    "distance": 5.01,
+    "duration": {
+      "mins": 28,
+      "secs": 9
+    }
+  },
+  {
+    "date": "2022-06-30",
+    "distance": 5.02,
+    "duration": {
+      "mins": 27,
+      "secs": 1
+    }
+  },
+  {
+    "date": "2022-07-04",
+    "distance": 5.02,
+    "duration": {
+      "mins": 29,
+      "secs": 56
+    }
+  },
+  {
+    "date": "2022-07-05",
+    "distance": 5.02,
+    "duration": {
+      "mins": 28,
+      "secs": 22
+    }
+  },
+  {
+    "date": "2022-07-06",
+    "distance": 5.01,
+    "duration": {
+      "mins": 24,
+      "secs": 10
+    }
+  },
+  {
+    "date": "2022-07-07",
+    "distance": 5.01,
+    "duration": {
+      "mins": 27,
+      "secs": 33
+    }
+  },
+  {
+    "date": "2022-07-08",
+    "distance": 5.01,
+    "duration": {
+      "mins": 31,
+      "secs": 19
+    }
+  },
+  {
+    "date": "2022-07-11",
+    "distance": 5.02,
+    "duration": {
+      "mins": 24,
+      "secs": 53
+    }
+  },
+  {
+    "date": "2022-07-12",
+    "distance": 5.01,
+    "duration": {
+      "mins": 24,
+      "secs": 24
+    }
+  },
+  {
+    "date": "2022-07-13",
+    "distance": 5.02,
+    "duration": {
+      "mins": 24,
+      "secs": 32
+    }
   }
 ]
