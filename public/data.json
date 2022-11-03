@@ -8236,5 +8236,117 @@
       "mins": 26,
       "secs": 40
     }
+  },
+  {
+    "date": "2022-10-17",
+    "distance": 5.01,
+    "duration": {
+      "mins": 33,
+      "secs": 15
+    }
+  },
+  {
+    "date": "2022-10-18",
+    "distance": 5.01,
+    "duration": {
+      "mins": 26,
+      "secs": 25
+    }
+  },
+  {
+    "date": "2022-10-19",
+    "distance": 5.01,
+    "duration": {
+      "mins": 24,
+      "secs": 55
+    }
+  },
+  {
+    "date": "2022-10-20",
+    "distance": 5.03,
+    "duration": {
+      "mins": 24,
+      "secs": 58
+    }
+  },
+  {
+    "date": "2022-10-21",
+    "distance": 5.01,
+    "duration": {
+      "mins": 27,
+      "secs": 32
+    }
+  },
+  {
+    "date": "2022-10-24",
+    "distance": 5.02,
+    "duration": {
+      "mins": 27,
+      "secs": 19
+    }
+  },
+  {
+    "date": "2022-10-25",
+    "distance": 5.07,
+    "duration": {
+      "mins": 28,
+      "secs": 39
+    }
+  },
+  {
+    "date": "2022-10-26",
+    "distance": 5.10,
+    "duration": {
+      "mins": 29,
+      "secs": 34
+    }
+  },
+  {
+    "date": "2022-10-27",
+    "distance": 5.01,
+    "duration": {
+      "mins": 25,
+      "secs": 47
+    }
+  },
+  {
+    "date": "2022-10-30",
+    "distance": 5.00,
+    "duration": {
+      "mins": 31,
+      "secs": 3
+    }
+  },
+  {
+    "date": "2022-10-31",
+    "distance": 5.01,
+    "duration": {
+      "mins": 26,
+      "secs": 39
+    }
+  },
+  {
+    "date": "2022-11-01",
+    "distance": 5.02,
+    "duration": {
+      "mins": 25,
+      "secs": 8
+    }
+  },
+  {
+    "date": "2022-11-02",
+    "distance": 5.01,
+    "duration": {
+      "mins": 27,
+      "secs": 47
+    }
+  },
+  {
+    "date": "2022-11-03",
+    "distance": 5.03,
+    "duration": {
+      "mins": 26,
+      "secs": 15
+    }
   }
 ]
