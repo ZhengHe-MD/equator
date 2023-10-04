@@ -35,5 +35,5 @@ jobs:
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
           git config --local user.name "${{ env.GITHUB_NAME }}"
           git add public/data.json
-          git commit -m 'update new runs' || echo "nothing to commit"
+          git commit -m "update new runs $(date +'%Y-%m-%d')" || echo "nothing to commit"
           git push || echo "nothing to push"
