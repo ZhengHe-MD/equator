@@ -1,0 +1,44 @@
+name: Run Data Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - public/data.json
+      - pages/**.js
+      - src/**.jsx
+
+jobs:
+  sync:
+    name: Sync
+    runs-on: ubuntu-latest
+    outputs:
+      DATA_CACHE_PREFIX: ${{ steps.set_output.outputs.DATA_CACHE_PREFIX }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Download latest tracks
+        run: |
+          wget -P public/ https://zhenghe-md.github.io/running_page/activities.json
+      - name: Install jq
+        run: |
+          sudo apt-get update && sudo apt-get install -y jq
+      - name: Transform the activities.json data
+        run: |
+          cat public/activities.json | jq '.[] | {distance, moving_time, start_date_local}' | jq -s '.' > public/activities-tmp-1.json
+          cat public/activities-tmp-1.json | jq '.[].distance /= 1000' > public/activities-tmp-2.json 
+          cat public/activities-tmp-2.json| jq '.[].start_date_local |= sub(" .*"; "")' > public/activities-tmp-3.json
+          cat public/activities-tmp-3.json | jq '.[] | {date: .start_date_local, distance, duration: {hours: (.moving_time | split(":") | map(tonumber) | .[0]), mins: (.moving_time | split(":") | map(tonumber) | .[1]), secs: (.moving_time | split(":") | map(tonumber) | .[2])}}' | jq -s '.' > public/activities-tmp-4.json
+          jq -s 'add' public/data.json public/activities-tmp-4.json | jq 'unique_by(.date)' > public/merged.json
+          cat public/merged.json | tail -100
+      # - name: Push the merged data to the repo
+      #   run: |
+      #     git config --local user.email "${{ env.GITHUB_EMAIL }}"
+      #     git config --local user.name "${{ env.GITHUB_NAME }}"
+      #     git add public/merged.json
+      #     git commit -m 'update new runs' || echo "nothing to commit"
+      #     git push || echo "nothing to push"
