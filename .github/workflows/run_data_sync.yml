@@ -3,7 +3,10 @@ name: Run Data Sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 10 * * *'
+  push:
+    branches:
+      - main
 
 env:
   GITHUB_NAME: ZhengHe-MD
