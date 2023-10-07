@@ -9559,5 +9559,23 @@
       "mins": 30,
       "secs": 28
     }
+  },
+  {
+    "date": "2023-10-05",
+    "distance": 5.029589080086167,
+    "duration": {
+      "hours": 0,
+      "mins": 25,
+      "secs": 46
+    }
+  },
+  {
+    "date": "2023-10-06",
+    "distance": 5.0378859625976,
+    "duration": {
+      "hours": 0,
+      "mins": 24,
+      "secs": 54
+    }
   }
 ]
