@@ -10189,5 +10189,122 @@
       "mins": 33,
       "secs": 21
     }
+  },
+  {
+    "date": "2024-02-16",
+    "distance": 5.029583725947715,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 3
+    }
+  },
+  {
+    "date": "2024-02-17",
+    "distance": 5.036071851343047,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 23
+    }
+  },
+  {
+    "date": "2024-02-18",
+    "distance": 5.021671923724541,
+    "duration": {
+      "hours": 0,
+      "mins": 28,
+      "secs": 44
+    }
+  },
+  {
+    "date": "2024-02-19",
+    "distance": 5.02872005102438,
+    "duration": {
+      "hours": 0,
+      "mins": 30,
+      "secs": 4
+    }
+  },
+  {
+    "date": "2024-02-22",
+    "distance": 5.026824538399342,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 46
+    }
+  },
+  {
+    "date": "2024-02-23",
+    "distance": 4.8687156640591915,
+    "duration": {
+      "hours": 0,
+      "mins": 30,
+      "secs": 26
+    }
+  },
+  {
+    "date": "2024-02-25",
+    "distance": 5.022914469324278,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 15
+    }
+  },
+  {
+    "date": "2024-02-26",
+    "distance": 5.0455684464297335,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 16
+    }
+  },
+  {
+    "date": "2024-02-27",
+    "distance": 4.425462321682501,
+    "duration": {
+      "hours": 0,
+      "mins": 26,
+      "secs": 41
+    }
+  },
+  {
+    "date": "2024-02-28",
+    "distance": 5.027182828191979,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 51
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "distance": 5.021891420674874,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 11
+    }
+  },
+  {
+    "date": "2024-03-04",
+    "distance": 4.101765373874914,
+    "duration": {
+      "hours": 0,
+      "mins": 24,
+      "secs": 11
+    }
+  },
+  {
+    "date": "2024-03-05",
+    "distance": 5.030440678364031,
+    "duration": {
+      "hours": 0,
+      "mins": 24,
+      "secs": 26
+    }
   }
 ]
