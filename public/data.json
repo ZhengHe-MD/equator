@@ -10747,5 +10747,14 @@
       "mins": 32,
       "secs": 29
     }
+  },
+  {
+    "date": "2024-05-10",
+    "distance": 5,
+    "duration": {
+      "hours": 0,
+      "mins": 23,
+      "secs": 15
+    }
   }
 ]
