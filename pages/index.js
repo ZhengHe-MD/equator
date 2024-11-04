@@ -53,14 +53,10 @@ export default function Home() {
             <Container sx={{display: "flex", flexDirection: "column", height: "100vh"}}>
                 <Box sx={{display: "flex"}} id="top">
                     <Typography variant="h2" sx={{mr: 2}}>
-                        {`赤道计划`}
+                        {`郑鹤的赤道计划`}
                     </Typography>
                     <Image src="/equator-square.png" width={65} height={50}/>
                 </Box>
-
-                <Typography variant="h5" sx={{mb: 3}}>
-                    ❝ 我叫郑鹤，我想在人生结束前跑过 40075.02 公里。 ❞
-                </Typography>
 
                 <Box sx={{...translation}}>
                     <Image src="/running-girl.gif" width={30} height={30} className="running-girl"/>
