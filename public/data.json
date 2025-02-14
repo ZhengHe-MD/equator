@@ -12295,5 +12295,23 @@
       "mins": 27,
       "secs": 58
     }
+  },
+  {
+    "date": "2025-02-12",
+    "distance": 4.964,
+    "duration": {
+      "hours": 0,
+      "mins": 26,
+      "secs": 12
+    }
+  },
+  {
+    "date": "2025-02-13",
+    "distance": 5.007,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 34
+    }
   }
 ]
