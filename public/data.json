@@ -12601,5 +12601,14 @@
       "mins": 27,
       "secs": 54
     }
+  },
+  {
+    "date": "2025-04-11",
+    "distance": 4.9,
+    "duration": {
+      "hours": 0,
+      "mins": 30,
+      "secs": 21
+    }
   }
 ]
