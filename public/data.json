@@ -12628,5 +12628,14 @@
       "mins": 27,
       "secs": 19
     }
+  },
+  {
+    "date": "2025-04-16",
+    "distance": 5.015,
+    "duration": {
+      "hours": 0,
+      "mins": 26,
+      "secs": 5
+    }
   }
 ]
