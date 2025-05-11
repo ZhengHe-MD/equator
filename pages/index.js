@@ -1,7 +1,7 @@
 import {Box, Container, LinearProgress, Typography} from "@mui/material";
 import _ from "lodash";
 import Segment from "../src/Segment";
-import {useEffect, useState} from "react";
+import {useEffect, useState, useRef} from "react";
 import Image from "next/image";
 import Head from "next/head";
 
@@ -18,6 +18,7 @@ export default function Home() {
 
     const [yearToData, setYearToData] = useState(initYearToData)
     const [loading, setLoading] = useState(true)
+    const scrollContainerRef = useRef(null)
 
     useEffect(async () => {
         const raw = await fetch("https://equator.vercel.app/data.json")
@@ -34,6 +35,21 @@ export default function Home() {
         setYearToData(nextYearToData)
         setLoading(false)
     }, [])
+
+    // Add useEffect for scrolling to current year
+    useEffect(() => {
+        if (loading || !scrollContainerRef.current) return;
+        
+        const currentYear = new Date().getFullYear();
+        const currentYearElement = document.getElementById(`year-${currentYear-2}`);
+        
+        if (currentYearElement) {
+            scrollContainerRef.current.scrollTo({
+                top: currentYearElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    }, [loading]);
 
     _.forEach(yearToData, (data, year) => {
         _.forEach(data, record => {
@@ -59,7 +75,8 @@ export default function Home() {
                 </Box>
 
                 <Box sx={{...translation}}>
-                    <Image src="/running-girl.gif" width={30} height={30} className="running-girl"/>
+                    <Image src="/running-girl.gif" width={30} height={30}/>
+                    <Image src="/running-girl.gif" width={30} height={30}/>
                     <Image src="/running.gif" width={40} height={40}/>
                 </Box>
                 <LinearProgress
@@ -72,7 +89,10 @@ export default function Home() {
                     <Typography variant="body2" sx={{fontSize: 10}}>{`${distance.toFixed(2)}/40075.02 km`}</Typography>
                 </Box>
 
-                <Box sx={{overflowY: "scroll", flexGrow: 1, px: 1}}>
+                <Box 
+                    sx={{overflowY: "scroll", flexGrow: 1, px: 1}}
+                    ref={scrollContainerRef}
+                >
                     {
                         _.map(years, year => (
                             <Segment
@@ -81,6 +101,7 @@ export default function Home() {
                                 yearlyDistance={yearToDistance[year]}
                                 yearlyData={yearToData[year]}
                                 loading={loading}
+                                id={`year-${year}`}
                             />
                         ))
                     }
