@@ -59,7 +59,8 @@ export default function Home() {
                 </Box>
 
                 <Box sx={{...translation}}>
-                    <Image src="/running-girl.gif" width={30} height={30} className="running-girl"/>
+                    <Image src="/running-girl.gif" width={30} height={30}/>
+                    <Image src="/running-girl.gif" width={30} height={30}/>
                     <Image src="/running.gif" width={40} height={40}/>
                 </Box>
                 <LinearProgress
