@@ -8,7 +8,7 @@ const ReactTooltip = dynamic(() => import("react-tooltip"), {
     ssr: false,
 });
 
-export default function Segment({year, yearlyDistance, yearlyData, loading}) {
+export default function Segment({year, yearlyDistance, yearlyData, loading, id}) {
     const keyByDate = _.keyBy(yearlyData, "date")
     const allDates = getDateRange(year)
     _.forEach(allDates, dt => {
@@ -27,7 +27,7 @@ export default function Segment({year, yearlyDistance, yearlyData, loading}) {
 
     return (
         <>
-            <Box sx={{display: "flex", alignItems: "flex-end", justifyContent: "space-between"}}>
+            <Box id={id} sx={{display: "flex", alignItems: "flex-end", justifyContent: "space-between"}}>
                 <Typography variant="h3" id={year}>
                     {year}
                 </Typography>
