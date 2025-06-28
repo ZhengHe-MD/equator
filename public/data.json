@@ -13087,5 +13087,23 @@
       "mins": 27,
       "secs": 56
     }
+  },
+  {
+    "date": "2025-06-26",
+    "distance": 5.06,
+    "duration": {
+      "hours": 0,
+      "mins": 30,
+      "secs": 56
+    }
+  },
+  {
+    "date": "2025-06-27",
+    "distance": 10.018,
+    "duration": {
+      "hours": 0,
+      "mins": 55,
+      "secs": 45
+    }
   }
 ]
