@@ -14734,5 +14734,32 @@
       "mins": 7,
       "secs": 30
     }
+  },
+  {
+    "date": "2025-08-27",
+    "distance": 0.365,
+    "duration": {
+      "hours": 0,
+      "mins": 7,
+      "secs": 40
+    }
+  },
+  {
+    "date": "2025-08-28",
+    "distance": 0.405,
+    "duration": {
+      "hours": 0,
+      "mins": 8,
+      "secs": 0
+    }
+  },
+  {
+    "date": "2025-08-29",
+    "distance": 0.418,
+    "duration": {
+      "hours": 0,
+      "mins": 8,
+      "secs": 10
+    }
   }
 ]
