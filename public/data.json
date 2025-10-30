@@ -13780,5 +13780,14 @@
       "mins": 26,
       "secs": 31
     }
+  },
+  {
+    "date": "2025-10-29",
+    "distance": 3.359,
+    "duration": {
+      "hours": 0,
+      "mins": 14,
+      "secs": 59
+    }
   }
 ]
