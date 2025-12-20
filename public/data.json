@@ -14023,5 +14023,50 @@
       "mins": 29,
       "secs": 39
     }
+  },
+  {
+    "date": "2025-12-15",
+    "distance": 5.012,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 7
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "distance": 5.04,
+    "duration": {
+      "hours": 0,
+      "mins": 28,
+      "secs": 4
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "distance": 5.092,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 20
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "distance": 5.025,
+    "duration": {
+      "hours": 0,
+      "mins": 27,
+      "secs": 25
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "distance": 5.015,
+    "duration": {
+      "hours": 0,
+      "mins": 24,
+      "secs": 58
+    }
   }
 ]
