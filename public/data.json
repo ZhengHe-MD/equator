@@ -14122,5 +14122,23 @@
       "mins": 57,
       "secs": 39
     }
+  },
+  {
+    "date": "2026-01-04",
+    "distance": 5.011,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 28
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "distance": 5.019,
+    "duration": {
+      "hours": 0,
+      "mins": 28,
+      "secs": 9
+    }
   }
 ]
