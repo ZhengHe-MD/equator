@@ -24,12 +24,65 @@ jobs:
           sudo apt-get update && sudo apt-get install -y jq
       - name: Transform the activities.json data
         run: |
-          cat public/activities.json | jq '.[] | {distance, moving_time, start_date_local}' | jq -s '.' > public/activities-tmp-1.json
-          cat public/activities-tmp-1.json | jq '.[].distance /= 1000' > public/activities-tmp-2.json 
-          cat public/activities-tmp-2.json| jq '.[].start_date_local |= sub(" .*"; "")' > public/activities-tmp-3.json
-          cat public/activities-tmp-3.json | jq '.[] | {date: .start_date_local, distance, duration: {hours: (.moving_time | split(":") | map(tonumber) | .[0]), mins: (.moving_time | split(":") | map(tonumber) | .[1]), secs: (.moving_time | split(":") | map(tonumber) | .[2])}}' | jq -s '.' > public/activities-tmp-4.json
-          jq -s 'add' public/data.json public/activities-tmp-4.json | jq 'unique_by(.date)' > public/merged.json
+          jq '
+            map({
+              date: (.start_date_local | sub(" .*"; "")),
+              distance: (.distance / 1000),
+              durationSeconds: (
+                (.moving_time | split(":") | map(tonumber) | .[0]) * 3600 +
+                (.moving_time | split(":") | map(tonumber) | .[1]) * 60 +
+                (.moving_time | split(":") | map(tonumber) | .[2])
+              )
+            })
+            | sort_by(.date)
+            | group_by(.date)
+            | map(
+                reduce .[] as $run (
+                  {
+                    date: .[0].date,
+                    distance: 0,
+                    durationSeconds: 0
+                  };
+                  .distance += $run.distance
+                  | .durationSeconds += $run.durationSeconds
+                )
+                | .duration = {
+                    hours: (.durationSeconds / 3600 | floor),
+                    mins: ((.durationSeconds % 3600) / 60 | floor),
+                    secs: (.durationSeconds % 60)
+                  }
+                | del(.durationSeconds)
+              )
+          ' public/activities.json > public/activities-normalized.json
+          jq -s '
+            add
+            | sort_by(.date)
+            | group_by(.date)
+            | map(
+                reduce .[] as $run (
+                  {
+                    date: .[0].date,
+                    distance: 0,
+                    durationSeconds: 0
+                  };
+                  .distance += $run.distance
+                  | .durationSeconds += (
+                      (($run.duration.hours // 0) * 3600) +
+                      (($run.duration.mins // 0) * 60) +
+                      ($run.duration.secs // 0)
+                    )
+                )
+                | .distance = (.distance * 1000 | round) / 1000
+                | .duration = {
+                    hours: (.durationSeconds / 3600 | floor),
+                    mins: ((.durationSeconds % 3600) / 60 | floor),
+                    secs: (.durationSeconds % 60)
+                  }
+                | del(.durationSeconds)
+              )
+          ' public/data.json public/activities-normalized.json > public/merged.json
           mv public/merged.json public/data.json
+          rm public/activities-normalized.json
       - name: Push the merged data to the repo
         run: |
           git config --local user.email "${{ env.GITHUB_EMAIL }}"

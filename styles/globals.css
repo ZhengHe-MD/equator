@@ -2,8 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #14221c;
+  background:
+    radial-gradient(circle at top left, rgba(31, 111, 90, 0.1), transparent 38%),
+    linear-gradient(180deg, #f7f6ef 0%, #eef3ef 48%, #f7faf8 100%);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 }
 
 a {
@@ -15,6 +18,68 @@ a {
   box-sizing: border-box;
 }
 
+:root {
+  --surface: rgba(255, 255, 255, 0.9);
+  --border: rgba(33, 57, 45, 0.09);
+  --text: #14221c;
+  --muted: #62746b;
+}
+
+body {
+  min-height: 100vh;
+}
+
+strong {
+  font-weight: 700;
+}
+
+svg text {
+  font-family: inherit;
+}
+
+.react-calendar-heatmap text {
+  fill: #6b7d73;
+  font-size: 10px;
+}
+
+.react-calendar-heatmap rect {
+  rx: 2px;
+  ry: 2px;
+}
+
+.react-calendar-heatmap .color-empty {
+  fill: rgba(33, 57, 45, 0.08);
+}
+
+.react-calendar-heatmap .color-github-1 {
+  fill: #d5ebe3;
+}
+
+.react-calendar-heatmap .color-github-2 {
+  fill: #afdbc9;
+}
+
+.react-calendar-heatmap .color-github-3 {
+  fill: #7fc2a7;
+}
+
+.react-calendar-heatmap .color-github-4 {
+  fill: #56a488;
+}
+
 .react-calendar-heatmap .color-github-5 {
-  fill: #1e4023;
+  fill: #2d8b70;
+}
+
+.react-calendar-heatmap .color-github-6 {
+  fill: #1f6f5a;
+}
+
+.react-tooltip {
+  border-radius: 10px !important;
+  padding: 10px 12px !important;
+  background-color: rgba(20, 34, 28, 0.94) !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  box-shadow: 0 18px 44px rgba(20, 34, 28, 0.18) !important;
 }
