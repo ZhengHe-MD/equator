@@ -68,15 +68,16 @@ export function normalizeActivities(records) {
 
   records.forEach(record => {
     const date = record.date
-    const current = byDate.get(date) || {date, distance: 0, durationSeconds: 0}
-    const duration = record.duration || {}
-    const durationSeconds =
-      (duration.hours || 0) * 3600 + (duration.mins || 0) * 60 + (duration.secs || 0)
+    const current = byDate.get(date)
+    const nextDistance = Number(record.distance || 0)
 
-    current.distance += Number(record.distance || 0)
-    current.durationSeconds += durationSeconds
-
-    byDate.set(date, current)
+    if (!current || nextDistance > current.distance) {
+      byDate.set(date, {
+        date,
+        distance: nextDistance,
+        duration: record.duration || {hours: 0, mins: 0, secs: 0},
+      })
+    }
   })
 
   return Array.from(byDate.values())
@@ -84,7 +85,11 @@ export function normalizeActivities(records) {
     .map(record => ({
       date: record.date,
       distance: round(record.distance, 3),
-      duration: formatDuration(record.durationSeconds),
+      duration: {
+        hours: record.duration.hours || 0,
+        mins: record.duration.mins || 0,
+        secs: record.duration.secs || 0,
+      },
     }))
 }
 

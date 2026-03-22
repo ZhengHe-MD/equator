@@ -83,3 +83,7 @@ svg text {
   line-height: 1.5 !important;
   box-shadow: 0 18px 44px rgba(20, 34, 28, 0.18) !important;
 }
+
+.runner-image {
+  mix-blend-mode: multiply;
+}

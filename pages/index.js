@@ -1,10 +1,15 @@
 import {Box, Container, LinearProgress, Typography} from "@mui/material"
+import dynamic from "next/dynamic"
 import Head from "next/head"
 import Image from "next/image"
 import {useEffect, useRef} from "react"
 import Segment from "../src/Segment"
 import {planConfig} from "../src/lib/planConfig"
 import {buildProjection, parseUtcDate} from "../src/lib/projection"
+
+const ReactTooltip = dynamic(() => import("react-tooltip"), {
+  ssr: false,
+})
 
 function formatKm(value, digits = 1) {
   return value.toLocaleString("zh-CN", {
@@ -192,16 +197,16 @@ export default function Home({viewModel}) {
                 </Box>
                 {milestones.map(milestone => (
                   <Box
-                    key={milestone.label}
+                    key={milestone[0]}
                     sx={{
                       position: "absolute",
-                      left: `calc(${milestone.progress * 100}% - 1px)`,
+                      left: `calc(${milestone[1] * 100}% - 1px)`,
                       top: 0,
-                      transform: milestone.progress === 1 ? "translateX(-100%)" : "translateX(-50%)",
+                      transform: milestone[1] === 1 ? "translateX(-100%)" : "translateX(-50%)",
                       display: "flex",
                       flexDirection: "column",
                       alignItems: "center",
-                      width: {xs: 34, sm: milestone.progress === 1 ? 72 : 84},
+                      width: {xs: 34, sm: milestone[1] === 1 ? 72 : 84},
                     }}
                   >
                     <Box
@@ -213,7 +218,7 @@ export default function Home({viewModel}) {
                       }}
                     />
                     <Typography variant="caption" sx={{mt: 0.6, color: "var(--text)", fontWeight: 700}}>
-                      {milestone.label}
+                      {milestone[0]}
                     </Typography>
                     <Typography
                       variant="caption"
@@ -221,14 +226,14 @@ export default function Home({viewModel}) {
                         mt: 0.2,
                         color: "var(--muted)",
                         whiteSpace: "nowrap",
-                        transform: milestone.progress === 1 ? "translateX(-8px)" : "none",
+                        transform: milestone[1] === 1 ? "translateX(-8px)" : "none",
                       }}
                     >
                       <Box component="span" sx={{display: {xs: "inline", sm: "none"}}}>
-                        {formatYearOnly(milestone.date)}
+                        {formatYearOnly(milestone[2])}
                       </Box>
                       <Box component="span" sx={{display: {xs: "none", sm: "inline"}}}>
-                        {formatLongDate(milestone.date)}
+                        {formatLongDate(milestone[2])}
                       </Box>
                     </Typography>
                   </Box>
@@ -309,6 +314,7 @@ export default function Home({viewModel}) {
           </Box>
 
         </Box>
+        <ReactTooltip multiline />
       </Container>
     </>
   )
@@ -335,7 +341,7 @@ function RunnerBadge({src, width, height, alt}) {
         height={height}
         alt={alt}
         unoptimized
-        style={{mixBlendMode: "multiply"}}
+        className="runner-image"
       />
     </Box>
   )
@@ -348,11 +354,33 @@ export async function getStaticProps() {
   const raw = await fs.readFile(dataPath, "utf8")
   const records = JSON.parse(raw)
   const generatedAt = new Date().toISOString()
-  const viewModel = buildProjection({
+  const rawViewModel = buildProjection({
     records,
     config: planConfig,
     asOfDate: generatedAt.slice(0, 10),
   })
+  const viewModel = {
+    summary: {
+      goalKm: rawViewModel.summary.goalKm,
+      completedKm: rawViewModel.summary.completedKm,
+      completedPct: rawViewModel.summary.completedPct,
+      remainingKm: rawViewModel.summary.remainingKm,
+      firstActivityDate: rawViewModel.summary.firstActivityDate,
+      lastActivityDate: rawViewModel.summary.lastActivityDate,
+      asOfDate: rawViewModel.summary.asOfDate,
+    },
+    milestones: rawViewModel.milestones.map(({label, progress, date}) => [label, progress, date]),
+    years: rawViewModel.years.map(year => ({
+      year: year.year,
+      actualKm: year.actualKm,
+      activities: year.activities.map(activity => [
+        activity.date,
+        activity.distance,
+        (activity.duration.hours || 0) * 3600 + (activity.duration.mins || 0) * 60 + (activity.duration.secs || 0),
+      ]),
+      months: year.months.map(month => month.actualKm),
+    })),
+  }
 
   return {
     props: {

@@ -2,11 +2,9 @@ import "react-calendar-heatmap/dist/styles.css"
 import {Box, Typography} from "@mui/material"
 import CalendarHeatmap from "react-calendar-heatmap"
 import _ from "lodash"
-import dynamic from "next/dynamic"
+import {useEffect, useRef} from "react"
 
-const ReactTooltip = dynamic(() => import("react-tooltip"), {
-  ssr: false,
-})
+const MONTH_LABELS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 const stageColors = {
   ended: {
@@ -40,19 +38,16 @@ function buildStage(yearValue, asOfYear) {
   return {label: "未开始", tone: "upcoming"}
 }
 
-function buildMonthLabels(months) {
-  return months.map(month => month.label)
+function buildMonthLabels() {
+  return MONTH_LABELS
 }
 
-function computePace(record) {
-  const duration = record.duration || {}
-  const totalSeconds = (duration.hours || 0) * 3600 + (duration.mins || 0) * 60 + (duration.secs || 0)
-
-  if (!record.distance || totalSeconds === 0) {
+function computePace(distance, durationSeconds) {
+  if (!distance || durationSeconds === 0) {
     return "无配速"
   }
 
-  const minsPerKm = totalSeconds / 60 / record.distance
+  const minsPerKm = durationSeconds / 60 / distance
   const mins = Math.floor(minsPerKm)
   const secs = Math.floor((minsPerKm - mins) * 60)
   return `${mins}'${String(secs).padStart(2, "0")}'' /km`
@@ -80,27 +75,56 @@ function discretization(distance) {
   return 6
 }
 
-function formatTooltip(record) {
-  return `${record.date}
-距离：${formatKm(_.get(record, "distance", 0), 2)} km
-配速：${computePace(record)}`
+function formatTooltip(date, distance, durationSeconds) {
+  return `${date}
+距离：${formatKm(distance, 2)} km
+配速：${computePace(distance, durationSeconds)}`
 }
 
 export default function Segment({year, asOfYear}) {
   const stage = buildStage(year.year, asOfYear)
   const badge = stageColors[stage.tone]
-  const keyByDate = _.keyBy(year.activities, "date")
-  const monthLabels = buildMonthLabels(year.months)
+  const heatmapScrollRef = useRef(null)
+  const heatmapContentRef = useRef(null)
+  const keyByDate = new Map(year.activities.map(([date, distance, durationSeconds]) => [date, {distance, durationSeconds}]))
+  const monthLabels = buildMonthLabels()
   const values = getDateRange(year.year).map(date => {
-    const record = keyByDate[date] || newEmptyRecord(date)
+    const record = keyByDate.get(date) || newEmptyRecord()
 
     return {
       date,
       distance: record.distance,
       count: discretization(record.distance),
-      tooltip: formatTooltip(record),
+      tooltip: formatTooltip(date, record.distance, record.durationSeconds),
     }
   })
+
+  useEffect(() => {
+    if (year.year !== asOfYear) {
+      return
+    }
+
+    const container = heatmapScrollRef.current
+    const content = heatmapContentRef.current
+
+    if (!container || !content) {
+      return
+    }
+
+    const currentMonthIndex = new Date().getMonth()
+    const maxScrollLeft = Math.max(content.scrollWidth - container.clientWidth, 0)
+
+    if (maxScrollLeft <= 0) {
+      return
+    }
+
+    const targetLeft = (maxScrollLeft * currentMonthIndex) / 11
+
+    container.scrollTo({
+      left: Math.max(0, Math.min(targetLeft, maxScrollLeft)),
+      behavior: "smooth",
+    })
+  }, [asOfYear, year.year])
 
   return (
     <Box
@@ -143,8 +167,8 @@ export default function Segment({year, asOfYear}) {
           日度
         </Typography>
 
-        <Box sx={{overflowX: "auto"}}>
-          <Box sx={{minWidth: 720}}>
+        <Box ref={heatmapScrollRef} sx={{overflowX: "auto"}}>
+          <Box ref={heatmapContentRef} sx={{minWidth: 720}}>
             <CalendarHeatmap
               values={values}
               gutterSize={3}
@@ -165,7 +189,6 @@ export default function Segment({year, asOfYear}) {
             />
           </Box>
         </Box>
-        <ReactTooltip multiline />
       </Box>
 
       <Box sx={{mt: 2.2}}>
@@ -179,9 +202,9 @@ export default function Segment({year, asOfYear}) {
             gridTemplateColumns: {xs: "repeat(3, minmax(0, 1fr))", sm: "repeat(4, minmax(0, 1fr))", md: "repeat(12, minmax(0, 1fr))"},
           }}
         >
-          {year.months.map(month => (
+          {year.months.map((actualKm, index) => (
             <Box
-              key={`${year.year}-${month.label}-total`}
+              key={`${year.year}-${MONTH_LABELS[index]}-total`}
               sx={{
                 textAlign: "center",
                 py: 0.8,
@@ -191,7 +214,7 @@ export default function Segment({year, asOfYear}) {
               }}
             >
               <Typography variant="caption" sx={{display: "block", color: "var(--muted)", fontSize: {xs: 11, md: 12}}}>
-                {month.label}
+                {MONTH_LABELS[index]}
               </Typography>
               <Typography
                 variant="caption"
@@ -205,7 +228,7 @@ export default function Segment({year, asOfYear}) {
                   wordBreak: "break-word",
                 }}
               >
-                {month.actualKm > 0 ? `${formatKm(month.actualKm, month.actualKm >= 100 ? 0 : 1)} km` : "-"}
+                {actualKm > 0 ? `${formatKm(actualKm, actualKm >= 100 ? 0 : 1)} km` : "-"}
               </Typography>
             </Box>
           ))}
@@ -229,14 +252,9 @@ function getDateRange(year) {
   return range
 }
 
-function newEmptyRecord(date) {
+function newEmptyRecord() {
   return {
-    date,
     distance: 0,
-    duration: {
-      hours: 0,
-      mins: 0,
-      secs: 0,
-    },
+    durationSeconds: 0,
   }
 }
