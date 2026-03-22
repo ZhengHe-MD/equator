@@ -2,7 +2,6 @@ import ShareRoundedIcon from "@mui/icons-material/ShareRounded"
 import {Box, Button, Container, LinearProgress, Typography} from "@mui/material"
 import dynamic from "next/dynamic"
 import Head from "next/head"
-import Image from "next/image"
 import {useEffect, useRef, useState} from "react"
 import Segment from "../src/Segment"
 import {planConfig} from "../src/lib/planConfig"
@@ -36,8 +35,9 @@ export default function Home({viewModel}) {
   const {summary, milestones, years} = viewModel
   const asOfYear = parseUtcDate(summary.asOfDate).getUTCFullYear()
   const carouselRef = useRef(null)
-  const heroCardRef = useRef(null)
+  const sharePosterRef = useRef(null)
   const shareResetRef = useRef(null)
+  const [showPosterPreview, setShowPosterPreview] = useState(false)
   const [shareState, setShareState] = useState({
     loading: false,
     message: "",
@@ -46,6 +46,7 @@ export default function Home({viewModel}) {
   const runnerPosition = {
     left: `clamp(28px, calc(${summary.completedPct}% - 52px), calc(100% - 116px))`,
   }
+  const featuredYear = years.find(year => year.year === asOfYear) || years[years.length - 1] || null
 
   useEffect(() => {
     const container = carouselRef.current
@@ -78,6 +79,10 @@ export default function Home({viewModel}) {
     }
   }, [])
 
+  useEffect(() => {
+    setShowPosterPreview(new URLSearchParams(window.location.search).get("poster") === "1")
+  }, [])
+
   async function handleShareScreenshot() {
     if (shareState.loading) {
       return
@@ -90,23 +95,25 @@ export default function Home({viewModel}) {
         tone: "neutral",
       })
 
-      const target = heroCardRef.current
+      const target = sharePosterRef.current
 
       if (!target) {
-        throw new Error("hero-card-not-found")
+        throw new Error("share-poster-not-found")
       }
 
       await waitForImages(target)
 
       const {default: html2canvas} = await import("html2canvas")
+      const captureWidth = target.scrollWidth
+      const captureHeight = target.scrollHeight
       const canvas = await html2canvas(target, {
         backgroundColor: null,
-        scale: Math.min(window.devicePixelRatio || 1, 2),
+        scale: 2,
         useCORS: true,
-        width: target.scrollWidth,
-        height: target.scrollHeight,
-        windowWidth: document.documentElement.clientWidth,
-        windowHeight: document.documentElement.clientHeight,
+        width: captureWidth,
+        height: captureHeight,
+        windowWidth: captureWidth,
+        windowHeight: captureHeight,
         scrollX: 0,
         scrollY: 0,
         ignoreElements: element => element.dataset?.screenshotIgnore === "true",
@@ -180,34 +187,27 @@ export default function Home({viewModel}) {
         <title>{`${planConfig.title} - 已完成 ${summary.completedPct.toFixed(2)}%`}</title>
       </Head>
 
-      <Container maxWidth="lg" sx={{py: {xs: 3, md: 5}}}>
-        <Box sx={{display: "grid", gap: 3}}>
-          <Box
-            ref={heroCardRef}
-            sx={{
-              position: "relative",
-              overflow: "hidden",
-              borderRadius: 7,
-              p: {xs: 3, md: 4},
-              background:
-                "radial-gradient(circle at top left, rgba(31, 111, 90, 0.16), transparent 42%), linear-gradient(135deg, rgba(255,255,255,0.98), rgba(242, 247, 244, 0.96))",
-              border: "1px solid rgba(33, 57, 45, 0.1)",
-              boxShadow: "0 30px 80px rgba(20, 34, 28, 0.12)",
-            }}
-          >
-            <Box sx={{display: "flex", justifyContent: "space-between", gap: 2, alignItems: "flex-start", flexWrap: "wrap"}}>
-              <Typography
-                variant="h2"
-                sx={{
-                  fontWeight: 800,
-                  fontSize: {xs: "2.2rem", md: "3.2rem"},
-                  letterSpacing: "-0.04em",
-                  pr: {sm: 2},
-                }}
-              >
-                郑鹤的赤道计划
-              </Typography>
+      {showPosterPreview ? (
+        <Box sx={{display: "flex", justifyContent: "center", px: 5, py: 5}}>
+          <SharePoster
+            summary={summary}
+            milestones={milestones}
+            runnerPosition={runnerPosition}
+            featuredYear={featuredYear}
+            asOfYear={asOfYear}
+            preview
+          />
+        </Box>
+      ) : null}
 
+      <Container maxWidth="lg" sx={{py: {xs: 3, md: 5}, display: showPosterPreview ? "none" : "block"}}>
+        <Box sx={{display: "grid", gap: 3}}>
+          <HeroSummaryCard
+            summary={summary}
+            milestones={milestones}
+            runnerPosition={runnerPosition}
+            title={planConfig.title}
+            actionSlot={
               <Box
                 data-screenshot-ignore="true"
                 sx={{
@@ -259,162 +259,8 @@ export default function Home({viewModel}) {
                   {shareState.message}
                 </Typography>
               </Box>
-            </Box>
-
-            <Box sx={{mt: 4}}>
-              <Box sx={{display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 2, flexWrap: "wrap"}}>
-                <Typography
-                  variant="h4"
-                  sx={{
-                    fontWeight: 700,
-                    fontSize: {xs: "1.45rem", sm: "2.125rem"},
-                    lineHeight: 1.15,
-                  }}
-                >
-                  {formatKm(summary.completedKm, 2)} / {formatKm(summary.goalKm, 2)} km
-                </Typography>
-                <Typography variant="body2" sx={{color: "var(--muted)"}}>
-                  剩余 {formatKm(summary.remainingKm, 2)} km
-                </Typography>
-              </Box>
-              <Box sx={{position: "relative", height: 36, mt: 1.4}}>
-                <Box
-                  sx={{
-                    position: "absolute",
-                    ...runnerPosition,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: {xs: 0.35, sm: 0.75},
-                    transform: {xs: "translateX(-50%) scale(0.74)", sm: "translateX(-50%)"},
-                    transformOrigin: "center center",
-                  }}
-                >
-                  <RunnerBadge src="/running-girl.gif" width={24} height={24} alt="女儿 1" />
-                  <RunnerBadge src="/running-girl.gif" width={24} height={24} alt="女儿 2" />
-                  <RunnerBadge src="/running.gif" width={32} height={32} alt="郑鹤" />
-                </Box>
-                <Box
-                  sx={{
-                    position: "absolute",
-                    right: 0,
-                    top: "50%",
-                    transform: "translate(-10%, -50%)",
-                    fontSize: {xs: 20, md: 24},
-                    lineHeight: 1,
-                  }}
-                  aria-label="终点"
-                >
-                  🏁
-                </Box>
-              </Box>
-              <LinearProgress
-                variant="determinate"
-                value={summary.completedPct}
-                sx={{
-                  mt: 1.75,
-                  height: 16,
-                  borderRadius: 999,
-                  backgroundColor: "rgba(33, 57, 45, 0.08)",
-                  "& .MuiLinearProgress-bar": {
-                    borderRadius: 999,
-                    background: "linear-gradient(90deg, #1f6f5a 0%, #56a488 100%)",
-                  },
-                }}
-              />
-              <Box sx={{position: "relative", height: 54, mt: 0.9}}>
-                <Box
-                  sx={{
-                    position: "absolute",
-                    left: 0,
-                    top: 0,
-                    transform: "translateX(0)",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "flex-start",
-                    width: 84,
-                  }}
-                >
-                  <Box
-                    sx={{
-                      width: 2,
-                      height: 12,
-                      borderRadius: 999,
-                      backgroundColor: "rgba(31, 111, 90, 0.42)",
-                    }}
-                  />
-                  <Typography variant="caption" sx={{mt: 0.6, color: "var(--text)", fontWeight: 700}}>
-                    起点
-                  </Typography>
-                  <Typography
-                    variant="caption"
-                    sx={{
-                      mt: 0.2,
-                      color: "var(--muted)",
-                      whiteSpace: "nowrap",
-                    }}
-                  >
-                    <Box component="span" sx={{display: {xs: "inline", sm: "none"}}}>
-                      {formatYearOnly(summary.firstActivityDate)}
-                    </Box>
-                    <Box component="span" sx={{display: {xs: "none", sm: "inline"}}}>
-                      {formatLongDate(summary.firstActivityDate)}
-                    </Box>
-                  </Typography>
-                </Box>
-                {milestones.map(milestone => (
-                  <Box
-                    key={milestone[0]}
-                    sx={{
-                      position: "absolute",
-                      left: `calc(${milestone[1] * 100}% - 1px)`,
-                      top: 0,
-                      transform: milestone[1] === 1 ? "translateX(-100%)" : "translateX(-50%)",
-                      display: "flex",
-                      flexDirection: "column",
-                      alignItems: "center",
-                      width: {xs: 34, sm: milestone[1] === 1 ? 72 : 84},
-                    }}
-                  >
-                    <Box
-                      sx={{
-                        width: 2,
-                        height: 12,
-                        borderRadius: 999,
-                        backgroundColor: "rgba(198, 123, 49, 0.55)",
-                      }}
-                    />
-                    <Typography variant="caption" sx={{mt: 0.6, color: "var(--text)", fontWeight: 700}}>
-                      {milestone[0]}
-                    </Typography>
-                    <Typography
-                      variant="caption"
-                      sx={{
-                        mt: 0.2,
-                        color: "var(--muted)",
-                        whiteSpace: "nowrap",
-                        transform: milestone[1] === 1 ? "translateX(-8px)" : "none",
-                      }}
-                    >
-                      <Box component="span" sx={{display: {xs: "inline", sm: "none"}}}>
-                        {formatYearOnly(milestone[2])}
-                      </Box>
-                      <Box component="span" sx={{display: {xs: "none", sm: "inline"}}}>
-                        {formatLongDate(milestone[2])}
-                      </Box>
-                    </Typography>
-                  </Box>
-                ))}
-              </Box>
-              <Box sx={{display: "flex", justifyContent: "space-between", mt: 1.2, gap: 2, flexWrap: "wrap"}}>
-                <Typography variant="body2" sx={{color: "var(--muted)"}}>
-                  已完成 {summary.completedPct.toFixed(2)}%
-                </Typography>
-                <Typography variant="body2" sx={{color: "var(--muted)"}}>
-                  最近一次同步跑步：{formatLongDate(summary.lastActivityDate)}
-                </Typography>
-              </Box>
-            </Box>
-          </Box>
+            }
+          />
 
           <Box sx={{display: "grid", gap: 2}}>
             <Box
@@ -482,7 +328,260 @@ export default function Home({viewModel}) {
         </Box>
         <ReactTooltip multiline />
       </Container>
+      <SharePoster
+        posterRef={sharePosterRef}
+        summary={summary}
+        milestones={milestones}
+        runnerPosition={runnerPosition}
+        featuredYear={featuredYear}
+        asOfYear={asOfYear}
+        hidden
+      />
     </>
+  )
+}
+
+function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot, sx}) {
+  return (
+    <Box
+      sx={{
+        position: "relative",
+        overflow: "hidden",
+        borderRadius: 7,
+        p: {xs: 3, md: 4},
+        background:
+          "radial-gradient(circle at top left, rgba(31, 111, 90, 0.16), transparent 42%), linear-gradient(135deg, rgba(255,255,255,0.98), rgba(242, 247, 244, 0.96))",
+        border: "1px solid rgba(33, 57, 45, 0.1)",
+        boxShadow: "0 30px 80px rgba(20, 34, 28, 0.12)",
+        ...sx,
+      }}
+    >
+      <Box sx={{display: "flex", justifyContent: "space-between", gap: 2, alignItems: "flex-start", flexWrap: "wrap"}}>
+        <Typography
+          variant="h2"
+          sx={{
+            fontWeight: 800,
+            fontSize: {xs: "2.2rem", md: "3.2rem"},
+            letterSpacing: "-0.04em",
+            pr: {sm: 2},
+          }}
+        >
+          {title}
+        </Typography>
+
+        {actionSlot || null}
+      </Box>
+
+      <Box sx={{mt: 4}}>
+        <Box sx={{display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 2, flexWrap: "wrap"}}>
+          <Typography
+            variant="h4"
+            sx={{
+              fontWeight: 700,
+              fontSize: {xs: "1.45rem", sm: "2.125rem"},
+              lineHeight: 1.15,
+            }}
+          >
+            {formatKm(summary.completedKm, 2)} / {formatKm(summary.goalKm, 2)} km
+          </Typography>
+          <Typography variant="body2" sx={{color: "var(--muted)"}}>
+            剩余 {formatKm(summary.remainingKm, 2)} km
+          </Typography>
+        </Box>
+        <Box sx={{position: "relative", height: 36, mt: 1.4}}>
+          <Box
+            sx={{
+              position: "absolute",
+              ...runnerPosition,
+              display: "flex",
+              alignItems: "center",
+              gap: {xs: 0.35, sm: 0.75},
+              transform: {xs: "translateX(-50%) scale(0.74)", sm: "translateX(-50%)"},
+              transformOrigin: "center center",
+            }}
+          >
+            <RunnerBadge src="/running-girl.gif" width={24} height={24} alt="女儿 1" />
+            <RunnerBadge src="/running-girl.gif" width={24} height={24} alt="女儿 2" />
+            <RunnerBadge src="/running.gif" width={32} height={32} alt="郑鹤" />
+          </Box>
+          <Box
+            sx={{
+              position: "absolute",
+              right: 0,
+              top: "50%",
+              transform: "translate(-10%, -50%)",
+              fontSize: {xs: 20, md: 24},
+              lineHeight: 1,
+            }}
+            aria-label="终点"
+          >
+            🏁
+          </Box>
+        </Box>
+        <LinearProgress
+          variant="determinate"
+          value={summary.completedPct}
+          sx={{
+            mt: 1.75,
+            height: 16,
+            borderRadius: 999,
+            backgroundColor: "rgba(33, 57, 45, 0.08)",
+            "& .MuiLinearProgress-bar": {
+              borderRadius: 999,
+              background: "linear-gradient(90deg, #1f6f5a 0%, #56a488 100%)",
+            },
+          }}
+        />
+        <Box sx={{position: "relative", height: 54, mt: 0.9}}>
+          <Box
+            sx={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              transform: "translateX(0)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              width: 84,
+            }}
+          >
+            <Box
+              sx={{
+                width: 2,
+                height: 12,
+                borderRadius: 999,
+                backgroundColor: "rgba(31, 111, 90, 0.42)",
+              }}
+            />
+            <Typography variant="caption" sx={{mt: 0.6, color: "var(--text)", fontWeight: 700}}>
+              起点
+            </Typography>
+            <Typography
+              variant="caption"
+              sx={{
+                mt: 0.2,
+                color: "var(--muted)",
+                whiteSpace: "nowrap",
+              }}
+            >
+              <Box component="span" sx={{display: {xs: "inline", sm: "none"}}}>
+                {formatYearOnly(summary.firstActivityDate)}
+              </Box>
+              <Box component="span" sx={{display: {xs: "none", sm: "inline"}}}>
+                {formatLongDate(summary.firstActivityDate)}
+              </Box>
+            </Typography>
+          </Box>
+          {milestones.map(milestone => (
+            <Box
+              key={milestone[0]}
+              sx={{
+                position: "absolute",
+                left: `calc(${milestone[1] * 100}% - 1px)`,
+                top: 0,
+                transform: milestone[1] === 1 ? "translateX(-100%)" : "translateX(-50%)",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                width: {xs: 34, sm: milestone[1] === 1 ? 72 : 84},
+              }}
+            >
+              <Box
+                sx={{
+                  width: 2,
+                  height: 12,
+                  borderRadius: 999,
+                  backgroundColor: "rgba(198, 123, 49, 0.55)",
+                }}
+              />
+              <Typography variant="caption" sx={{mt: 0.6, color: "var(--text)", fontWeight: 700}}>
+                {milestone[0]}
+              </Typography>
+              <Typography
+                variant="caption"
+                sx={{
+                  mt: 0.2,
+                  color: "var(--muted)",
+                  whiteSpace: "nowrap",
+                  transform: milestone[1] === 1 ? "translateX(-8px)" : "none",
+                }}
+              >
+                <Box component="span" sx={{display: {xs: "inline", sm: "none"}}}>
+                  {formatYearOnly(milestone[2])}
+                </Box>
+                <Box component="span" sx={{display: {xs: "none", sm: "inline"}}}>
+                  {formatLongDate(milestone[2])}
+                </Box>
+              </Typography>
+            </Box>
+          ))}
+        </Box>
+        <Box sx={{display: "flex", justifyContent: "space-between", mt: 1.2, gap: 2, flexWrap: "wrap"}}>
+          <Typography variant="body2" sx={{color: "var(--muted)"}}>
+            已完成 {summary.completedPct.toFixed(2)}%
+          </Typography>
+          <Typography variant="body2" sx={{color: "var(--muted)"}}>
+            最近一次同步跑步：{formatLongDate(summary.lastActivityDate)}
+          </Typography>
+        </Box>
+      </Box>
+    </Box>
+  )
+}
+
+function SharePoster({posterRef, summary, milestones, runnerPosition, featuredYear, asOfYear, hidden = false, preview = false}) {
+  return (
+    <Box
+      aria-hidden={hidden ? "true" : undefined}
+      sx={{
+        position: hidden ? "absolute" : "relative",
+        left: hidden ? "-200vw" : "auto",
+        top: hidden ? 0 : "auto",
+        width: 1080,
+        pointerEvents: hidden ? "none" : "auto",
+      }}
+    >
+      <Box
+        ref={posterRef}
+        sx={{
+          width: 1080,
+          px: 5,
+          py: 5,
+          display: "grid",
+          gap: 4,
+          borderRadius: preview ? 7 : 0,
+          boxShadow: preview ? "0 30px 80px rgba(20, 34, 28, 0.14)" : "none",
+          background:
+            "radial-gradient(circle at top left, rgba(31, 111, 90, 0.14), transparent 30%), linear-gradient(180deg, #f7f6ef 0%, #eef3ef 46%, #f7faf8 100%)",
+        }}
+      >
+        <HeroSummaryCard
+          summary={summary}
+          milestones={milestones}
+          runnerPosition={runnerPosition}
+          title={planConfig.title}
+          actionSlot={
+            <Box
+              sx={{
+                px: 2,
+                py: 1.2,
+                borderRadius: 999,
+                backgroundColor: "rgba(255, 255, 255, 0.82)",
+                border: "1px solid rgba(33, 57, 45, 0.08)",
+              }}
+            >
+              <Typography variant="body2" sx={{color: "var(--muted)", fontWeight: 700}}>
+                截至 {formatLongDate(summary.asOfDate)}
+              </Typography>
+            </Box>
+          }
+          sx={{
+            p: 4.5,
+          }}
+        />
+        {featuredYear ? <Segment year={featuredYear} asOfYear={asOfYear} /> : null}
+      </Box>
+    </Box>
   )
 }
 
@@ -492,22 +591,28 @@ function RunnerBadge({src, width, height, alt}) {
       sx={{
         width: width + 8,
         height: height + 8,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        display: "grid",
+        placeItems: "center",
+        padding: "4px",
         borderRadius: "50%",
         backgroundColor: "rgba(255,255,255,0.68)",
         boxShadow: "inset 0 0 0 1px rgba(33, 57, 45, 0.05)",
-        overflow: "hidden",
       }}
     >
-      <Image
+      <Box
+        component="img"
         src={src}
+        alt={alt}
+        className="runner-image"
         width={width}
         height={height}
-        alt={alt}
-        unoptimized
-        className="runner-image"
+        sx={{
+          display: "block",
+          width,
+          height,
+          borderRadius: "50%",
+          objectFit: "cover",
+        }}
       />
     </Box>
   )
