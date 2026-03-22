@@ -1,8 +1,9 @@
-import {Box, Container, LinearProgress, Typography} from "@mui/material"
+import ShareRoundedIcon from "@mui/icons-material/ShareRounded"
+import {Box, Button, Container, LinearProgress, Typography} from "@mui/material"
 import dynamic from "next/dynamic"
 import Head from "next/head"
 import Image from "next/image"
-import {useEffect, useRef} from "react"
+import {useEffect, useRef, useState} from "react"
 import Segment from "../src/Segment"
 import {planConfig} from "../src/lib/planConfig"
 import {buildProjection, parseUtcDate} from "../src/lib/projection"
@@ -35,6 +36,13 @@ export default function Home({viewModel}) {
   const {summary, milestones, years} = viewModel
   const asOfYear = parseUtcDate(summary.asOfDate).getUTCFullYear()
   const carouselRef = useRef(null)
+  const heroCardRef = useRef(null)
+  const shareResetRef = useRef(null)
+  const [shareState, setShareState] = useState({
+    loading: false,
+    message: "",
+    tone: "neutral",
+  })
   const runnerPosition = {
     left: `clamp(28px, calc(${summary.completedPct}% - 52px), calc(100% - 116px))`,
   }
@@ -64,6 +72,108 @@ export default function Home({viewModel}) {
     }
   }, [asOfYear, years])
 
+  useEffect(() => () => {
+    if (shareResetRef.current) {
+      window.clearTimeout(shareResetRef.current)
+    }
+  }, [])
+
+  async function handleShareScreenshot() {
+    if (shareState.loading) {
+      return
+    }
+
+    try {
+      setShareState({
+        loading: true,
+        message: "",
+        tone: "neutral",
+      })
+
+      const target = heroCardRef.current
+
+      if (!target) {
+        throw new Error("hero-card-not-found")
+      }
+
+      await waitForImages(target)
+
+      const {default: html2canvas} = await import("html2canvas")
+      const canvas = await html2canvas(target, {
+        backgroundColor: null,
+        scale: Math.min(window.devicePixelRatio || 1, 2),
+        useCORS: true,
+        width: target.scrollWidth,
+        height: target.scrollHeight,
+        windowWidth: document.documentElement.clientWidth,
+        windowHeight: document.documentElement.clientHeight,
+        scrollX: 0,
+        scrollY: 0,
+        ignoreElements: element => element.dataset?.screenshotIgnore === "true",
+      })
+      const blob = await canvasToBlob(canvas)
+
+      if (!blob) {
+        throw new Error("canvas-to-blob-failed")
+      }
+
+      const fileName = `${planConfig.title}-${summary.asOfDate}.png`
+      const file = typeof File === "function" ? new File([blob], fileName, {type: "image/png"}) : null
+
+      if (file && navigator.share && navigator.canShare?.({files: [file]})) {
+        try {
+          await navigator.share({
+            files: [file],
+            title: planConfig.title,
+            text: `${planConfig.title} 截至 ${summary.asOfDate} 的页面截图`,
+          })
+          setShareState({
+            loading: false,
+            message: "分享已完成",
+            tone: "success",
+          })
+          return
+        } catch (error) {
+          if (error?.name === "AbortError") {
+            setShareState({
+              loading: false,
+              message: "已取消分享",
+              tone: "neutral",
+            })
+            return
+          }
+        }
+      }
+
+      downloadBlob(blob, fileName)
+      setShareState({
+        loading: false,
+        message: "截图已下载",
+        tone: "success",
+      })
+    } catch (error) {
+      console.error("Failed to share screenshot", error)
+
+      setShareState({
+        loading: false,
+        message: "生成截图失败，请重试",
+        tone: "error",
+      })
+    } finally {
+      if (shareResetRef.current) {
+        window.clearTimeout(shareResetRef.current)
+      }
+
+      shareResetRef.current = window.setTimeout(() => {
+        setShareState(current => ({
+          ...current,
+          message: "",
+          tone: "neutral",
+        }))
+      }, 3200)
+    }
+  }
+
   return (
     <>
       <Head>
@@ -73,6 +183,7 @@ export default function Home({viewModel}) {
       <Container maxWidth="lg" sx={{py: {xs: 3, md: 5}}}>
         <Box sx={{display: "grid", gap: 3}}>
           <Box
+            ref={heroCardRef}
             sx={{
               position: "relative",
               overflow: "hidden",
@@ -84,16 +195,71 @@ export default function Home({viewModel}) {
               boxShadow: "0 30px 80px rgba(20, 34, 28, 0.12)",
             }}
           >
-            <Typography
-              variant="h2"
-              sx={{
-                fontWeight: 800,
-                fontSize: {xs: "2.2rem", md: "3.2rem"},
-                letterSpacing: "-0.04em",
-              }}
-            >
-              郑鹤的赤道计划
-            </Typography>
+            <Box sx={{display: "flex", justifyContent: "space-between", gap: 2, alignItems: "flex-start", flexWrap: "wrap"}}>
+              <Typography
+                variant="h2"
+                sx={{
+                  fontWeight: 800,
+                  fontSize: {xs: "2.2rem", md: "3.2rem"},
+                  letterSpacing: "-0.04em",
+                  pr: {sm: 2},
+                }}
+              >
+                郑鹤的赤道计划
+              </Typography>
+
+              <Box
+                data-screenshot-ignore="true"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: {xs: "flex-start", sm: "flex-end"},
+                  gap: 0.8,
+                }}
+              >
+                <Button
+                  variant="contained"
+                  size="small"
+                  disableElevation
+                  onClick={handleShareScreenshot}
+                  disabled={shareState.loading}
+                  startIcon={<ShareRoundedIcon fontSize="small" />}
+                  sx={{
+                    borderRadius: 999,
+                    px: 1.8,
+                    py: 0.9,
+                    minWidth: 0,
+                    background: "linear-gradient(135deg, #1f6f5a 0%, #2d8b70 100%)",
+                    color: "#fff",
+                    fontWeight: 700,
+                    whiteSpace: "nowrap",
+                    "&:hover": {
+                      background: "linear-gradient(135deg, #195947 0%, #26745f 100%)",
+                    },
+                    "&.Mui-disabled": {
+                      color: "rgba(255,255,255,0.82)",
+                      background: "rgba(31, 111, 90, 0.58)",
+                    },
+                  }}
+                >
+                  {shareState.loading ? "生成中..." : "分享截图"}
+                </Button>
+                <Typography
+                  variant="caption"
+                  sx={{
+                    minHeight: 18,
+                    color:
+                      shareState.tone === "error"
+                        ? "#b42318"
+                        : shareState.tone === "success"
+                          ? "#1f6f5a"
+                          : "var(--muted)",
+                  }}
+                >
+                  {shareState.message}
+                </Typography>
+              </Box>
+            </Box>
 
             <Box sx={{mt: 4}}>
               <Box sx={{display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 2, flexWrap: "wrap"}}>
@@ -345,6 +511,42 @@ function RunnerBadge({src, width, height, alt}) {
       />
     </Box>
   )
+}
+
+async function waitForImages(container) {
+  const images = Array.from(container.querySelectorAll("img"))
+
+  await Promise.all(
+    images.map(image => {
+      if (image.complete) {
+        return image.decode?.().catch(() => undefined)
+      }
+
+      return new Promise(resolve => {
+        image.addEventListener("load", resolve, {once: true})
+        image.addEventListener("error", resolve, {once: true})
+      })
+    })
+  )
+}
+
+function canvasToBlob(canvas) {
+  return new Promise(resolve => {
+    canvas.toBlob(resolve, "image/png")
+  })
+}
+
+function downloadBlob(blob, fileName) {
+  const objectUrl = URL.createObjectURL(blob)
+  const link = document.createElement("a")
+
+  link.href = objectUrl
+  link.download = fileName
+  link.click()
+
+  window.setTimeout(() => {
+    URL.revokeObjectURL(objectUrl)
+  }, 0)
 }
 
 export async function getStaticProps() {
