@@ -8,6 +8,8 @@ on:
 env:
   GITHUB_NAME: ZhengHe-MD
   GITHUB_EMAIL: ranchardzheng@gmail.com
+  MIN_DISTANCE_KM: "3"
+  MAX_PACE_MIN_PER_KM: "8"
 
 jobs:
   sync:
@@ -24,7 +26,7 @@ jobs:
           sudo apt-get update && sudo apt-get install -y jq
       - name: Transform the activities.json data
         run: |
-          jq '
+          jq --arg min_distance_km "${{ env.MIN_DISTANCE_KM }}" --arg max_pace_min_per_km "${{ env.MAX_PACE_MIN_PER_KM }}" '
             map({
               date: (.start_date_local | sub(" .*"; "")),
               distance: (.distance / 1000),
@@ -34,6 +36,18 @@ jobs:
                 (.moving_time | split(":") | map(tonumber) | .[2])
               )
             })
+            | map(
+                .paceMinPerKm =
+                  if .distance > 0 then
+                    (.durationSeconds / 60 / .distance)
+                  else
+                    999
+                  end
+              )
+            | map(
+                select(.distance >= ($min_distance_km | tonumber))
+                | select(.paceMinPerKm <= ($max_pace_min_per_km | tonumber))
+              )
             | sort_by(.date)
             | group_by(.date)
             | map(
@@ -51,7 +65,7 @@ jobs:
                     mins: ((.durationSeconds % 3600) / 60 | floor),
                     secs: (.durationSeconds % 60)
                   }
-                | del(.durationSeconds)
+                | del(.durationSeconds, .paceMinPerKm)
               )
           ' public/activities.json > public/activities-normalized.json
           jq -s '
