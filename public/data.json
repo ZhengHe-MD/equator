@@ -232,10 +232,11 @@
   },
   {
     "date": "2017-08-05",
-    "distance": 9.13,
+    "distance": 9.130465000000001,
     "duration": {
-      "secs": 11,
-      "mins": 51
+      "hours": 0,
+      "mins": 51,
+      "secs": 11
     }
   },
   {
@@ -248,45 +249,47 @@
   },
   {
     "date": "2017-09-09",
-    "distance": 15.04,
+    "distance": 15.043682,
     "duration": {
       "hours": 1,
-      "secs": 13,
-      "mins": 24
+      "mins": 24,
+      "secs": 13
     }
   },
   {
     "date": "2017-09-16",
-    "distance": 13.08,
+    "distance": 13.081272,
     "duration": {
       "hours": 1,
-      "secs": 7,
-      "mins": 10
+      "mins": 10,
+      "secs": 7
     }
   },
   {
     "date": "2017-09-17",
-    "distance": 5.02,
+    "distance": 5.0239780000000005,
     "duration": {
-      "secs": 45,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 45
     }
   },
   {
     "date": "2017-09-24",
-    "distance": 11.84,
+    "distance": 11.841019000000001,
     "duration": {
       "hours": 1,
-      "secs": 59,
-      "mins": 12
+      "mins": 12,
+      "secs": 59
     }
   },
   {
     "date": "2017-10-03",
-    "distance": 5.03,
+    "distance": 5.0348047,
     "duration": {
-      "secs": 12,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 12
     }
   },
   {
@@ -299,51 +302,56 @@
   },
   {
     "date": "2017-10-15",
-    "distance": 5.05,
+    "distance": 5.0502324,
     "duration": {
-      "secs": 27,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 27
     }
   },
   {
     "date": "2017-10-21",
-    "distance": 2.25,
+    "distance": 6.0457695000000005,
     "duration": {
-      "secs": 58,
-      "mins": 16
+      "hours": 0,
+      "mins": 31,
+      "secs": 13
     }
   },
   {
     "date": "2017-11-04",
-    "distance": 5.05,
+    "distance": 5.0526167,
     "duration": {
-      "secs": 25,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 25
     }
   },
   {
     "date": "2017-12-17",
-    "distance": 7.42,
+    "distance": 7.42035,
     "duration": {
-      "secs": 58,
-      "mins": 47
+      "hours": 0,
+      "mins": 47,
+      "secs": 58
     }
   },
   {
     "date": "2018-03-11",
-    "distance": 5.04,
+    "distance": 5.0422065,
     "duration": {
-      "secs": 12,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 12
     }
   },
   {
     "date": "2018-03-18",
-    "distance": 10.05,
+    "distance": 10.052261,
     "duration": {
       "hours": 1,
-      "secs": 23,
-      "mins": 11
+      "mins": 11,
+      "secs": 23
     }
   },
   {
@@ -356,42 +364,47 @@
   },
   {
     "date": "2018-04-07",
-    "distance": 9.67,
+    "distance": 9.6727705,
     "duration": {
-      "secs": 59,
-      "mins": 51
+      "hours": 0,
+      "mins": 51,
+      "secs": 59
     }
   },
   {
     "date": "2018-04-08",
-    "distance": 4.52,
+    "distance": 4.5238877,
     "duration": {
-      "secs": 25,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 25
     }
   },
   {
     "date": "2018-04-14",
-    "distance": 7.05,
+    "distance": 7.0529155,
     "duration": {
-      "secs": 30,
-      "mins": 41
+      "hours": 0,
+      "mins": 41,
+      "secs": 30
     }
   },
   {
     "date": "2018-04-15",
-    "distance": 5.94,
+    "distance": 5.9433125,
     "duration": {
-      "secs": 16,
-      "mins": 35
+      "hours": 0,
+      "mins": 35,
+      "secs": 16
     }
   },
   {
     "date": "2018-04-30",
-    "distance": 4.87,
+    "distance": 4.872321,
     "duration": {
-      "secs": 34,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 34
     }
   },
   {
@@ -483,10 +496,11 @@
   },
   {
     "date": "2018-06-02",
-    "distance": 5.02,
+    "distance": 5.021673,
     "duration": {
-      "secs": 24,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 24
     }
   },
   {
@@ -539,26 +553,29 @@
   },
   {
     "date": "2018-08-05",
-    "distance": 4.64,
+    "distance": 4.6430273,
     "duration": {
-      "secs": 42,
-      "mins": 30
+      "hours": 0,
+      "mins": 30,
+      "secs": 42
     }
   },
   {
     "date": "2018-08-11",
-    "distance": 3.89,
+    "distance": 3.892769,
     "duration": {
-      "secs": 57,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 57
     }
   },
   {
     "date": "2018-08-12",
-    "distance": 3.14,
+    "distance": 3.143451,
     "duration": {
-      "secs": 39,
-      "mins": 20
+      "hours": 0,
+      "mins": 20,
+      "secs": 39
     }
   },
   {
@@ -589,19 +606,20 @@
   },
   {
     "date": "2018-08-18",
-    "distance": 5.04,
+    "distance": 5.041694000000001,
     "duration": {
-      "secs": 58,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 58
     }
   },
   {
     "date": "2018-08-19",
-    "distance": 10.02,
+    "distance": 10.022152,
     "duration": {
       "hours": 1,
-      "secs": 11,
-      "mins": 3
+      "mins": 3,
+      "secs": 11
     }
   },
   {
@@ -664,10 +682,11 @@
   },
   {
     "date": "2018-09-18",
-    "distance": 5.03,
+    "distance": 5.0325303,
     "duration": {
-      "secs": 48,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 48
     }
   },
   {
@@ -689,10 +708,11 @@
   },
   {
     "date": "2018-10-07",
-    "distance": 6.21,
+    "distance": 6.2131377,
     "duration": {
-      "secs": 52,
-      "mins": 38
+      "hours": 0,
+      "mins": 38,
+      "secs": 52
     }
   },
   {
@@ -713,10 +733,11 @@
   },
   {
     "date": "2019-03-08",
-    "distance": 5.28,
+    "distance": 5.2813853,
     "duration": {
-      "secs": 58,
-      "mins": 31
+      "hours": 0,
+      "mins": 31,
+      "secs": 58
     }
   },
   {
@@ -737,10 +758,11 @@
   },
   {
     "date": "2019-03-13",
-    "distance": 5.05,
+    "distance": 5.0533209999999995,
     "duration": {
-      "secs": 32,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 32
     }
   },
   {
@@ -753,18 +775,20 @@
   },
   {
     "date": "2019-03-15",
-    "distance": 5.72,
+    "distance": 5.7223423,
     "duration": {
-      "secs": 27,
-      "mins": 32
+      "hours": 0,
+      "mins": 32,
+      "secs": 27
     }
   },
   {
     "date": "2019-03-16",
-    "distance": 3.78,
+    "distance": 3.7803299999999997,
     "duration": {
-      "secs": 25,
-      "mins": 19
+      "hours": 0,
+      "mins": 19,
+      "secs": 25
     }
   },
   {
@@ -785,10 +809,11 @@
   },
   {
     "date": "2019-03-22",
-    "distance": 5.05,
+    "distance": 5.0548076,
     "duration": {
-      "secs": 48,
-      "mins": 30
+      "hours": 0,
+      "mins": 30,
+      "secs": 48
     }
   },
   {
@@ -809,18 +834,20 @@
   },
   {
     "date": "2019-03-25",
-    "distance": 5.03,
+    "distance": 5.03371,
     "duration": {
-      "secs": 52,
-      "mins": 30
+      "hours": 0,
+      "mins": 30,
+      "secs": 52
     }
   },
   {
     "date": "2019-03-26",
-    "distance": 5.04,
+    "distance": 5.0407910000000005,
     "duration": {
-      "secs": 43,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 43
     }
   },
   {
@@ -833,10 +860,11 @@
   },
   {
     "date": "2019-03-30",
-    "distance": 5.03,
+    "distance": 5.0335703,
     "duration": {
-      "secs": 34,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 34
     }
   },
   {
@@ -857,18 +885,20 @@
   },
   {
     "date": "2019-04-08",
-    "distance": 3.04,
+    "distance": 3.0448083,
     "duration": {
-      "secs": 57,
-      "mins": 20
+      "hours": 0,
+      "mins": 20,
+      "secs": 57
     }
   },
   {
     "date": "2019-04-10",
-    "distance": 4.11,
+    "distance": 4.114115,
     "duration": {
-      "secs": 5,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 5
     }
   },
   {
@@ -907,10 +937,11 @@
   },
   {
     "date": "2019-04-16",
-    "distance": 5.03,
+    "distance": 5.0341406,
     "duration": {
-      "secs": 23,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 23
     }
   },
   {
@@ -923,10 +954,11 @@
   },
   {
     "date": "2019-04-18",
-    "distance": 3.05,
+    "distance": 3.0506484,
     "duration": {
-      "secs": 40,
-      "mins": 16
+      "hours": 0,
+      "mins": 16,
+      "secs": 40
     }
   },
   {
@@ -939,18 +971,20 @@
   },
   {
     "date": "2019-04-20",
-    "distance": 10.05,
+    "distance": 10.053788,
     "duration": {
-      "secs": 41,
-      "mins": 53
+      "hours": 0,
+      "mins": 53,
+      "secs": 41
     }
   },
   {
     "date": "2019-04-22",
-    "distance": 5.02,
+    "distance": 5.0216025,
     "duration": {
-      "secs": 27,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 27
     }
   },
   {
@@ -963,10 +997,11 @@
   },
   {
     "date": "2019-04-25",
-    "distance": 5.03,
+    "distance": 5.0327036,
     "duration": {
-      "secs": 12,
-      "mins": 30
+      "hours": 0,
+      "mins": 30,
+      "secs": 12
     }
   },
   {
@@ -987,18 +1022,20 @@
   },
   {
     "date": "2019-04-30",
-    "distance": 3.04,
+    "distance": 3.04221,
     "duration": {
-      "secs": 33,
-      "mins": 18
+      "hours": 0,
+      "mins": 18,
+      "secs": 33
     }
   },
   {
     "date": "2019-05-02",
-    "distance": 4.04,
+    "distance": 4.0448955,
     "duration": {
-      "secs": 45,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 45
     }
   },
   {
@@ -1045,10 +1082,11 @@
   },
   {
     "date": "2019-05-10",
-    "distance": 3.04,
+    "distance": 3.0412568,
     "duration": {
-      "secs": 41,
-      "mins": 17
+      "hours": 0,
+      "mins": 17,
+      "secs": 41
     }
   },
   {
@@ -1151,10 +1189,11 @@
   },
   {
     "date": "2019-05-25",
-    "distance": 3.6,
+    "distance": 3.6010676,
     "duration": {
-      "secs": 50,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 50
     }
   },
   {
@@ -1175,18 +1214,20 @@
   },
   {
     "date": "2019-05-28",
-    "distance": 5.03,
+    "distance": 5.0314556,
     "duration": {
-      "secs": 13,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 13
     }
   },
   {
     "date": "2019-05-29",
-    "distance": 5.02,
+    "distance": 5.0200923,
     "duration": {
-      "secs": 27,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 27
     }
   },
   {
@@ -1224,10 +1265,11 @@
   },
   {
     "date": "2019-06-05",
-    "distance": 5,
+    "distance": 5.000756,
     "duration": {
-      "secs": 0,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 0
     }
   },
   {
@@ -1313,26 +1355,29 @@
   },
   {
     "date": "2019-06-19",
-    "distance": 5.04,
+    "distance": 5.0414546,
     "duration": {
-      "secs": 52,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 52
     }
   },
   {
     "date": "2019-06-20",
-    "distance": 5.01,
+    "distance": 5.0144966,
     "duration": {
-      "secs": 45,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 45
     }
   },
   {
     "date": "2019-06-21",
-    "distance": 5.02,
+    "distance": 5.0247617,
     "duration": {
-      "secs": 5,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 5
     }
   },
   {
@@ -1353,34 +1398,38 @@
   },
   {
     "date": "2019-06-27",
-    "distance": 5.02,
+    "distance": 5.021698000000001,
     "duration": {
-      "secs": 52,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 52
     }
   },
   {
     "date": "2019-06-28",
-    "distance": 5.03,
+    "distance": 5.0329985,
     "duration": {
-      "secs": 55,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 55
     }
   },
   {
     "date": "2019-06-29",
-    "distance": 5.02,
+    "distance": 5.0231953,
     "duration": {
-      "secs": 56,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 56
     }
   },
   {
     "date": "2019-07-01",
-    "distance": 5.04,
+    "distance": 5.043014,
     "duration": {
-      "secs": 0,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 0
     }
   },
   {
@@ -1409,34 +1458,38 @@
   },
   {
     "date": "2019-07-06",
-    "distance": 10.03,
+    "distance": 10.032838,
     "duration": {
-      "secs": 23,
-      "mins": 46
+      "hours": 0,
+      "mins": 46,
+      "secs": 23
     }
   },
   {
     "date": "2019-07-08",
-    "distance": 5.01,
+    "distance": 5.0111177,
     "duration": {
-      "secs": 16,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 16
     }
   },
   {
     "date": "2019-07-09",
-    "distance": 5.01,
+    "distance": 5.0148945000000005,
     "duration": {
-      "secs": 20,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 20
     }
   },
   {
     "date": "2019-07-10",
-    "distance": 5.03,
+    "distance": 5.031864,
     "duration": {
-      "secs": 36,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 36
     }
   },
   {
@@ -1457,18 +1510,20 @@
   },
   {
     "date": "2019-07-15",
-    "distance": 5.03,
+    "distance": 5.0306064,
     "duration": {
-      "secs": 18,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 18
     }
   },
   {
     "date": "2019-07-16",
-    "distance": 5.02,
+    "distance": 5.021078,
     "duration": {
-      "secs": 11,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 11
     }
   },
   {
@@ -1481,10 +1536,11 @@
   },
   {
     "date": "2019-07-18",
-    "distance": 5.03,
+    "distance": 5.0323744999999995,
     "duration": {
-      "secs": 16,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 16
     }
   },
   {
@@ -1505,10 +1561,11 @@
   },
   {
     "date": "2019-07-22",
-    "distance": 5.02,
+    "distance": 5.024382999999999,
     "duration": {
-      "secs": 43,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 43
     }
   },
   {
@@ -1529,26 +1586,29 @@
   },
   {
     "date": "2019-07-25",
-    "distance": 5.03,
+    "distance": 5.0307153,
     "duration": {
-      "secs": 2,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 2
     }
   },
   {
     "date": "2019-07-26",
-    "distance": 5,
+    "distance": 5.003407,
     "duration": {
-      "secs": 52,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 52
     }
   },
   {
     "date": "2019-07-30",
-    "distance": 6.22,
+    "distance": 6.2238086,
     "duration": {
-      "secs": 58,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 58
     }
   },
   {
@@ -1561,26 +1621,29 @@
   },
   {
     "date": "2019-08-01",
-    "distance": 5.04,
+    "distance": 5.041479000000001,
     "duration": {
-      "secs": 34,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 34
     }
   },
   {
     "date": "2019-08-02",
-    "distance": 10.02,
+    "distance": 10.023577,
     "duration": {
-      "secs": 20,
-      "mins": 49
+      "hours": 0,
+      "mins": 49,
+      "secs": 20
     }
   },
   {
     "date": "2019-08-03",
-    "distance": 5.03,
+    "distance": 5.0339565,
     "duration": {
-      "secs": 3,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 3
     }
   },
   {
@@ -1602,18 +1665,20 @@
   },
   {
     "date": "2019-08-06",
-    "distance": 5.04,
+    "distance": 5.040466,
     "duration": {
-      "secs": 55,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 55
     }
   },
   {
     "date": "2019-08-07",
-    "distance": 7.71,
+    "distance": 7.71017,
     "duration": {
-      "secs": 16,
-      "mins": 38
+      "hours": 0,
+      "mins": 38,
+      "secs": 16
     }
   },
   {
@@ -1626,19 +1691,20 @@
   },
   {
     "date": "2019-08-09",
-    "distance": 25,
+    "distance": 25.004828,
     "duration": {
       "hours": 2,
-      "secs": 23,
-      "mins": 17
+      "mins": 17,
+      "secs": 23
     }
   },
   {
     "date": "2019-08-12",
-    "distance": 5.01,
+    "distance": 5.014481399999999,
     "duration": {
-      "secs": 45,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 45
     }
   },
   {
@@ -1651,10 +1717,11 @@
   },
   {
     "date": "2019-08-14",
-    "distance": 5.03,
+    "distance": 5.0338,
     "duration": {
-      "secs": 39,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 39
     }
   },
   {
@@ -1683,10 +1750,11 @@
   },
   {
     "date": "2019-08-19",
-    "distance": 5.01,
+    "distance": 5.010959,
     "duration": {
-      "secs": 44,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 44
     }
   },
   {
@@ -1699,10 +1767,11 @@
   },
   {
     "date": "2019-08-21",
-    "distance": 5.32,
+    "distance": 5.3204994999999995,
     "duration": {
-      "secs": 58,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 58
     }
   },
   {
@@ -1749,10 +1818,11 @@
   },
   {
     "date": "2019-08-28",
-    "distance": 5.02,
+    "distance": 5.023577599999999,
     "duration": {
-      "secs": 56,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 56
     }
   },
   {
@@ -1773,10 +1843,11 @@
   },
   {
     "date": "2019-09-01",
-    "distance": 5.01,
+    "distance": 5.0146416,
     "duration": {
-      "secs": 19,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 19
     }
   },
   {
@@ -1797,34 +1868,38 @@
   },
   {
     "date": "2019-09-04",
-    "distance": 5.04,
+    "distance": 5.0410513,
     "duration": {
-      "secs": 57,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 57
     }
   },
   {
     "date": "2019-09-05",
-    "distance": 5.04,
+    "distance": 5.044081,
     "duration": {
-      "secs": 59,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 59
     }
   },
   {
     "date": "2019-09-06",
-    "distance": 5.02,
+    "distance": 5.023128,
     "duration": {
-      "secs": 52,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 52
     }
   },
   {
     "date": "2019-09-07",
-    "distance": 10.35,
+    "distance": 10.352393,
     "duration": {
-      "secs": 58,
-      "mins": 49
+      "hours": 0,
+      "mins": 49,
+      "secs": 58
     }
   },
   {
@@ -1837,10 +1912,11 @@
   },
   {
     "date": "2019-09-10",
-    "distance": 5.02,
+    "distance": 5.024105,
     "duration": {
-      "secs": 36,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 36
     }
   },
   {
@@ -1877,18 +1953,20 @@
   },
   {
     "date": "2019-09-18",
-    "distance": 5.03,
+    "distance": 5.0343789999999995,
     "duration": {
-      "secs": 5,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 5
     }
   },
   {
     "date": "2019-09-19",
-    "distance": 5.02,
+    "distance": 5.02178,
     "duration": {
-      "secs": 49,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 49
     }
   },
   {
@@ -1901,26 +1979,29 @@
   },
   {
     "date": "2019-09-24",
-    "distance": 5.04,
+    "distance": 5.0412437,
     "duration": {
-      "secs": 4,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 4
     }
   },
   {
     "date": "2019-09-25",
-    "distance": 5.03,
+    "distance": 5.0313467,
     "duration": {
-      "secs": 2,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 2
     }
   },
   {
     "date": "2019-09-26",
-    "distance": 5.04,
+    "distance": 5.043116,
     "duration": {
-      "secs": 20,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 20
     }
   },
   {
@@ -1933,10 +2014,11 @@
   },
   {
     "date": "2019-09-30",
-    "distance": 5.33,
+    "distance": 5.3311850000000005,
     "duration": {
-      "secs": 51,
-      "mins": 30
+      "hours": 0,
+      "mins": 30,
+      "secs": 51
     }
   },
   {
@@ -1973,18 +2055,20 @@
   },
   {
     "date": "2019-10-13",
-    "distance": 5.02,
+    "distance": 5.0235625,
     "duration": {
-      "secs": 56,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 56
     }
   },
   {
     "date": "2019-10-14",
-    "distance": 5.02,
+    "distance": 5.024469,
     "duration": {
-      "secs": 19,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 19
     }
   },
   {
@@ -1997,19 +2081,20 @@
   },
   {
     "date": "2019-10-18",
-    "distance": 10.03,
+    "distance": 10.034360000000001,
     "duration": {
-      "secs": 7,
-      "mins": 46
+      "hours": 0,
+      "mins": 46,
+      "secs": 7
     }
   },
   {
     "date": "2019-10-20",
-    "distance": 21.15,
+    "distance": 21.153748,
     "duration": {
       "hours": 1,
-      "secs": 18,
-      "mins": 45
+      "mins": 45,
+      "secs": 18
     }
   },
   {
@@ -2022,10 +2107,11 @@
   },
   {
     "date": "2019-10-22",
-    "distance": 6.62,
+    "distance": 6.624415,
     "duration": {
-      "secs": 20,
-      "mins": 34
+      "hours": 0,
+      "mins": 34,
+      "secs": 20
     }
   },
   {
@@ -2038,10 +2124,11 @@
   },
   {
     "date": "2019-10-24",
-    "distance": 5.37,
+    "distance": 5.370247999999999,
     "duration": {
-      "secs": 16,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 16
     }
   },
   {
@@ -2062,10 +2149,11 @@
   },
   {
     "date": "2019-10-29",
-    "distance": 5.01,
+    "distance": 5.0121797,
     "duration": {
-      "secs": 41,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 41
     }
   },
   {
@@ -2078,27 +2166,29 @@
   },
   {
     "date": "2019-10-31",
-    "distance": 5.02,
+    "distance": 5.024384,
     "duration": {
-      "secs": 22,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 22
     }
   },
   {
     "date": "2019-11-01",
-    "distance": 3.53,
+    "distance": 3.5308528,
     "duration": {
-      "secs": 53,
-      "mins": 20
+      "hours": 0,
+      "mins": 20,
+      "secs": 53
     }
   },
   {
     "date": "2019-11-02",
-    "distance": 10.1,
+    "distance": 10.10007,
     "duration": {
       "hours": 1,
-      "secs": 46,
-      "mins": 7
+      "mins": 7,
+      "secs": 46
     }
   },
   {
@@ -2111,10 +2201,11 @@
   },
   {
     "date": "2019-11-05",
-    "distance": 3.54,
+    "distance": 3.5418657,
     "duration": {
-      "secs": 14,
-      "mins": 19
+      "hours": 0,
+      "mins": 19,
+      "secs": 14
     }
   },
   {
@@ -2127,10 +2218,11 @@
   },
   {
     "date": "2019-11-07",
-    "distance": 3.58,
+    "distance": 3.5846953,
     "duration": {
-      "secs": 7,
-      "mins": 19
+      "hours": 0,
+      "mins": 19,
+      "secs": 7
     }
   },
   {
@@ -2151,10 +2243,11 @@
   },
   {
     "date": "2019-11-12",
-    "distance": 3.6,
+    "distance": 3.6010977,
     "duration": {
-      "secs": 29,
-      "mins": 20
+      "hours": 0,
+      "mins": 20,
+      "secs": 29
     }
   },
   {
@@ -2175,11 +2268,11 @@
   },
   {
     "date": "2019-11-16",
-    "distance": 35.79,
+    "distance": 35.793062,
     "duration": {
       "hours": 3,
-      "secs": 32,
-      "mins": 19
+      "mins": 19,
+      "secs": 32
     }
   },
   {
@@ -2208,10 +2301,11 @@
   },
   {
     "date": "2019-11-24",
-    "distance": 5.03,
+    "distance": 5.032395999999999,
     "duration": {
-      "secs": 56,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 56
     }
   },
   {
@@ -2224,10 +2318,11 @@
   },
   {
     "date": "2019-11-27",
-    "distance": 5,
+    "distance": 5.0038955,
     "duration": {
-      "secs": 18,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 18
     }
   },
   {
@@ -2296,18 +2391,20 @@
   },
   {
     "date": "2019-12-10",
-    "distance": 5.02,
+    "distance": 5.022106,
     "duration": {
-      "secs": 39,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 39
     }
   },
   {
     "date": "2019-12-11",
-    "distance": 5.01,
+    "distance": 5.0124070000000005,
     "duration": {
-      "secs": 22,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 22
     }
   },
   {
@@ -2352,42 +2449,47 @@
   },
   {
     "date": "2019-12-20",
-    "distance": 3.29,
+    "distance": 3.2906581999999998,
     "duration": {
-      "secs": 31,
-      "mins": 17
+      "hours": 0,
+      "mins": 17,
+      "secs": 31
     }
   },
   {
     "date": "2019-12-23",
-    "distance": 4.11,
+    "distance": 4.110475999999999,
     "duration": {
-      "secs": 30,
-      "mins": 20
+      "hours": 0,
+      "mins": 20,
+      "secs": 30
     }
   },
   {
     "date": "2019-12-25",
-    "distance": 3.44,
+    "distance": 3.4414659999999997,
     "duration": {
-      "secs": 10,
-      "mins": 20
+      "hours": 0,
+      "mins": 20,
+      "secs": 10
     }
   },
   {
     "date": "2019-12-26",
-    "distance": 3.26,
+    "distance": 3.261699,
     "duration": {
-      "secs": 45,
-      "mins": 16
+      "hours": 0,
+      "mins": 16,
+      "secs": 45
     }
   },
   {
     "date": "2019-12-27",
-    "distance": 3.22,
+    "distance": 3.222774,
     "duration": {
-      "secs": 23,
-      "mins": 17
+      "hours": 0,
+      "mins": 17,
+      "secs": 23
     }
   },
   {
@@ -2408,10 +2510,11 @@
   },
   {
     "date": "2020-01-03",
-    "distance": 5.03,
+    "distance": 5.0342085,
     "duration": {
-      "secs": 22,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 22
     }
   },
   {
@@ -2457,10 +2560,11 @@
   },
   {
     "date": "2020-01-12",
-    "distance": 10.03,
+    "distance": 10.032513999999999,
     "duration": {
-      "secs": 50,
-      "mins": 56
+      "hours": 0,
+      "mins": 56,
+      "secs": 50
     }
   },
   {
@@ -2521,26 +2625,29 @@
   },
   {
     "date": "2020-03-09",
-    "distance": 4.05,
+    "distance": 4.0536938,
     "duration": {
-      "secs": 25,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 25
     }
   },
   {
     "date": "2020-03-11",
-    "distance": 5.02,
+    "distance": 5.023477,
     "duration": {
-      "secs": 56,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 56
     }
   },
   {
     "date": "2020-03-12",
-    "distance": 5.01,
+    "distance": 5.0119062,
     "duration": {
-      "secs": 27,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 27
     }
   },
   {
@@ -2553,34 +2660,38 @@
   },
   {
     "date": "2020-03-16",
-    "distance": 5.04,
+    "distance": 5.042616,
     "duration": {
-      "secs": 44,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 44
     }
   },
   {
     "date": "2020-03-17",
-    "distance": 5.02,
+    "distance": 5.021811,
     "duration": {
-      "secs": 32,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 32
     }
   },
   {
     "date": "2020-03-19",
-    "distance": 5.02,
+    "distance": 5.021428,
     "duration": {
-      "secs": 24,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 24
     }
   },
   {
     "date": "2020-03-20",
-    "distance": 5.02,
+    "distance": 5.024176000000001,
     "duration": {
-      "secs": 23,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 23
     }
   },
   {
@@ -2601,42 +2712,47 @@
   },
   {
     "date": "2020-03-23",
-    "distance": 5.01,
+    "distance": 5.010975,
     "duration": {
-      "secs": 6,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 6
     }
   },
   {
     "date": "2020-03-24",
-    "distance": 5.02,
+    "distance": 5.023566,
     "duration": {
-      "secs": 8,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 8
     }
   },
   {
     "date": "2020-03-25",
-    "distance": 5.02,
+    "distance": 5.021350999999999,
     "duration": {
-      "secs": 14,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 14
     }
   },
   {
     "date": "2020-03-27",
-    "distance": 5,
+    "distance": 5.0006854999999995,
     "duration": {
-      "secs": 36,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 36
     }
   },
   {
     "date": "2020-03-28",
-    "distance": 5.02,
+    "distance": 5.020118999999999,
     "duration": {
-      "secs": 57,
-      "mins": 31
+      "hours": 0,
+      "mins": 31,
+      "secs": 57
     }
   },
   {
@@ -2649,26 +2765,29 @@
   },
   {
     "date": "2020-03-31",
-    "distance": 5.02,
+    "distance": 5.0217573,
     "duration": {
-      "secs": 33,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 33
     }
   },
   {
     "date": "2020-04-01",
-    "distance": 5.05,
+    "distance": 5.050507,
     "duration": {
-      "secs": 29,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 29
     }
   },
   {
     "date": "2020-04-02",
-    "distance": 3.26,
+    "distance": 3.2606438,
     "duration": {
-      "secs": 28,
-      "mins": 19
+      "hours": 0,
+      "mins": 19,
+      "secs": 28
     }
   },
   {
@@ -2714,10 +2833,11 @@
   },
   {
     "date": "2020-04-09",
-    "distance": 5.01,
+    "distance": 5.0138047,
     "duration": {
-      "secs": 56,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 56
     }
   },
   {
@@ -2771,10 +2891,11 @@
   },
   {
     "date": "2020-04-16",
-    "distance": 5,
+    "distance": 5.0034326,
     "duration": {
-      "secs": 56,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 56
     }
   },
   {
@@ -2796,10 +2917,11 @@
   },
   {
     "date": "2020-04-21",
-    "distance": 3.1,
+    "distance": 3.1012006999999997,
     "duration": {
-      "secs": 17,
-      "mins": 18
+      "hours": 0,
+      "mins": 18,
+      "secs": 17
     }
   },
   {
@@ -2812,10 +2934,11 @@
   },
   {
     "date": "2020-04-23",
-    "distance": 5.02,
+    "distance": 5.022595999999999,
     "duration": {
-      "secs": 53,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 53
     }
   },
   {
@@ -2828,26 +2951,29 @@
   },
   {
     "date": "2020-04-25",
-    "distance": 5.03,
+    "distance": 5.030054,
     "duration": {
-      "secs": 26,
-      "mins": 32
+      "hours": 0,
+      "mins": 32,
+      "secs": 26
     }
   },
   {
     "date": "2020-04-26",
-    "distance": 5.02,
+    "distance": 5.0244883,
     "duration": {
-      "secs": 5,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 5
     }
   },
   {
     "date": "2020-04-27",
-    "distance": 5.04,
+    "distance": 5.0413190000000005,
     "duration": {
-      "secs": 32,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 32
     }
   },
   {
@@ -2860,10 +2986,11 @@
   },
   {
     "date": "2020-04-29",
-    "distance": 3.24,
+    "distance": 3.24431,
     "duration": {
-      "secs": 39,
-      "mins": 19
+      "hours": 0,
+      "mins": 19,
+      "secs": 39
     }
   },
   {
@@ -2876,10 +3003,11 @@
   },
   {
     "date": "2020-05-04",
-    "distance": 7.19,
+    "distance": 7.1909472999999995,
     "duration": {
-      "secs": 51,
-      "mins": 43
+      "hours": 0,
+      "mins": 43,
+      "secs": 51
     }
   },
   {
@@ -2916,10 +3044,11 @@
   },
   {
     "date": "2020-05-10",
-    "distance": 5.02,
+    "distance": 5.0216484,
     "duration": {
-      "secs": 41,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 41
     }
   },
   {
@@ -3012,10 +3141,11 @@
   },
   {
     "date": "2020-05-24",
-    "distance": 5.03,
+    "distance": 5.034453999999999,
     "duration": {
-      "secs": 19,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 19
     }
   },
   {
@@ -3028,10 +3158,11 @@
   },
   {
     "date": "2020-05-26",
-    "distance": 3.02,
+    "distance": 3.0224407,
     "duration": {
-      "secs": 47,
-      "mins": 16
+      "hours": 0,
+      "mins": 16,
+      "secs": 47
     }
   },
   {
@@ -3061,10 +3192,11 @@
   },
   {
     "date": "2020-06-01",
-    "distance": 3.03,
+    "distance": 3.034506,
     "duration": {
-      "secs": 37,
-      "mins": 14
+      "hours": 0,
+      "mins": 14,
+      "secs": 37
     }
   },
   {
@@ -3077,18 +3209,20 @@
   },
   {
     "date": "2020-06-04",
-    "distance": 3.02,
+    "distance": 3.0211873000000002,
     "duration": {
-      "secs": 6,
-      "mins": 17
+      "hours": 0,
+      "mins": 17,
+      "secs": 6
     }
   },
   {
     "date": "2020-06-07",
     "distance": 10,
     "duration": {
-      "secs": 44,
-      "mins": 50
+      "hours": 0,
+      "mins": 50,
+      "secs": 44
     }
   },
   {
@@ -3117,18 +3251,20 @@
   },
   {
     "date": "2020-06-11",
-    "distance": 3.02,
+    "distance": 3.0226374999999996,
     "duration": {
-      "secs": 29,
-      "mins": 16
+      "hours": 0,
+      "mins": 16,
+      "secs": 29
     }
   },
   {
     "date": "2020-06-13",
-    "distance": 3,
+    "distance": 7,
     "duration": {
-      "secs": 8,
-      "mins": 18
+      "hours": 0,
+      "mins": 46,
+      "secs": 42
     }
   },
   {
@@ -3136,8 +3272,8 @@
     "distance": 10,
     "duration": {
       "hours": 1,
-      "secs": 14,
-      "mins": 2
+      "mins": 2,
+      "secs": 14
     }
   },
   {
@@ -3158,10 +3294,11 @@
   },
   {
     "date": "2020-06-17",
-    "distance": 3.02,
+    "distance": 3.0204720000000003,
     "duration": {
-      "secs": 9,
-      "mins": 17
+      "hours": 0,
+      "mins": 17,
+      "secs": 9
     }
   },
   {
@@ -3191,10 +3328,11 @@
   },
   {
     "date": "2020-06-22",
-    "distance": 5.02,
+    "distance": 5.0218193,
     "duration": {
-      "secs": 59,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 59
     }
   },
   {
@@ -3215,58 +3353,65 @@
   },
   {
     "date": "2020-06-26",
-    "distance": 10,
+    "distance": 10.000684999999999,
     "duration": {
-      "secs": 37,
-      "mins": 57
+      "hours": 0,
+      "mins": 57,
+      "secs": 37
     }
   },
   {
     "date": "2020-06-27",
-    "distance": 6.53,
+    "distance": 6.531791500000001,
     "duration": {
-      "secs": 31,
-      "mins": 37
+      "hours": 0,
+      "mins": 37,
+      "secs": 31
     }
   },
   {
     "date": "2020-06-28",
     "distance": 5,
     "duration": {
-      "secs": 22,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 22
     }
   },
   {
     "date": "2020-06-29",
     "distance": 5,
     "duration": {
-      "secs": 8,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 8
     }
   },
   {
     "date": "2020-06-30",
     "distance": 5,
     "duration": {
-      "secs": 41,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 41
     }
   },
   {
     "date": "2020-07-01",
     "distance": 5,
     "duration": {
-      "secs": 58,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 58
     }
   },
   {
     "date": "2020-07-02",
-    "distance": 5.03,
+    "distance": 5.034555999999999,
     "duration": {
-      "secs": 51,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 51
     }
   },
   {
@@ -3281,16 +3426,18 @@
     "date": "2020-07-04",
     "distance": 5,
     "duration": {
-      "secs": 1,
-      "mins": 33
+      "hours": 0,
+      "mins": 33,
+      "secs": 1
     }
   },
   {
     "date": "2020-07-05",
     "distance": 10,
     "duration": {
-      "secs": 58,
-      "mins": 58
+      "hours": 0,
+      "mins": 58,
+      "secs": 58
     }
   },
   {
@@ -3303,26 +3450,29 @@
   },
   {
     "date": "2020-07-07",
-    "distance": 1.27,
+    "distance": 5,
     "duration": {
-      "secs": 53,
-      "mins": 9
+      "hours": 0,
+      "mins": 24,
+      "secs": 13
     }
   },
   {
     "date": "2020-07-08",
     "distance": 5,
     "duration": {
-      "secs": 58,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 58
     }
   },
   {
     "date": "2020-07-10",
     "distance": 5,
     "duration": {
-      "secs": 15,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 15
     }
   },
   {
@@ -3330,8 +3480,8 @@
     "distance": 10,
     "duration": {
       "hours": 1,
-      "secs": 38,
-      "mins": 1
+      "mins": 1,
+      "secs": 38
     }
   },
   {
@@ -3346,56 +3496,63 @@
     "date": "2020-07-13",
     "distance": 5,
     "duration": {
-      "secs": 20,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 20
     }
   },
   {
     "date": "2020-07-14",
     "distance": 5,
     "duration": {
-      "secs": 46,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 46
     }
   },
   {
     "date": "2020-07-15",
     "distance": 5,
     "duration": {
-      "secs": 39,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 39
     }
   },
   {
     "date": "2020-07-16",
     "distance": 5,
     "duration": {
-      "secs": 11,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 11
     }
   },
   {
     "date": "2020-07-19",
     "distance": 10,
     "duration": {
-      "secs": 39,
-      "mins": 57
+      "hours": 0,
+      "mins": 57,
+      "secs": 39
     }
   },
   {
     "date": "2020-07-20",
     "distance": 5,
     "duration": {
-      "secs": 13,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 13
     }
   },
   {
     "date": "2020-07-21",
-    "distance": 5.01,
+    "distance": 5.011869,
     "duration": {
-      "secs": 33,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 33
     }
   },
   {
@@ -3410,137 +3567,153 @@
     "date": "2020-07-23",
     "distance": 5,
     "duration": {
-      "secs": 44,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 44
     }
   },
   {
     "date": "2020-07-24",
     "distance": 5,
     "duration": {
-      "secs": 14,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 14
     }
   },
   {
     "date": "2020-07-25",
-    "distance": 12,
+    "distance": 12.003345999999999,
     "duration": {
       "hours": 1,
-      "secs": 26,
-      "mins": 18
+      "mins": 18,
+      "secs": 26
     }
   },
   {
     "date": "2020-07-26",
     "distance": 10,
     "duration": {
-      "secs": 14,
-      "mins": 59
+      "hours": 0,
+      "mins": 59,
+      "secs": 14
     }
   },
   {
     "date": "2020-07-27",
     "distance": 5,
     "duration": {
-      "secs": 31,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 31
     }
   },
   {
     "date": "2020-07-28",
     "distance": 5,
     "duration": {
-      "secs": 20,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 20
     }
   },
   {
     "date": "2020-07-29",
     "distance": 5,
     "duration": {
-      "secs": 10,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 10
     }
   },
   {
     "date": "2020-07-30",
     "distance": 5,
     "duration": {
-      "secs": 14,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 14
     }
   },
   {
     "date": "2020-07-31",
     "distance": 5,
     "duration": {
-      "secs": 53,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 53
     }
   },
   {
     "date": "2020-08-01",
     "distance": 10,
     "duration": {
-      "secs": 10,
-      "mins": 56
+      "hours": 0,
+      "mins": 56,
+      "secs": 10
     }
   },
   {
     "date": "2020-08-02",
     "distance": 6,
     "duration": {
-      "secs": 4,
-      "mins": 36
+      "hours": 0,
+      "mins": 36,
+      "secs": 4
     }
   },
   {
     "date": "2020-08-03",
     "distance": 5,
     "duration": {
-      "secs": 18,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 18
     }
   },
   {
     "date": "2020-08-04",
     "distance": 5,
     "duration": {
-      "secs": 10,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 10
     }
   },
   {
     "date": "2020-08-05",
-    "distance": 5.02,
+    "distance": 5.0247095,
     "duration": {
-      "secs": 38,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 38
     }
   },
   {
     "date": "2020-08-06",
     "distance": 5,
     "duration": {
-      "secs": 26,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 26
     }
   },
   {
     "date": "2020-08-07",
     "distance": 5,
     "duration": {
-      "secs": 41,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 41
     }
   },
   {
     "date": "2020-08-08",
     "distance": 10,
     "duration": {
-      "secs": 30,
-      "mins": 56
+      "hours": 0,
+      "mins": 56,
+      "secs": 30
     }
   },
   {
@@ -3555,80 +3728,90 @@
     "date": "2020-08-10",
     "distance": 5,
     "duration": {
-      "secs": 42,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 42
     }
   },
   {
     "date": "2020-08-11",
     "distance": 5,
     "duration": {
-      "secs": 35,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 35
     }
   },
   {
     "date": "2020-08-13",
     "distance": 5,
     "duration": {
-      "secs": 46,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 46
     }
   },
   {
     "date": "2020-08-14",
     "distance": 5,
     "duration": {
-      "secs": 0,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 0
     }
   },
   {
     "date": "2020-08-15",
     "distance": 10,
     "duration": {
-      "secs": 14,
-      "mins": 58
+      "hours": 0,
+      "mins": 58,
+      "secs": 14
     }
   },
   {
     "date": "2020-08-16",
     "distance": 10,
     "duration": {
-      "secs": 7,
-      "mins": 47
+      "hours": 0,
+      "mins": 47,
+      "secs": 7
     }
   },
   {
     "date": "2020-08-17",
-    "distance": 1.03,
+    "distance": 5,
     "duration": {
-      "secs": 6,
-      "mins": 7
+      "hours": 0,
+      "mins": 25,
+      "secs": 21
     }
   },
   {
     "date": "2020-08-19",
     "distance": 5,
     "duration": {
-      "secs": 38,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 38
     }
   },
   {
     "date": "2020-08-20",
-    "distance": 5.09,
+    "distance": 5.094065400000001,
     "duration": {
-      "secs": 26,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 26
     }
   },
   {
     "date": "2020-08-21",
     "distance": 5,
     "duration": {
-      "secs": 21,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 21
     }
   },
   {
@@ -3641,51 +3824,56 @@
   },
   {
     "date": "2020-08-23",
-    "distance": 5,
+    "distance": 5.0018726,
     "duration": {
-      "secs": 12,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 12
     }
   },
   {
     "date": "2020-08-25",
     "distance": 5,
     "duration": {
-      "secs": 53,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 53
     }
   },
   {
     "date": "2020-08-26",
     "distance": 5,
     "duration": {
-      "secs": 12,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 12
     }
   },
   {
     "date": "2020-08-27",
-    "distance": 5.04,
+    "distance": 5.0437344,
     "duration": {
-      "secs": 38,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 38
     }
   },
   {
     "date": "2020-08-28",
-    "distance": 5.02,
+    "distance": 5.0234385,
     "duration": {
-      "secs": 52,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 52
     }
   },
   {
     "date": "2020-08-29",
-    "distance": 15.02,
+    "distance": 15.023112,
     "duration": {
       "hours": 1,
-      "secs": 53,
-      "mins": 14
+      "mins": 14,
+      "secs": 53
     }
   },
   {
@@ -3698,26 +3886,29 @@
   },
   {
     "date": "2020-08-31",
-    "distance": 5.02,
+    "distance": 5.0226157,
     "duration": {
-      "secs": 59,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 59
     }
   },
   {
     "date": "2020-09-02",
-    "distance": 5.03,
+    "distance": 5.033592,
     "duration": {
-      "secs": 51,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 51
     }
   },
   {
     "date": "2020-09-03",
-    "distance": 5.03,
+    "distance": 5.033286,
     "duration": {
-      "secs": 11,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 11
     }
   },
   {
@@ -3738,10 +3929,11 @@
   },
   {
     "date": "2020-09-09",
-    "distance": 5.06,
+    "distance": 5.0612573,
     "duration": {
-      "secs": 11,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 11
     }
   },
   {
@@ -3754,42 +3946,47 @@
   },
   {
     "date": "2020-09-11",
-    "distance": 5.01,
+    "distance": 5.011299299999999,
     "duration": {
-      "secs": 2,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 2
     }
   },
   {
     "date": "2020-09-12",
     "distance": 10,
     "duration": {
-      "secs": 23,
-      "mins": 56
+      "hours": 0,
+      "mins": 56,
+      "secs": 23
     }
   },
   {
     "date": "2020-09-14",
     "distance": 5,
     "duration": {
-      "secs": 21,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 21
     }
   },
   {
     "date": "2020-09-15",
-    "distance": 1.02,
+    "distance": 5,
     "duration": {
-      "secs": 6,
-      "mins": 7
+      "hours": 0,
+      "mins": 25,
+      "secs": 7
     }
   },
   {
     "date": "2020-09-16",
     "distance": 5,
     "duration": {
-      "secs": 21,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 21
     }
   },
   {
@@ -3819,82 +4016,92 @@
   },
   {
     "date": "2020-09-21",
-    "distance": 5.02,
+    "distance": 5.023021,
     "duration": {
-      "secs": 27,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 27
     }
   },
   {
     "date": "2020-09-22",
     "distance": 5,
     "duration": {
-      "secs": 50,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 50
     }
   },
   {
     "date": "2020-09-23",
     "distance": 5,
     "duration": {
-      "secs": 33,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 33
     }
   },
   {
     "date": "2020-09-24",
-    "distance": 5.03,
+    "distance": 5.0330770000000005,
     "duration": {
-      "secs": 46,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 46
     }
   },
   {
     "date": "2020-09-25",
-    "distance": 5.04,
+    "distance": 5.0406978,
     "duration": {
-      "secs": 16,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 16
     }
   },
   {
     "date": "2020-09-26",
     "distance": 10,
     "duration": {
-      "secs": 15,
-      "mins": 49
+      "hours": 0,
+      "mins": 49,
+      "secs": 15
     }
   },
   {
     "date": "2020-09-27",
     "distance": 5,
     "duration": {
-      "secs": 16,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 16
     }
   },
   {
     "date": "2020-09-28",
     "distance": 5,
     "duration": {
-      "secs": 40,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 40
     }
   },
   {
     "date": "2020-09-29",
     "distance": 5,
     "duration": {
-      "secs": 40,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 40
     }
   },
   {
     "date": "2020-09-30",
     "distance": 4,
     "duration": {
-      "secs": 36,
-      "mins": 20
+      "hours": 0,
+      "mins": 20,
+      "secs": 36
     }
   },
   {
@@ -3951,24 +4158,27 @@
     "date": "2020-10-09",
     "distance": 5,
     "duration": {
-      "secs": 15,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 15
     }
   },
   {
     "date": "2020-10-10",
     "distance": 5,
     "duration": {
-      "secs": 48,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 48
     }
   },
   {
     "date": "2020-10-12",
     "distance": 5,
     "duration": {
-      "secs": 49,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 49
     }
   },
   {
@@ -3983,8 +4193,9 @@
     "date": "2020-10-14",
     "distance": 5,
     "duration": {
-      "secs": 46,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 46
     }
   },
   {
@@ -3997,98 +4208,110 @@
   },
   {
     "date": "2020-10-16",
-    "distance": 4.11,
+    "distance": 4.1138413,
     "duration": {
-      "secs": 18,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 18
     }
   },
   {
     "date": "2020-10-18",
-    "distance": 2.02,
+    "distance": 42.2,
     "duration": {
-      "secs": 52,
-      "mins": 14
+      "hours": 4,
+      "mins": 25,
+      "secs": 36
     }
   },
   {
     "date": "2020-10-20",
     "distance": 5,
     "duration": {
-      "secs": 24,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 24
     }
   },
   {
     "date": "2020-10-21",
     "distance": 5,
     "duration": {
-      "secs": 39,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 39
     }
   },
   {
     "date": "2020-10-23",
-    "distance": 5.02,
+    "distance": 5.0229610000000005,
     "duration": {
-      "secs": 43,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 43
     }
   },
   {
     "date": "2020-10-26",
     "distance": 5,
     "duration": {
-      "secs": 26,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 26
     }
   },
   {
     "date": "2020-10-28",
-    "distance": 5.03,
+    "distance": 5.0302373,
     "duration": {
-      "secs": 41,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 41
     }
   },
   {
     "date": "2020-10-30",
     "distance": 5,
     "duration": {
-      "secs": 45,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 45
     }
   },
   {
     "date": "2020-10-31",
     "distance": 5,
     "duration": {
-      "secs": 54,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 54
     }
   },
   {
     "date": "2020-11-02",
     "distance": 5,
     "duration": {
-      "secs": 43,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 43
     }
   },
   {
     "date": "2020-11-03",
-    "distance": 5.01,
+    "distance": 5.0129033,
     "duration": {
-      "secs": 24,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 24
     }
   },
   {
     "date": "2020-11-04",
-    "distance": 1,
+    "distance": 5.013339,
     "duration": {
-      "secs": 28,
-      "mins": 7
+      "hours": 0,
+      "mins": 27,
+      "secs": 24
     }
   },
   {
@@ -4101,10 +4324,11 @@
   },
   {
     "date": "2020-11-06",
-    "distance": 1.17,
+    "distance": 5,
     "duration": {
-      "secs": 59,
-      "mins": 8
+      "hours": 0,
+      "mins": 27,
+      "secs": 13
     }
   },
   {
@@ -4117,82 +4341,92 @@
   },
   {
     "date": "2020-11-09",
-    "distance": 4.99,
+    "distance": 4.9946353,
     "duration": {
-      "secs": 35,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 35
     }
   },
   {
     "date": "2020-11-10",
     "distance": 5,
     "duration": {
-      "secs": 17,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 17
     }
   },
   {
     "date": "2020-11-11",
-    "distance": 5,
+    "distance": 5.003971,
     "duration": {
-      "secs": 10,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 10
     }
   },
   {
     "date": "2020-11-12",
     "distance": 5,
     "duration": {
-      "secs": 58,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 58
     }
   },
   {
     "date": "2020-11-13",
     "distance": 5,
     "duration": {
-      "secs": 46,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 46
     }
   },
   {
     "date": "2020-11-16",
     "distance": 5,
     "duration": {
-      "secs": 41,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 41
     }
   },
   {
     "date": "2020-11-17",
     "distance": 5,
     "duration": {
-      "secs": 21,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 21
     }
   },
   {
     "date": "2020-11-19",
     "distance": 5,
     "duration": {
-      "secs": 5,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 5
     }
   },
   {
     "date": "2020-11-24",
     "distance": 5,
     "duration": {
-      "secs": 54,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 54
     }
   },
   {
     "date": "2020-11-25",
     "distance": 5,
     "duration": {
-      "secs": 21,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 21
     }
   },
   {
@@ -4207,8 +4441,9 @@
     "date": "2020-11-27",
     "distance": 5,
     "duration": {
-      "secs": 7,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 7
     }
   },
   {
@@ -4223,32 +4458,36 @@
     "date": "2020-11-30",
     "distance": 5,
     "duration": {
-      "secs": 53,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 53
     }
   },
   {
     "date": "2020-12-01",
     "distance": 5,
     "duration": {
-      "secs": 55,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 55
     }
   },
   {
     "date": "2020-12-02",
-    "distance": 4.96,
+    "distance": 4.9646484,
     "duration": {
-      "secs": 23,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 23
     }
   },
   {
     "date": "2020-12-03",
     "distance": 5,
     "duration": {
-      "secs": 21,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 21
     }
   },
   {
@@ -4269,18 +4508,20 @@
   },
   {
     "date": "2020-12-08",
-    "distance": 5.01,
+    "distance": 5.011381,
     "duration": {
-      "secs": 23,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 23
     }
   },
   {
     "date": "2020-12-09",
-    "distance": 1.38,
+    "distance": 3.7649084,
     "duration": {
-      "secs": 19,
-      "mins": 9
+      "hours": 0,
+      "mins": 17,
+      "secs": 58
     }
   },
   {
@@ -4295,32 +4536,36 @@
     "date": "2020-12-14",
     "distance": 5,
     "duration": {
-      "secs": 55,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 55
     }
   },
   {
     "date": "2020-12-15",
-    "distance": 5.01,
+    "distance": 5.011098,
     "duration": {
-      "secs": 5,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 5
     }
   },
   {
     "date": "2020-12-16",
     "distance": 5,
     "duration": {
-      "secs": 11,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 11
     }
   },
   {
     "date": "2020-12-17",
     "distance": 5,
     "duration": {
-      "secs": 52,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 52
     }
   },
   {
@@ -4335,24 +4580,27 @@
     "date": "2020-12-21",
     "distance": 5,
     "duration": {
-      "secs": 45,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 45
     }
   },
   {
     "date": "2020-12-22",
-    "distance": 1.23,
+    "distance": 3.7918716,
     "duration": {
-      "secs": 53,
-      "mins": 7
+      "hours": 0,
+      "mins": 22,
+      "secs": 16
     }
   },
   {
     "date": "2020-12-23",
-    "distance": 1.48,
+    "distance": 5.010896,
     "duration": {
-      "secs": 34,
-      "mins": 9
+      "hours": 0,
+      "mins": 28,
+      "secs": 53
     }
   },
   {
@@ -4367,24 +4615,27 @@
     "date": "2020-12-25",
     "distance": 5,
     "duration": {
-      "secs": 15,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 15
     }
   },
   {
     "date": "2020-12-26",
-    "distance": 1.8,
+    "distance": 5,
     "duration": {
-      "secs": 35,
-      "mins": 13
+      "hours": 0,
+      "mins": 30,
+      "secs": 52
     }
   },
   {
     "date": "2020-12-27",
     "distance": 5,
     "duration": {
-      "secs": 11,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 11
     }
   },
   {
@@ -4424,32 +4675,36 @@
     "date": "2021-01-11",
     "distance": 5,
     "duration": {
-      "secs": 1,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 1
     }
   },
   {
     "date": "2021-01-12",
     "distance": 5,
     "duration": {
-      "secs": 41,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 41
     }
   },
   {
     "date": "2021-01-13",
     "distance": 5,
     "duration": {
-      "secs": 12,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 12
     }
   },
   {
     "date": "2021-01-14",
     "distance": 5,
     "duration": {
-      "secs": 13,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 13
     }
   },
   {
@@ -4464,16 +4719,18 @@
     "date": "2021-01-20",
     "distance": 5.01,
     "duration": {
-      "secs": 31,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 31
     }
   },
   {
     "date": "2021-01-21",
-    "distance": 5.02,
+    "distance": 5.020243000000001,
     "duration": {
-      "secs": 59,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 59
     }
   },
   {
@@ -4488,8 +4745,9 @@
     "date": "2021-01-24",
     "distance": 5,
     "duration": {
-      "secs": 4,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 4
     }
   },
   {
@@ -4526,10 +4784,11 @@
   },
   {
     "date": "2021-01-29",
-    "distance": 2.27,
+    "distance": 5,
     "duration": {
-      "secs": 43,
-      "mins": 13
+      "hours": 0,
+      "mins": 23,
+      "secs": 32
     }
   },
   {
@@ -4552,40 +4811,45 @@
     "date": "2021-02-01",
     "distance": 5,
     "duration": {
-      "secs": 48,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 48
     }
   },
   {
     "date": "2021-02-02",
-    "distance": 5.03,
+    "distance": 5.033055999999999,
     "duration": {
-      "secs": 2,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 2
     }
   },
   {
     "date": "2021-02-03",
-    "distance": 1.23,
+    "distance": 5,
     "duration": {
-      "secs": 38,
-      "mins": 9
+      "hours": 0,
+      "mins": 25,
+      "secs": 44
     }
   },
   {
     "date": "2021-02-04",
     "distance": 5,
     "duration": {
-      "secs": 43,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 43
     }
   },
   {
     "date": "2021-02-06",
     "distance": 6,
     "duration": {
-      "secs": 18,
-      "mins": 30
+      "hours": 0,
+      "mins": 30,
+      "secs": 18
     }
   },
   {
@@ -4606,26 +4870,29 @@
   },
   {
     "date": "2021-02-09",
-    "distance": 5.06,
+    "distance": 5.061113000000001,
     "duration": {
-      "secs": 56,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 56
     }
   },
   {
     "date": "2021-02-10",
     "distance": 5,
     "duration": {
-      "secs": 57,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 57
     }
   },
   {
     "date": "2021-02-13",
-    "distance": 4.04,
+    "distance": 4.0447507,
     "duration": {
-      "secs": 16,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 16
     }
   },
   {
@@ -4640,24 +4907,27 @@
     "date": "2021-02-16",
     "distance": 5,
     "duration": {
-      "secs": 30,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 30
     }
   },
   {
     "date": "2021-02-17",
     "distance": 5,
     "duration": {
-      "secs": 13,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 13
     }
   },
   {
     "date": "2021-02-18",
-    "distance": 5.04,
+    "distance": 5.042337000000001,
     "duration": {
-      "secs": 59,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 59
     }
   },
   {
@@ -4672,25 +4942,27 @@
     "date": "2021-02-20",
     "distance": 5,
     "duration": {
-      "secs": 53,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 53
     }
   },
   {
     "date": "2021-02-21",
-    "distance": 21.13,
+    "distance": 21.134113000000003,
     "duration": {
       "hours": 1,
-      "secs": 35,
-      "mins": 53
+      "mins": 53,
+      "secs": 35
     }
   },
   {
     "date": "2021-02-22",
     "distance": 5,
     "duration": {
-      "secs": 39,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 39
     }
   },
   {
@@ -4721,8 +4993,9 @@
     "date": "2021-02-26",
     "distance": 5,
     "duration": {
-      "secs": 48,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 48
     }
   },
   {
@@ -4735,10 +5008,11 @@
   },
   {
     "date": "2021-03-02",
-    "distance": 5.32,
+    "distance": 5.32091,
     "duration": {
-      "secs": 15,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 15
     }
   },
   {
@@ -4767,34 +5041,38 @@
   },
   {
     "date": "2021-03-07",
-    "distance": 5.07,
+    "distance": 5.0731655,
     "duration": {
-      "secs": 32,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 32
     }
   },
   {
     "date": "2021-03-08",
     "distance": 5.01,
     "duration": {
-      "secs": 2,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 2
     }
   },
   {
     "date": "2021-03-09",
-    "distance": 5.06,
+    "distance": 5.0634487,
     "duration": {
-      "secs": 11,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 11
     }
   },
   {
     "date": "2021-03-10",
-    "distance": 5.02,
+    "distance": 5.0206973,
     "duration": {
-      "secs": 29,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 29
     }
   },
   {
@@ -4807,10 +5085,11 @@
   },
   {
     "date": "2021-03-13",
-    "distance": 5.01,
+    "distance": 5.014779000000001,
     "duration": {
-      "secs": 33,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 33
     }
   },
   {
@@ -4855,10 +5134,11 @@
   },
   {
     "date": "2021-03-21",
-    "distance": 5.01,
+    "distance": 5.014874,
     "duration": {
-      "secs": 49,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 49
     }
   },
   {
@@ -4871,18 +5151,20 @@
   },
   {
     "date": "2021-03-23",
-    "distance": 5.04,
+    "distance": 5.0413632999999995,
     "duration": {
-      "secs": 51,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 51
     }
   },
   {
     "date": "2021-03-24",
-    "distance": 5.44,
+    "distance": 5.444923,
     "duration": {
-      "secs": 23,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 23
     }
   },
   {
@@ -4895,18 +5177,20 @@
   },
   {
     "date": "2021-03-28",
-    "distance": 5.01,
+    "distance": 5.0112676,
     "duration": {
-      "secs": 5,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 5
     }
   },
   {
     "date": "2021-03-29",
     "distance": 5.05,
     "duration": {
-      "secs": 0,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 0
     }
   },
   {
@@ -4951,34 +5235,38 @@
   },
   {
     "date": "2021-04-05",
-    "distance": 5.03,
+    "distance": 5.0329087,
     "duration": {
-      "secs": 3,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 3
     }
   },
   {
     "date": "2021-04-06",
-    "distance": 2.01,
+    "distance": 5.07,
     "duration": {
-      "secs": 24,
-      "mins": 9
+      "hours": 0,
+      "mins": 25,
+      "secs": 59
     }
   },
   {
     "date": "2021-04-07",
-    "distance": 2.02,
+    "distance": 5.0216475,
     "duration": {
-      "secs": 3,
-      "mins": 11
+      "hours": 0,
+      "mins": 25,
+      "secs": 59
     }
   },
   {
     "date": "2021-04-08",
-    "distance": 2.06,
+    "distance": 5.12,
     "duration": {
-      "secs": 9,
-      "mins": 10
+      "hours": 0,
+      "mins": 24,
+      "secs": 52
     }
   },
   {
@@ -5007,10 +5295,11 @@
   },
   {
     "date": "2021-04-12",
-    "distance": 1.51,
+    "distance": 5.0748505999999995,
     "duration": {
-      "secs": 36,
-      "mins": 8
+      "hours": 0,
+      "mins": 26,
+      "secs": 24
     }
   },
   {
@@ -5039,42 +5328,47 @@
   },
   {
     "date": "2021-04-19",
-    "distance": 5.01,
+    "distance": 5.0100947,
     "duration": {
-      "secs": 49,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 49
     }
   },
   {
     "date": "2021-04-20",
-    "distance": 2,
+    "distance": 5.018723,
     "duration": {
-      "secs": 12,
-      "mins": 11
+      "hours": 0,
+      "mins": 24,
+      "secs": 38
     }
   },
   {
     "date": "2021-04-21",
-    "distance": 2,
+    "distance": 5.0684326,
     "duration": {
-      "secs": 3,
-      "mins": 11
+      "hours": 0,
+      "mins": 24,
+      "secs": 48
     }
   },
   {
     "date": "2021-04-22",
-    "distance": 5.07,
+    "distance": 5.072963,
     "duration": {
-      "secs": 10,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 10
     }
   },
   {
     "date": "2021-04-25",
-    "distance": 2.03,
+    "distance": 5.0204224,
     "duration": {
-      "secs": 21,
-      "mins": 12
+      "hours": 0,
+      "mins": 24,
+      "secs": 53
     }
   },
   {
@@ -5087,10 +5381,11 @@
   },
   {
     "date": "2021-04-27",
-    "distance": 2.02,
+    "distance": 5.018401,
     "duration": {
-      "secs": 27,
-      "mins": 11
+      "hours": 0,
+      "mins": 23,
+      "secs": 26
     }
   },
   {
@@ -5111,10 +5406,11 @@
   },
   {
     "date": "2021-05-01",
-    "distance": 5.03,
+    "distance": 5.031937,
     "duration": {
-      "secs": 0,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 0
     }
   },
   {
@@ -5127,18 +5423,20 @@
   },
   {
     "date": "2021-05-03",
-    "distance": 5.02,
+    "distance": 5.020582,
     "duration": {
-      "secs": 58,
-      "mins": 25
+      "hours": 0,
+      "mins": 26,
+      "secs": 41
     }
   },
   {
     "date": "2021-05-04",
     "distance": 5.4,
     "duration": {
-      "secs": 16,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 16
     }
   },
   {
@@ -5151,10 +5449,11 @@
   },
   {
     "date": "2021-05-06",
-    "distance": 5,
+    "distance": 5.0027539999999995,
     "duration": {
-      "secs": 0,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 0
     }
   },
   {
@@ -5183,18 +5482,20 @@
   },
   {
     "date": "2021-05-10",
-    "distance": 5.07,
+    "distance": 5.07071,
     "duration": {
-      "secs": 47,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 47
     }
   },
   {
     "date": "2021-05-11",
-    "distance": 5.01,
+    "distance": 5.0137974000000005,
     "duration": {
-      "secs": 38,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 38
     }
   },
   {
@@ -5207,18 +5508,20 @@
   },
   {
     "date": "2021-05-13",
-    "distance": 5.07,
+    "distance": 5.071124,
     "duration": {
-      "secs": 0,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 0
     }
   },
   {
     "date": "2021-05-14",
     "distance": 5,
     "duration": {
-      "secs": 7,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 7
     }
   },
   {
@@ -5231,10 +5534,11 @@
   },
   {
     "date": "2021-05-16",
-    "distance": 5.01,
+    "distance": 5.0147886,
     "duration": {
-      "secs": 15,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 15
     }
   },
   {
@@ -5247,34 +5551,38 @@
   },
   {
     "date": "2021-05-18",
-    "distance": 5.01,
+    "distance": 5.0127334,
     "duration": {
-      "secs": 12,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 12
     }
   },
   {
     "date": "2021-05-19",
-    "distance": 5.01,
+    "distance": 5.0141333,
     "duration": {
-      "secs": 21,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 21
     }
   },
   {
     "date": "2021-05-20",
     "distance": 5.2,
     "duration": {
-      "secs": 22,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 22
     }
   },
   {
     "date": "2021-05-21",
-    "distance": 5.02,
+    "distance": 5.020761,
     "duration": {
-      "secs": 59,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 59
     }
   },
   {
@@ -5287,10 +5595,11 @@
   },
   {
     "date": "2021-05-23",
-    "distance": 5.03,
+    "distance": 5.030192,
     "duration": {
-      "secs": 56,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 56
     }
   },
   {
@@ -5327,26 +5636,29 @@
   },
   {
     "date": "2021-05-28",
-    "distance": 5.01,
+    "distance": 5.0142944,
     "duration": {
-      "secs": 11,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 11
     }
   },
   {
     "date": "2021-05-30",
-    "distance": 3.5,
+    "distance": 3.503171,
     "duration": {
-      "secs": 23,
-      "mins": 20
+      "hours": 0,
+      "mins": 20,
+      "secs": 23
     }
   },
   {
     "date": "2021-05-31",
-    "distance": 5.04,
+    "distance": 5.0446113,
     "duration": {
-      "secs": 18,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 18
     }
   },
   {
@@ -5359,26 +5671,29 @@
   },
   {
     "date": "2021-06-02",
-    "distance": 5.01,
+    "distance": 5.0133345,
     "duration": {
-      "secs": 46,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 46
     }
   },
   {
     "date": "2021-06-03",
     "distance": 5.01,
     "duration": {
-      "secs": 32,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 32
     }
   },
   {
     "date": "2021-06-04",
-    "distance": 5.02,
+    "distance": 5.024324,
     "duration": {
-      "secs": 32,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 32
     }
   },
   {
@@ -5393,8 +5708,9 @@
     "date": "2021-06-07",
     "distance": 5.01,
     "duration": {
-      "secs": 34,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 34
     }
   },
   {
@@ -5407,26 +5723,29 @@
   },
   {
     "date": "2021-06-09",
-    "distance": 5.14,
+    "distance": 5.1422764,
     "duration": {
-      "secs": 27,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 27
     }
   },
   {
     "date": "2021-06-10",
     "distance": 5.01,
     "duration": {
-      "secs": 24,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 24
     }
   },
   {
     "date": "2021-06-11",
     "distance": 5.02,
     "duration": {
-      "secs": 17,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 17
     }
   },
   {
@@ -5439,18 +5758,20 @@
   },
   {
     "date": "2021-06-13",
-    "distance": 5.02,
+    "distance": 5.023488924452983,
     "duration": {
-      "secs": 5,
-      "mins": 31
+      "hours": 0,
+      "mins": 31,
+      "secs": 5
     }
   },
   {
     "date": "2021-06-14",
-    "distance": 5.02,
+    "distance": 5.021450115419917,
     "duration": {
-      "secs": 16,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 16
     }
   },
   {
@@ -5463,18 +5784,20 @@
   },
   {
     "date": "2021-06-17",
-    "distance": 5.01,
+    "distance": 5.011273818176504,
     "duration": {
-      "secs": 10,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 10
     }
   },
   {
     "date": "2021-06-21",
-    "distance": 5.03,
+    "distance": 5.032428376974923,
     "duration": {
-      "secs": 47,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 47
     }
   },
   {
@@ -5495,42 +5818,47 @@
   },
   {
     "date": "2021-06-24",
-    "distance": 5.01,
+    "distance": 5.010013157551912,
     "duration": {
-      "secs": 52,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 52
     }
   },
   {
     "date": "2021-06-28",
-    "distance": 5,
+    "distance": 5.001477998484883,
     "duration": {
-      "secs": 32,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 32
     }
   },
   {
     "date": "2021-06-29",
-    "distance": 5,
+    "distance": 5.002671615872839,
     "duration": {
-      "secs": 8,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 8
     }
   },
   {
     "date": "2021-06-30",
-    "distance": 4.03,
+    "distance": 4.03375619045662,
     "duration": {
-      "secs": 26,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 26
     }
   },
   {
     "date": "2021-07-04",
-    "distance": 5.01,
+    "distance": 5.013791238991084,
     "duration": {
-      "secs": 43,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 43
     }
   },
   {
@@ -5543,10 +5871,11 @@
   },
   {
     "date": "2021-07-13",
-    "distance": 5.01,
+    "distance": 5.014827915243023,
     "duration": {
-      "secs": 50,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 50
     }
   },
   {
@@ -5559,18 +5888,20 @@
   },
   {
     "date": "2021-07-15",
-    "distance": 5.01,
+    "distance": 5.011494900633433,
     "duration": {
-      "secs": 34,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 34
     }
   },
   {
     "date": "2021-07-16",
-    "distance": 5.04,
+    "distance": 5.043988355067035,
     "duration": {
-      "secs": 57,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 57
     }
   },
   {
@@ -5591,50 +5922,56 @@
   },
   {
     "date": "2021-07-20",
-    "distance": 5.02,
+    "distance": 5.021164369869415,
     "duration": {
-      "secs": 44,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 44
     }
   },
   {
     "date": "2021-07-21",
-    "distance": 5,
+    "distance": 5.004647670300772,
     "duration": {
-      "secs": 55,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 55
     }
   },
   {
     "date": "2021-07-22",
-    "distance": 5.02,
+    "distance": 5.0219946515610445,
     "duration": {
-      "secs": 49,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 49
     }
   },
   {
     "date": "2021-07-23",
-    "distance": 5.01,
+    "distance": 5.014265906166687,
     "duration": {
-      "secs": 36,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 36
     }
   },
   {
     "date": "2021-07-25",
-    "distance": 5.02,
+    "distance": 5.021457625992343,
     "duration": {
-      "secs": 47,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 47
     }
   },
   {
     "date": "2021-07-26",
-    "distance": 5.01,
+    "distance": 5.013460291302945,
     "duration": {
-      "secs": 37,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 37
     }
   },
   {
@@ -5647,18 +5984,20 @@
   },
   {
     "date": "2021-07-31",
-    "distance": 5.01,
+    "distance": 5.0134546138906435,
     "duration": {
-      "secs": 49,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 49
     }
   },
   {
     "date": "2021-08-02",
-    "distance": 5.02,
+    "distance": 5.020574671004413,
     "duration": {
-      "secs": 15,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 15
     }
   },
   {
@@ -5671,18 +6010,20 @@
   },
   {
     "date": "2021-08-04",
-    "distance": 5.03,
+    "distance": 5.030195984073362,
     "duration": {
-      "secs": 27,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 27
     }
   },
   {
     "date": "2021-08-05",
-    "distance": 5.01,
+    "distance": 5.013243539275649,
     "duration": {
-      "secs": 34,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 34
     }
   },
   {
@@ -5695,34 +6036,38 @@
   },
   {
     "date": "2021-08-10",
-    "distance": 5.01,
+    "distance": 5.014307467355909,
     "duration": {
-      "secs": 4,
-      "mins": 30
+      "hours": 0,
+      "mins": 30,
+      "secs": 4
     }
   },
   {
     "date": "2021-08-11",
     "distance": 5.01,
     "duration": {
-      "secs": 27,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 27
     }
   },
   {
     "date": "2021-08-12",
-    "distance": 5.01,
+    "distance": 5.0142703049109745,
     "duration": {
-      "secs": 0,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 0
     }
   },
   {
     "date": "2021-08-17",
-    "distance": 5.01,
+    "distance": 5.029800555330638,
     "duration": {
-      "secs": 26,
-      "mins": 26
+      "hours": 0,
+      "mins": 27,
+      "secs": 39
     }
   },
   {
@@ -5743,10 +6088,11 @@
   },
   {
     "date": "2021-08-24",
-    "distance": 5.03,
+    "distance": 5.0388164809676805,
     "duration": {
-      "secs": 59,
-      "mins": 26
+      "hours": 0,
+      "mins": 24,
+      "secs": 30
     }
   },
   {
@@ -5759,18 +6105,20 @@
   },
   {
     "date": "2021-08-26",
-    "distance": 5.01,
+    "distance": 5.013963592407159,
     "duration": {
-      "secs": 25,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 25
     }
   },
   {
     "date": "2021-08-29",
-    "distance": 5.02,
+    "distance": 5.021830094482107,
     "duration": {
-      "secs": 3,
-      "mins": 30
+      "hours": 0,
+      "mins": 30,
+      "secs": 3
     }
   },
   {
@@ -5824,10 +6172,11 @@
   },
   {
     "date": "2021-09-09",
-    "distance": 5.03,
+    "distance": 5.0301968003163315,
     "duration": {
-      "secs": 58,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 58
     }
   },
   {
@@ -5840,10 +6189,11 @@
   },
   {
     "date": "2021-09-13",
-    "distance": 5.01,
+    "distance": 5.010365930422122,
     "duration": {
-      "secs": 30,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 30
     }
   },
   {
@@ -5873,26 +6223,29 @@
   },
   {
     "date": "2021-09-20",
-    "distance": 5.02,
+    "distance": 5.022694000778177,
     "duration": {
-      "secs": 59,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 59
     }
   },
   {
     "date": "2021-09-22",
-    "distance": 5.04,
+    "distance": 5.042200254737635,
     "duration": {
-      "secs": 59,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 59
     }
   },
   {
     "date": "2021-09-23",
     "distance": 5.02,
     "duration": {
-      "secs": 30,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 30
     }
   },
   {
@@ -5905,42 +6258,47 @@
   },
   {
     "date": "2021-09-26",
-    "distance": 5.02,
+    "distance": 5.022925776972115,
     "duration": {
-      "secs": 38,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 38
     }
   },
   {
     "date": "2021-09-27",
     "distance": 5.02,
     "duration": {
-      "secs": 23,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 23
     }
   },
   {
     "date": "2021-09-28",
-    "distance": 5.03,
+    "distance": 5.032639834842208,
     "duration": {
-      "secs": 41,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 41
     }
   },
   {
     "date": "2021-09-29",
-    "distance": 5.05,
+    "distance": 5.0510686859600735,
     "duration": {
-      "secs": 25,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 25
     }
   },
   {
     "date": "2021-09-30",
     "distance": 6.68,
     "duration": {
-      "secs": 24,
-      "mins": 36
+      "hours": 0,
+      "mins": 36,
+      "secs": 24
     }
   },
   {
@@ -5978,10 +6336,11 @@
   },
   {
     "date": "2021-10-06",
-    "distance": 5.01,
+    "distance": 5.01134604358679,
     "duration": {
-      "secs": 27,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 27
     }
   },
   {
@@ -5994,18 +6353,20 @@
   },
   {
     "date": "2021-10-08",
-    "distance": 5.05,
+    "distance": 5.054658553303986,
     "duration": {
-      "secs": 24,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 24
     }
   },
   {
     "date": "2021-10-09",
-    "distance": 5.02,
+    "distance": 5.023592989710841,
     "duration": {
-      "secs": 37,
-      "mins": 29
+      "hours": 0,
+      "mins": 29,
+      "secs": 37
     }
   },
   {
@@ -6026,26 +6387,29 @@
   },
   {
     "date": "2021-10-13",
-    "distance": 5.02,
+    "distance": 5.0205662827000745,
     "duration": {
-      "secs": 11,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 11
     }
   },
   {
     "date": "2021-10-14",
-    "distance": 5.05,
+    "distance": 5.053689573799214,
     "duration": {
-      "secs": 38,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 38
     }
   },
   {
     "date": "2021-10-16",
-    "distance": 10.01,
+    "distance": 10.013979971656333,
     "duration": {
-      "secs": 39,
-      "mins": 57
+      "hours": 0,
+      "mins": 57,
+      "secs": 39
     }
   },
   {
@@ -6084,56 +6448,63 @@
     "date": "2021-10-24",
     "distance": 10.24,
     "duration": {
-      "secs": 10,
-      "mins": 57
+      "hours": 0,
+      "mins": 57,
+      "secs": 10
     }
   },
   {
     "date": "2021-10-25",
-    "distance": 5.03,
+    "distance": 5.033509446801378,
     "duration": {
-      "secs": 6,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 6
     }
   },
   {
     "date": "2021-10-26",
-    "distance": 5.03,
+    "distance": 5.031593375783983,
     "duration": {
-      "secs": 50,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 50
     }
   },
   {
     "date": "2021-10-27",
-    "distance": 5.01,
+    "distance": 5.013184852435006,
     "duration": {
-      "secs": 2,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 2
     }
   },
   {
     "date": "2021-10-28",
-    "distance": 5.03,
+    "distance": 5.031454916699042,
     "duration": {
-      "secs": 27,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 27
     }
   },
   {
     "date": "2021-10-31",
-    "distance": 5.02,
+    "distance": 5.024571434040082,
     "duration": {
-      "secs": 52,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 52
     }
   },
   {
     "date": "2021-11-01",
-    "distance": 5.02,
+    "distance": 5.024612665893534,
     "duration": {
-      "secs": 51,
-      "mins": 26
+      "hours": 0,
+      "mins": 26,
+      "secs": 51
     }
   },
   {
@@ -6146,10 +6517,11 @@
   },
   {
     "date": "2021-11-03",
-    "distance": 5.01,
+    "distance": 5.01270816587231,
     "duration": {
-      "secs": 49,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 49
     }
   },
   {
@@ -6162,10 +6534,11 @@
   },
   {
     "date": "2021-11-08",
-    "distance": 5.19,
+    "distance": 5.194826433383619,
     "duration": {
-      "secs": 27,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 27
     }
   },
   {
@@ -6194,10 +6567,11 @@
   },
   {
     "date": "2021-11-14",
-    "distance": 10.01,
+    "distance": 10.014266983665548,
     "duration": {
-      "secs": 33,
-      "mins": 57
+      "hours": 0,
+      "mins": 57,
+      "secs": 33
     }
   },
   {
@@ -6210,26 +6584,29 @@
   },
   {
     "date": "2021-11-16",
-    "distance": 5.03,
+    "distance": 5.031353941984355,
     "duration": {
-      "secs": 51,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 51
     }
   },
   {
     "date": "2021-11-17",
-    "distance": 5.02,
+    "distance": 5.02280517887906,
     "duration": {
-      "secs": 41,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 41
     }
   },
   {
     "date": "2021-11-18",
-    "distance": 5.04,
+    "distance": 5.043024897850016,
     "duration": {
-      "secs": 9,
-      "mins": 27
+      "hours": 0,
+      "mins": 27,
+      "secs": 9
     }
   },
   {
@@ -6242,10 +6619,11 @@
   },
   {
     "date": "2021-11-20",
-    "distance": 10.03,
+    "distance": 10.032359672240261,
     "duration": {
-      "secs": 34,
-      "mins": 48
+      "hours": 0,
+      "mins": 48,
+      "secs": 34
     }
   },
   {
@@ -6258,18 +6636,20 @@
   },
   {
     "date": "2021-11-23",
-    "distance": 5.02,
+    "distance": 5.023157242564633,
     "duration": {
-      "secs": 48,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 48
     }
   },
   {
     "date": "2021-11-24",
-    "distance": 5.03,
+    "distance": 5.78818994140625,
     "duration": {
-      "secs": 48,
-      "mins": 25
+      "hours": 0,
+      "mins": 41,
+      "secs": 10
     }
   },
   {
@@ -6282,26 +6662,29 @@
   },
   {
     "date": "2021-11-26",
-    "distance": 5.01,
+    "distance": 5.014088217576661,
     "duration": {
-      "secs": 27,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 27
     }
   },
   {
     "date": "2021-11-29",
-    "distance": 5.01,
+    "distance": 5.012826333375969,
     "duration": {
-      "secs": 45,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 45
     }
   },
   {
     "date": "2021-11-30",
-    "distance": 5.01,
+    "distance": 5.0124776868554575,
     "duration": {
-      "secs": 56,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 56
     }
   },
   {
@@ -6330,10 +6713,11 @@
   },
   {
     "date": "2021-12-06",
-    "distance": 5.01,
+    "distance": 5.013219645091631,
     "duration": {
-      "secs": 9,
-      "mins": 25
+      "hours": 0,
+      "mins": 25,
+      "secs": 9
     }
   },
   {
@@ -6346,10 +6730,11 @@
   },
   {
     "date": "2021-12-08",
-    "distance": 5.03,
+    "distance": 5.031238017067965,
     "duration": {
-      "secs": 7,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 7
     }
   },
   {
@@ -6362,18 +6747,20 @@
   },
   {
     "date": "2021-12-10",
-    "distance": 10.03,
+    "distance": 10.171337890625,
     "duration": {
-      "secs": 30,
-      "mins": 49
+      "hours": 1,
+      "mins": 7,
+      "secs": 10
     }
   },
   {
     "date": "2021-12-13",
-    "distance": 5.02,
+    "distance": 5.022238865305167,
     "duration": {
-      "secs": 43,
-      "mins": 28
+      "hours": 0,
+      "mins": 28,
+      "secs": 43
     }
   },
   {
@@ -6426,18 +6813,20 @@
   },
   {
     "date": "2021-12-22",
-    "distance": 5.03,
+    "distance": 5.034322401255876,
     "duration": {
-      "secs": 12,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 12
     }
   },
   {
     "date": "2021-12-23",
-    "distance": 5.01,
+    "distance": 5.011730070830594,
     "duration": {
-      "secs": 17,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 17
     }
   },
   {
@@ -6450,47 +6839,52 @@
   },
   {
     "date": "2021-12-27",
-    "distance": 5.01,
+    "distance": 5.015642274855271,
     "duration": {
-      "secs": 28,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 28
     }
   },
   {
     "date": "2021-12-28",
-    "distance": 5.05,
+    "distance": 5.050125815755842,
     "duration": {
-      "secs": 2,
-      "mins": 24
+      "hours": 0,
+      "mins": 24,
+      "secs": 2
     }
   },
   {
     "date": "2021-12-29",
-    "distance": 5.03,
+    "distance": 5.035609801590144,
     "duration": {
-      "secs": 43,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 43
     }
   },
   {
     "date": "2021-12-30",
-    "distance": 5.02,
+    "distance": 5.0213760321807905,
     "duration": {
-      "secs": 45,
-      "mins": 22
+      "hours": 0,
+      "mins": 22,
+      "secs": 45
     }
   },
   {
     "date": "2021-12-31",
-    "distance": 5,
+    "distance": 5.009079554680346,
     "duration": {
-      "secs": 21,
-      "mins": 23
+      "hours": 0,
+      "mins": 23,
+      "secs": 21
     }
   },
   {
     "date": "2022-01-01",
-    "distance": 20.23,
+    "distance": 20.234491711656176,
     "duration": {
       "hours": 1,
       "mins": 44,
@@ -6499,160 +6893,180 @@
   },
   {
     "date": "2022-01-04",
-    "distance": 5.02,
+    "distance": 5.0253370583445,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 9
     }
   },
   {
     "date": "2022-01-05",
-    "distance": 5.18,
+    "distance": 5.1856571028942104,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 46
     }
   },
   {
     "date": "2022-01-06",
-    "distance": 5.02,
+    "distance": 5.023707434990713,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 58
     }
   },
   {
     "date": "2022-01-07",
-    "distance": 10.03,
+    "distance": 10.035532537519472,
     "duration": {
+      "hours": 0,
       "mins": 49,
       "secs": 15
     }
   },
   {
     "date": "2022-01-10",
-    "distance": 5.02,
+    "distance": 5.026322823575107,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 51
     }
   },
   {
     "date": "2022-01-11",
-    "distance": 5.13,
+    "distance": 5.133481604181575,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 13
     }
   },
   {
     "date": "2022-01-12",
-    "distance": 5.18,
+    "distance": 5.1837637489418515,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 45
     }
   },
   {
     "date": "2022-01-13",
-    "distance": 5.02,
+    "distance": 5.027737574116005,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 38
     }
   },
   {
     "date": "2022-01-14",
-    "distance": 5.05,
+    "distance": 5.051550274059024,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 1
     }
   },
   {
     "date": "2022-01-17",
-    "distance": 5.05,
+    "distance": 5.059615813993687,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 8
     }
   },
   {
     "date": "2022-01-18",
-    "distance": 5.03,
+    "distance": 5.0392273734133095,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 2
     }
   },
   {
     "date": "2022-01-19",
-    "distance": 5.02,
+    "distance": 5.02232811989493,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 33
     }
   },
   {
     "date": "2022-01-21",
-    "distance": 5.03,
+    "distance": 5.035036251097662,
     "duration": {
+      "hours": 0,
       "mins": 31,
       "secs": 59
     }
   },
   {
     "date": "2022-01-23",
-    "distance": 4.49,
+    "distance": 4.494561883983245,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 13
     }
   },
   {
     "date": "2022-01-24",
-    "distance": 5.07,
+    "distance": 5.078920442164,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 30
     }
   },
   {
     "date": "2022-01-25",
-    "distance": 5.04,
+    "distance": 5.046437711646128,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 31
     }
   },
   {
     "date": "2022-01-26",
-    "distance": 5.03,
+    "distance": 5.033518351900554,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 57
     }
   },
   {
     "date": "2022-01-27",
-    "distance": 4.99,
+    "distance": 4.990899324009761,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 1
     }
   },
   {
     "date": "2022-01-28",
-    "distance": 5.02,
+    "distance": 5.0276715636511735,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 23
     }
   },
   {
     "date": "2022-01-29",
-    "distance": 5.03,
+    "distance": 5.034686475628125,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 51
     }
@@ -6667,351 +7081,394 @@
   },
   {
     "date": "2022-02-02",
-    "distance": 5.01,
+    "distance": 5.010563505797372,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 2
     }
   },
   {
     "date": "2022-02-04",
-    "distance": 5.02,
+    "distance": 5.0275452543934,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 59
     }
   },
   {
     "date": "2022-02-05",
-    "distance": 5.02,
+    "distance": 5.021370066475197,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 38
     }
   },
   {
     "date": "2022-02-06",
-    "distance": 5,
+    "distance": 5.006817790466208,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 3
     }
   },
   {
     "date": "2022-02-07",
-    "distance": 5.01,
+    "distance": 5.010263281393531,
     "duration": {
+      "hours": 0,
       "mins": 22,
       "secs": 5
     }
   },
   {
     "date": "2022-02-08",
-    "distance": 5.01,
+    "distance": 5.0118572518373865,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 51
     }
   },
   {
     "date": "2022-02-09",
-    "distance": 5.01,
+    "distance": 5.019421043203971,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 49
     }
   },
   {
     "date": "2022-02-10",
-    "distance": 5.02,
+    "distance": 5.027003442291502,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 29
     }
   },
   {
     "date": "2022-02-11",
-    "distance": 10.01,
+    "distance": 10.01264988419223,
     "duration": {
+      "hours": 0,
       "mins": 50,
       "secs": 5
     }
   },
   {
     "date": "2022-02-15",
-    "distance": 5.02,
+    "distance": 5.024502738009864,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 50
     }
   },
   {
     "date": "2022-02-16",
-    "distance": 5.02,
+    "distance": 5.0233426545720254,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 8
     }
   },
   {
     "date": "2022-02-17",
-    "distance": 5.02,
+    "distance": 5.021104733125371,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 25
     }
   },
   {
     "date": "2022-02-18",
-    "distance": 5.02,
+    "distance": 5.02587001432186,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 37
     }
   },
   {
     "date": "2022-02-21",
-    "distance": 5,
+    "distance": 5.0051661715202656,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 38
     }
   },
   {
     "date": "2022-02-22",
-    "distance": 5.01,
+    "distance": 5.0101780767479065,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 48
     }
   },
   {
     "date": "2022-02-23",
-    "distance": 5.03,
+    "distance": 5.037581297760649,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 45
     }
   },
   {
     "date": "2022-02-24",
-    "distance": 5.01,
+    "distance": 5.0163477631558315,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 56
     }
   },
   {
     "date": "2022-02-25",
-    "distance": 5.01,
+    "distance": 5.016118960800223,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 37
     }
   },
   {
     "date": "2022-02-28",
-    "distance": 5.02,
+    "distance": 5.023142618512461,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 48
     }
   },
   {
     "date": "2022-03-01",
-    "distance": 5.01,
+    "distance": 5.019209594136014,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 21
     }
   },
   {
     "date": "2022-03-02",
-    "distance": 5.04,
+    "distance": 5.042189673687349,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 7
     }
   },
   {
     "date": "2022-03-03",
-    "distance": 5.02,
+    "distance": 5.023857548043638,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 18
     }
   },
   {
     "date": "2022-03-04",
-    "distance": 5.03,
+    "distance": 5.032209144317242,
     "duration": {
+      "hours": 0,
       "mins": 33,
       "secs": 0
     }
   },
   {
     "date": "2022-03-07",
-    "distance": 5.03,
+    "distance": 5.03473822099553,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 47
     }
   },
   {
     "date": "2022-03-08",
-    "distance": 5.03,
+    "distance": 5.031811253857308,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 54
     }
   },
   {
     "date": "2022-03-09",
-    "distance": 5.04,
+    "distance": 5.044249403585903,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 31
     }
   },
   {
     "date": "2022-03-10",
-    "distance": 5.03,
+    "distance": 5.038453719948942,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 40
     }
   },
   {
     "date": "2022-03-11",
-    "distance": 5.01,
+    "distance": 5.015766512598587,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 16
     }
   },
   {
     "date": "2022-03-14",
-    "distance": 5.16,
+    "distance": 5.167175427331974,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 7
     }
   },
   {
     "date": "2022-03-15",
-    "distance": 5.18,
+    "distance": 5.183485591331515,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 3
     }
   },
   {
     "date": "2022-03-16",
-    "distance": 5.11,
+    "distance": 5.11551463505695,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 45
     }
   },
   {
     "date": "2022-03-19",
-    "distance": 10.01,
+    "distance": 10.018605282442106,
     "duration": {
+      "hours": 0,
       "mins": 59,
       "secs": 12
     }
   },
   {
     "date": "2022-03-21",
-    "distance": 5.08,
+    "distance": 5.0881325185157005,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 58
     }
   },
   {
     "date": "2022-03-23",
-    "distance": 5.12,
+    "distance": 5.127592667456166,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 41
     }
   },
   {
     "date": "2022-03-24",
-    "distance": 5.17,
+    "distance": 5.176430149298053,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 8
     }
   },
   {
     "date": "2022-03-25",
-    "distance": 5.03,
+    "distance": 5.0362876839537964,
     "duration": {
+      "hours": 0,
       "mins": 31,
       "secs": 1
     }
   },
   {
     "date": "2022-03-28",
-    "distance": 5.12,
+    "distance": 5.123049061702575,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 10
     }
   },
   {
     "date": "2022-03-29",
-    "distance": 5.17,
+    "distance": 5.175930344021985,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 49
     }
   },
   {
     "date": "2022-03-30",
-    "distance": 5.11,
+    "distance": 5.119417702077881,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 7
     }
   },
   {
     "date": "2022-03-31",
-    "distance": 5.12,
+    "distance": 5.121546998692262,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 30
     }
   },
   {
     "date": "2022-04-02",
-    "distance": 5.11,
+    "distance": 5.1177608728149915,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 2
     }
   },
   {
     "date": "2022-04-06",
-    "distance": 5.04,
+    "distance": 5.0417440782133305,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 26
     }
   },
   {
     "date": "2022-04-07",
-    "distance": 5.01,
+    "distance": 5.019351121007231,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 4
     }
   },
   {
     "date": "2022-04-08",
-    "distance": 10.02,
+    "distance": 10.029196842834489,
     "duration": {
       "hours": 1,
       "mins": 2,
@@ -7020,24 +7477,27 @@
   },
   {
     "date": "2022-04-11",
-    "distance": 5.07,
+    "distance": 5.074900406348706,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 20
     }
   },
   {
     "date": "2022-04-12",
-    "distance": 5.03,
+    "distance": 5.030156704994589,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 34
     }
   },
   {
     "date": "2022-04-13",
-    "distance": 5.09,
+    "distance": 5.095267429291534,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 53
     }
@@ -7060,208 +7520,234 @@
   },
   {
     "date": "2022-04-16",
-    "distance": 5.1,
+    "distance": 5.104356648395648,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 2
     }
   },
   {
     "date": "2022-04-18",
-    "distance": 5.24,
+    "distance": 5.241855238778599,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 1
     }
   },
   {
     "date": "2022-04-19",
-    "distance": 5.09,
+    "distance": 5.0900463015101725,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 5
     }
   },
   {
     "date": "2022-04-20",
-    "distance": 5.01,
+    "distance": 5.016065782211515,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 1
     }
   },
   {
     "date": "2022-04-21",
-    "distance": 4.71,
+    "distance": 4.716711823329617,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 30
     }
   },
   {
     "date": "2022-04-22",
-    "distance": 5.11,
+    "distance": 5.11147084443658,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 34
     }
   },
   {
     "date": "2022-04-24",
-    "distance": 5.03,
+    "distance": 5.032639001542237,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 37
     }
   },
   {
     "date": "2022-04-25",
-    "distance": 5.89,
+    "distance": 5.891316082804272,
     "duration": {
+      "hours": 0,
       "mins": 37,
       "secs": 22
     }
   },
   {
     "date": "2022-04-26",
-    "distance": 5.03,
+    "distance": 5.0355533009802915,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 49
     }
   },
   {
     "date": "2022-04-28",
-    "distance": 5.15,
+    "distance": 5.157301500246569,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 20
     }
   },
   {
     "date": "2022-04-29",
-    "distance": 5.08,
+    "distance": 5.084903459234651,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 19
     }
   },
   {
     "date": "2022-04-30",
-    "distance": 10.03,
+    "distance": 10.038211610900557,
     "duration": {
+      "hours": 0,
       "mins": 55,
       "secs": 8
     }
   },
   {
     "date": "2022-05-02",
-    "distance": 10,
+    "distance": 10.008210679638351,
     "duration": {
+      "hours": 0,
       "mins": 52,
       "secs": 8
     }
   },
   {
     "date": "2022-05-03",
-    "distance": 10.03,
+    "distance": 10.034620102229484,
     "duration": {
+      "hours": 0,
       "mins": 53,
       "secs": 46
     }
   },
   {
     "date": "2022-05-05",
-    "distance": 5.24,
+    "distance": 5.2445401788255515,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 57
     }
   },
   {
     "date": "2022-05-06",
-    "distance": 5.03,
+    "distance": 5.035309722917111,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 41
     }
   },
   {
     "date": "2022-05-09",
-    "distance": 5.02,
+    "distance": 5.020875228242625,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 4
     }
   },
   {
     "date": "2022-05-10",
-    "distance": 5,
+    "distance": 5.008644410676963,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 51
     }
   },
   {
     "date": "2022-05-11",
-    "distance": 5.1,
+    "distance": 5.106318775018856,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 24
     }
   },
   {
     "date": "2022-05-12",
-    "distance": 5.07,
+    "distance": 5.0747926469555535,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 10
     }
   },
   {
     "date": "2022-05-13",
-    "distance": 5.1,
+    "distance": 5.102638284614425,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 39
     }
   },
   {
     "date": "2022-05-15",
-    "distance": 5.01,
+    "distance": 5.014929706089994,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 11
     }
   },
   {
     "date": "2022-05-16",
-    "distance": 5.02,
+    "distance": 5.023640672144479,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 2
     }
   },
   {
     "date": "2022-05-17",
-    "distance": 5.03,
+    "distance": 5.031173449938197,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 30
     }
   },
   {
     "date": "2022-05-18",
-    "distance": 5.03,
+    "distance": 5.032687720715681,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 18
     }
   },
   {
     "date": "2022-05-19",
-    "distance": 5.01,
+    "distance": 5.018201284031556,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 55
     }
@@ -7270,62 +7756,70 @@
     "date": "2022-05-20",
     "distance": 5.2,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 24
     }
   },
   {
     "date": "2022-05-21",
-    "distance": 5,
+    "distance": 5.003819681270863,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 2
     }
   },
   {
     "date": "2022-05-22",
-    "distance": 5.04,
+    "distance": 5.040964082078275,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 23
     }
   },
   {
     "date": "2022-05-23",
-    "distance": 5.03,
+    "distance": 5.031973941658541,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 39
     }
   },
   {
     "date": "2022-05-24",
-    "distance": 5.01,
+    "distance": 5.0137641523548915,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 53
     }
   },
   {
     "date": "2022-05-25",
-    "distance": 5.06,
+    "distance": 5.065605590466897,
     "duration": {
+      "hours": 0,
       "mins": 32,
       "secs": 0
     }
   },
   {
     "date": "2022-05-26",
-    "distance": 5.01,
+    "distance": 5.015360090001355,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 39
     }
   },
   {
     "date": "2022-05-27",
-    "distance": 5.02,
+    "distance": 5.025615760546791,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 6
     }
@@ -7334,6 +7828,7 @@
     "date": "2022-05-28",
     "distance": 6.5,
     "duration": {
+      "hours": 0,
       "mins": 34,
       "secs": 36
     }
@@ -7342,181 +7837,203 @@
     "date": "2022-05-29",
     "distance": 5.09,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 38
     }
   },
   {
     "date": "2022-05-30",
-    "distance": 5.02,
+    "distance": 5.025637660311151,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 50
     }
   },
   {
     "date": "2022-05-31",
-    "distance": 5.1,
+    "distance": 5.105442900404556,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 49
     }
   },
   {
     "date": "2022-06-01",
-    "distance": 5.02,
+    "distance": 5.023032254959331,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 35
     }
   },
   {
     "date": "2022-06-02",
-    "distance": 5.02,
+    "distance": 5.029999769719969,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 43
     }
   },
   {
     "date": "2022-06-04",
-    "distance": 5.04,
+    "distance": 5.042483503346011,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 39
     }
   },
   {
     "date": "2022-06-05",
-    "distance": 5.02,
+    "distance": 5.020543888854101,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 59
     }
   },
   {
     "date": "2022-06-06",
-    "distance": 5.03,
+    "distance": 5.035755280110866,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 37
     }
   },
   {
     "date": "2022-06-07",
-    "distance": 5.03,
+    "distance": 5.0325871215261015,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 31
     }
   },
   {
     "date": "2022-06-08",
-    "distance": 5.02,
+    "distance": 5.0258384814071935,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 58
     }
   },
   {
     "date": "2022-06-09",
-    "distance": 5.01,
+    "distance": 5.015463877985373,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 38
     }
   },
   {
     "date": "2022-06-10",
-    "distance": 5.03,
+    "distance": 5.038338477661419,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 0
     }
   },
   {
     "date": "2022-06-12",
-    "distance": 5.01,
+    "distance": 5.014640689816697,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 50
     }
   },
   {
     "date": "2022-06-13",
-    "distance": 5,
+    "distance": 5.0031179747766865,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 2
     }
   },
   {
     "date": "2022-06-14",
-    "distance": 5.02,
+    "distance": 5.0241884678000455,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 56
     }
   },
   {
     "date": "2022-06-15",
-    "distance": 5.03,
+    "distance": 5.03373723393855,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 22
     }
   },
   {
     "date": "2022-06-16",
-    "distance": 5.02,
+    "distance": 5.0201572772681295,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 39
     }
   },
   {
     "date": "2022-06-17",
-    "distance": 5.03,
+    "distance": 5.036961400778305,
     "duration": {
+      "hours": 0,
       "mins": 22,
       "secs": 2
     }
   },
   {
     "date": "2022-06-20",
-    "distance": 5.01,
+    "distance": 5.017945808655802,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 17
     }
   },
   {
     "date": "2022-06-21",
-    "distance": 5,
+    "distance": 5.009584983747901,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 57
     }
   },
   {
     "date": "2022-06-22",
-    "distance": 5,
+    "distance": 5.0068524534779035,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 28
     }
   },
   {
     "date": "2022-06-23",
-    "distance": 5,
+    "distance": 5.00881376615686,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 56
     }
   },
   {
     "date": "2022-06-24",
-    "distance": 10.01,
+    "distance": 10.016076349881285,
     "duration": {
       "hours": 1,
       "mins": 1,
@@ -7525,103 +8042,115 @@
   },
   {
     "date": "2022-06-27",
-    "distance": 5.01,
+    "distance": 5.0145422264631,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 21
     }
   },
   {
     "date": "2022-06-28",
-    "distance": 5.01,
+    "distance": 5.018381280122153,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 9
     }
   },
   {
     "date": "2022-06-30",
-    "distance": 5.02,
+    "distance": 5.026189002457117,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 1
     }
   },
   {
     "date": "2022-07-04",
-    "distance": 5.02,
+    "distance": 5.027471182712605,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 56
     }
   },
   {
     "date": "2022-07-05",
-    "distance": 5.02,
+    "distance": 5.028979132190063,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 22
     }
   },
   {
     "date": "2022-07-06",
-    "distance": 5.01,
+    "distance": 5.019020578567743,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 10
     }
   },
   {
     "date": "2022-07-07",
-    "distance": 5.01,
+    "distance": 5.0195784059182955,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 33
     }
   },
   {
     "date": "2022-07-08",
-    "distance": 5.01,
+    "distance": 5.015797269191265,
     "duration": {
+      "hours": 0,
       "mins": 31,
       "secs": 19
     }
   },
   {
     "date": "2022-07-11",
-    "distance": 5.02,
+    "distance": 5.022805963897253,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 53
     }
   },
   {
     "date": "2022-07-12",
-    "distance": 5.01,
+    "distance": 5.019276504252509,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 24
     }
   },
   {
     "date": "2022-07-13",
-    "distance": 5.02,
+    "distance": 5.0284333466280575,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 32
     }
   },
   {
     "date": "2022-07-14",
-    "distance": 5.01,
+    "distance": 5.0174721148714,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 5
     }
   },
   {
     "date": "2022-07-15",
-    "distance": 10.01,
+    "distance": 10.012809350322934,
     "duration": {
       "hours": 1,
       "mins": 3,
@@ -7630,63 +8159,70 @@
   },
   {
     "date": "2022-07-18",
-    "distance": 5.01,
+    "distance": 5.018722969180743,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 36
     }
   },
   {
     "date": "2022-07-19",
-    "distance": 5.01,
+    "distance": 5.015007028568726,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 17
     }
   },
   {
     "date": "2022-07-20",
-    "distance": 5.02,
+    "distance": 5.02104898282383,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 2
     }
   },
   {
     "date": "2022-07-21",
-    "distance": 5.02,
+    "distance": 5.021630499318571,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 39
     }
   },
   {
     "date": "2022-07-25",
-    "distance": 5,
+    "distance": 5.006881988889331,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 27
     }
   },
   {
     "date": "2022-07-26",
-    "distance": 5.02,
+    "distance": 5.022666849895212,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 26
     }
   },
   {
     "date": "2022-07-28",
-    "distance": 5.01,
+    "distance": 5.017169805140543,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 29
     }
   },
   {
     "date": "2022-07-29",
-    "distance": 10.01,
+    "distance": 10.018837320459562,
     "duration": {
       "hours": 1,
       "mins": 3,
@@ -7695,136 +8231,153 @@
   },
   {
     "date": "2022-08-01",
-    "distance": 5,
+    "distance": 5.0086857197465635,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 58
     }
   },
   {
     "date": "2022-08-02",
-    "distance": 5.01,
+    "distance": 5.017111878836678,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 8
     }
   },
   {
     "date": "2022-08-03",
-    "distance": 5,
+    "distance": 5.006557866789268,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 29
     }
   },
   {
     "date": "2022-08-04",
-    "distance": 5.02,
+    "distance": 5.027800061647009,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 47
     }
   },
   {
     "date": "2022-08-05",
-    "distance": 5,
+    "distance": 5.008721353178142,
     "duration": {
+      "hours": 0,
       "mins": 32,
       "secs": 3
     }
   },
   {
     "date": "2022-08-08",
-    "distance": 5.02,
+    "distance": 5.02708779158805,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 32
     }
   },
   {
     "date": "2022-08-09",
-    "distance": 5.01,
+    "distance": 5.01521117847532,
     "duration": {
+      "hours": 0,
       "mins": 23,
       "secs": 18
     }
   },
   {
     "date": "2022-08-15",
-    "distance": 5.03,
+    "distance": 5.034663560919761,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 3
     }
   },
   {
     "date": "2022-08-16",
-    "distance": 5.01,
+    "distance": 5.019667434712113,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 35
     }
   },
   {
     "date": "2022-08-17",
-    "distance": 5.01,
+    "distance": 5.018045768931278,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 46
     }
   },
   {
     "date": "2022-08-19",
-    "distance": 5.02,
+    "distance": 5.021955042626239,
     "duration": {
+      "hours": 0,
       "mins": 31,
       "secs": 59
     }
   },
   {
     "date": "2022-08-22",
-    "distance": 5.02,
+    "distance": 5.021280053604881,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 3
     }
   },
   {
     "date": "2022-08-23",
-    "distance": 5.01,
+    "distance": 5.01770120469819,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 42
     }
   },
   {
     "date": "2022-08-24",
-    "distance": 5.03,
+    "distance": 5.03477737726066,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 43
     }
   },
   {
     "date": "2022-08-25",
-    "distance": 5.03,
+    "distance": 5.034402288226716,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 59
     }
   },
   {
     "date": "2022-08-30",
-    "distance": 5.02,
+    "distance": 5.025917949104298,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 15
     }
   },
   {
     "date": "2022-08-31",
-    "distance": 5.02,
+    "distance": 5.024856228016368,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 18
     }
@@ -7839,384 +8392,432 @@
   },
   {
     "date": "2022-09-05",
-    "distance": 5.01,
+    "distance": 5.012202682370039,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 20
     }
   },
   {
     "date": "2022-09-06",
-    "distance": 5.01,
+    "distance": 5.014637432646735,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 20
     }
   },
   {
     "date": "2022-09-08",
-    "distance": 5.02,
+    "distance": 5.021221088143329,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 26
     }
   },
   {
     "date": "2022-09-13",
-    "distance": 5.02,
+    "distance": 5.027050528691413,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 52
     }
   },
   {
     "date": "2022-09-15",
-    "distance": 5.02,
+    "distance": 5.02990177997447,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 36
     }
   },
   {
     "date": "2022-09-19",
-    "distance": 5.03,
+    "distance": 5.0391262744982654,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 0
     }
   },
   {
     "date": "2022-09-21",
-    "distance": 5.03,
+    "distance": 5.037749478765577,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 25
     }
   },
   {
     "date": "2022-09-22",
-    "distance": 5.03,
+    "distance": 5.032696275697959,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 41
     }
   },
   {
     "date": "2022-09-23",
-    "distance": 5.03,
+    "distance": 5.033821816566561,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 50
     }
   },
   {
     "date": "2022-09-26",
-    "distance": 5.01,
+    "distance": 5.017506689393907,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 56
     }
   },
   {
     "date": "2022-10-06",
-    "distance": 10.01,
+    "distance": 10.010117843830827,
     "duration": {
+      "hours": 0,
       "mins": 49,
       "secs": 49
     }
   },
   {
     "date": "2022-10-07",
-    "distance": 5.04,
+    "distance": 5.041954740146055,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 11
     }
   },
   {
     "date": "2022-10-08",
-    "distance": 10.02,
+    "distance": 10.029038966686333,
     "duration": {
+      "hours": 0,
       "mins": 54,
       "secs": 19
     }
   },
   {
     "date": "2022-10-09",
-    "distance": 5.03,
+    "distance": 5.03405838562974,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 8
     }
   },
   {
     "date": "2022-10-10",
-    "distance": 5.02,
+    "distance": 5.029395439311889,
     "duration": {
+      "hours": 0,
       "mins": 36,
       "secs": 11
     }
   },
   {
     "date": "2022-10-11",
-    "distance": 5.01,
+    "distance": 5.011308858219367,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 25
     }
   },
   {
     "date": "2022-10-12",
-    "distance": 5.01,
+    "distance": 5.013084093016564,
     "duration": {
+      "hours": 0,
       "mins": 33,
       "secs": 29
     }
   },
   {
     "date": "2022-10-14",
-    "distance": 5.02,
+    "distance": 5.024098227624115,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 40
     }
   },
   {
     "date": "2022-10-17",
-    "distance": 5.01,
+    "distance": 5.019172123812122,
     "duration": {
+      "hours": 0,
       "mins": 33,
       "secs": 15
     }
   },
   {
     "date": "2022-10-18",
-    "distance": 5.01,
+    "distance": 5.018801508401904,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 25
     }
   },
   {
     "date": "2022-10-19",
-    "distance": 5.01,
+    "distance": 5.014425800421644,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 55
     }
   },
   {
     "date": "2022-10-20",
-    "distance": 5.03,
+    "distance": 5.039988015738975,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 58
     }
   },
   {
     "date": "2022-10-21",
-    "distance": 5.01,
+    "distance": 5.015903623584014,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 32
     }
   },
   {
     "date": "2022-10-24",
-    "distance": 5.02,
+    "distance": 5.0281237795149405,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 19
     }
   },
   {
     "date": "2022-10-25",
-    "distance": 5.07,
+    "distance": 5.070878658594008,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 39
     }
   },
   {
     "date": "2022-10-26",
-    "distance": 5.1,
+    "distance": 5.106017871889335,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 34
     }
   },
   {
     "date": "2022-10-27",
-    "distance": 5.01,
+    "distance": 5.010154022342313,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 47
     }
   },
   {
     "date": "2022-10-30",
-    "distance": 5,
+    "distance": 5.004331645866439,
     "duration": {
+      "hours": 0,
       "mins": 31,
       "secs": 3
     }
   },
   {
     "date": "2022-10-31",
-    "distance": 5.01,
+    "distance": 5.019797263760997,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 39
     }
   },
   {
     "date": "2022-11-01",
-    "distance": 5.02,
+    "distance": 5.025315596699235,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 8
     }
   },
   {
     "date": "2022-11-02",
-    "distance": 5.01,
+    "distance": 5.017210066202519,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 47
     }
   },
   {
     "date": "2022-11-03",
-    "distance": 5.03,
+    "distance": 5.032253412662828,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 15
     }
   },
   {
     "date": "2022-11-04",
-    "distance": 5,
+    "distance": 5.005106636033733,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 14
     }
   },
   {
     "date": "2022-11-07",
-    "distance": 5.03,
+    "distance": 5.03444792554159,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 57
     }
   },
   {
     "date": "2022-11-08",
-    "distance": 5.01,
+    "distance": 5.01047486510683,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 10
     }
   },
   {
     "date": "2022-11-09",
-    "distance": 5.01,
+    "distance": 5.018903509637002,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 37
     }
   },
   {
     "date": "2022-11-10",
-    "distance": 5.02,
+    "distance": 5.028837093529117,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 16
     }
   },
   {
     "date": "2022-11-12",
-    "distance": 5.03,
+    "distance": 5.0383712767331845,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 32
     }
   },
   {
     "date": "2022-11-14",
-    "distance": 5.02,
+    "distance": 5.02603220460847,
     "duration": {
+      "hours": 0,
       "mins": 34,
       "secs": 17
     }
   },
   {
     "date": "2022-11-15",
-    "distance": 5.03,
+    "distance": 5.033908619901283,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 38
     }
   },
   {
     "date": "2022-11-16",
-    "distance": 5.02,
+    "distance": 5.027578686875239,
     "duration": {
+      "hours": 0,
       "mins": 31,
       "secs": 40
     }
   },
   {
     "date": "2022-11-17",
-    "distance": 5.03,
+    "distance": 5.03545529626448,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 20
     }
   },
   {
     "date": "2022-11-18",
-    "distance": 5.02,
+    "distance": 5.029774174970263,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 2
     }
   },
   {
     "date": "2022-11-21",
-    "distance": 5.02,
+    "distance": 5.027201133855022,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 56
     }
   },
   {
     "date": "2022-11-22",
-    "distance": 5.04,
+    "distance": 5.045333485352612,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 8
     }
   },
   {
     "date": "2022-11-23",
-    "distance": 5.03,
+    "distance": 5.036794471720316,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 52
     }
   },
   {
     "date": "2022-11-24",
-    "distance": 5.02,
+    "distance": 5.028718194448464,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 14
     }
   },
   {
     "date": "2022-11-25",
-    "distance": 5,
+    "distance": 5.004483607560367,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 32
     }
@@ -8225,206 +8826,232 @@
     "date": "2022-11-27",
     "distance": 5.01,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 17
     }
   },
   {
     "date": "2022-11-28",
-    "distance": 5.03,
+    "distance": 5.037480500750142,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 9
     }
   },
   {
     "date": "2022-11-29",
-    "distance": 4.51,
+    "distance": 4.518557548678678,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 37
     }
   },
   {
     "date": "2022-11-30",
-    "distance": 5.04,
+    "distance": 5.041230947027252,
     "duration": {
+      "hours": 0,
       "mins": 31,
       "secs": 49
     }
   },
   {
     "date": "2022-12-01",
-    "distance": 5.02,
+    "distance": 5.027772456683033,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 37
     }
   },
   {
     "date": "2022-12-03",
-    "distance": 10.03,
+    "distance": 10.031331608997009,
     "duration": {
+      "hours": 0,
       "mins": 55,
       "secs": 37
     }
   },
   {
     "date": "2022-12-04",
-    "distance": 5.02,
+    "distance": 5.029645143715218,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 44
     }
   },
   {
     "date": "2022-12-05",
-    "distance": 5.02,
+    "distance": 5.0259528760313925,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 52
     }
   },
   {
     "date": "2022-12-06",
-    "distance": 5.02,
+    "distance": 5.0217051521055165,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 4
     }
   },
   {
     "date": "2022-12-07",
-    "distance": 5.03,
+    "distance": 5.032873791515261,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 1
     }
   },
   {
     "date": "2022-12-08",
-    "distance": 5.03,
+    "distance": 5.030070892319419,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 23
     }
   },
   {
     "date": "2022-12-15",
-    "distance": 5.02,
+    "distance": 5.02953524192691,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 23
     }
   },
   {
     "date": "2022-12-18",
-    "distance": 5.01,
+    "distance": 5.016076759087022,
     "duration": {
-      "mins": 27,
-      "secs": 54
-    }
-  },
-  {
-    "date": "2022-12-19",
-    "distance": 5.03,
-    "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 3
     }
   },
   {
-    "date": "2022-12-20",
-    "distance": 5.01,
+    "date": "2022-12-19",
+    "distance": 5.0377345895446455,
     "duration": {
+      "hours": 0,
+      "mins": 27,
+      "secs": 54
+    }
+  },
+  {
+    "date": "2022-12-20",
+    "distance": 5.017186637726141,
+    "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 11
     }
   },
   {
     "date": "2022-12-21",
-    "distance": 5.23,
+    "distance": 5.2348916015625,
     "duration": {
+      "hours": 0,
       "mins": 37,
       "secs": 7
     }
   },
   {
     "date": "2022-12-22",
-    "distance": 5.06,
+    "distance": 5.061123617951464,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 34
     }
   },
   {
     "date": "2022-12-23",
-    "distance": 5.03,
+    "distance": 5.031374717477643,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 35
     }
   },
   {
     "date": "2022-12-24",
-    "distance": 5.18,
+    "distance": 5.189460077646649,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 10
     }
   },
   {
     "date": "2022-12-25",
-    "distance": 5.02,
+    "distance": 5.027939806623201,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 32
     }
   },
   {
     "date": "2022-12-26",
-    "distance": 5.08,
+    "distance": 5.080202611531958,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 41
     }
   },
   {
     "date": "2022-12-27",
-    "distance": 5.08,
+    "distance": 5.081238268713053,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 6
     }
   },
   {
     "date": "2022-12-28",
-    "distance": 5.01,
+    "distance": 5.010806055084977,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 47
     }
   },
   {
     "date": "2022-12-29",
-    "distance": 5.02,
+    "distance": 5.022010620173903,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 56
     }
   },
   {
     "date": "2022-12-30",
-    "distance": 5.01,
+    "distance": 5.015715852882304,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 12
     }
   },
   {
     "date": "2022-12-31",
-    "distance": 5.3,
+    "distance": 5.3011091792803615,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 56
     }
@@ -8440,386 +9067,434 @@
   },
   {
     "date": "2023-01-02",
-    "distance": 5.01,
+    "distance": 5.012263609482335,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 8
     }
   },
   {
     "date": "2023-01-03",
-    "distance": 5.01,
+    "distance": 5.0183348834504375,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 15
     }
   },
   {
     "date": "2023-01-04",
-    "distance": 5.01,
+    "distance": 5.0177017160930975,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 39
     }
   },
   {
     "date": "2023-01-05",
-    "distance": 5.03,
+    "distance": 5.032030993421472,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 59
     }
   },
   {
     "date": "2023-01-06",
-    "distance": 5.02,
+    "distance": 5.02192544099604,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 29
     }
   },
   {
     "date": "2023-01-08",
-    "distance": 5.05,
+    "distance": 5.055387511444538,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 48
     }
   },
   {
     "date": "2023-01-09",
-    "distance": 5.01,
+    "distance": 5.015841520957753,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 39
     }
   },
   {
     "date": "2023-01-10",
-    "distance": 5.02,
+    "distance": 5.023882703508083,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 37
     }
   },
   {
     "date": "2023-01-11",
-    "distance": 5.02,
+    "distance": 5.023976614331739,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 12
     }
   },
   {
     "date": "2023-01-12",
-    "distance": 5.02,
+    "distance": 5.02348323342558,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 40
     }
   },
   {
     "date": "2023-01-13",
-    "distance": 5.01,
+    "distance": 5.01836896602683,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 41
     }
   },
   {
     "date": "2023-01-15",
-    "distance": 5.04,
+    "distance": 5.042353736548883,
     "duration": {
+      "hours": 0,
       "mins": 32,
       "secs": 46
     }
   },
   {
     "date": "2023-01-16",
-    "distance": 5,
+    "distance": 5.007661297832626,
     "duration": {
+      "hours": 0,
       "mins": 27,
-      "secs": 14
+      "secs": 41
     }
   },
   {
     "date": "2023-01-17",
-    "distance": 5.01,
+    "distance": 5.012607192815459,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 41
     }
   },
   {
     "date": "2023-01-18",
-    "distance": 5.01,
+    "distance": 5.0160686010104465,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 46
     }
   },
   {
     "date": "2023-01-20",
-    "distance": 5.03,
+    "distance": 5.030544761423879,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 55
     }
   },
   {
     "date": "2023-01-30",
-    "distance": 5.05,
+    "distance": 5.058019704279994,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 31
     }
   },
   {
     "date": "2023-01-31",
-    "distance": 5.01,
+    "distance": 5.019803637847197,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 50
     }
   },
   {
     "date": "2023-02-01",
-    "distance": 5.02,
+    "distance": 5.027225466156138,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 13
     }
   },
   {
     "date": "2023-02-02",
-    "distance": 5.04,
+    "distance": 5.041646617972176,
     "duration": {
+      "hours": 0,
       "mins": 25,
       "secs": 29
     }
   },
   {
     "date": "2023-02-03",
-    "distance": 5.02,
+    "distance": 5.023092477195968,
     "duration": {
+      "hours": 0,
       "mins": 24,
       "secs": 39
     }
   },
   {
     "date": "2023-02-04",
-    "distance": 5.68,
+    "distance": 5.68694612807932,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 1
     }
   },
   {
     "date": "2023-02-06",
-    "distance": 5.03,
+    "distance": 5.032051468993425,
     "duration": {
+      "hours": 0,
       "mins": 31,
       "secs": 39
     }
   },
   {
     "date": "2023-02-07",
-    "distance": 5.01,
+    "distance": 5.013699909691524,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 21
     }
   },
   {
     "date": "2023-02-08",
-    "distance": 5.02,
+    "distance": 5.024014040516314,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 55
     }
   },
   {
     "date": "2023-02-09",
-    "distance": 5.02,
+    "distance": 5.023481662144957,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 51
     }
   },
   {
     "date": "2023-02-14",
-    "distance": 5.04,
+    "distance": 5.041228488467488,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 7
     }
   },
   {
     "date": "2023-02-15",
-    "distance": 5.03,
+    "distance": 5.030731454864874,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 56
     }
   },
   {
     "date": "2023-02-16",
-    "distance": 5.02,
+    "distance": 5.023693432797535,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 10
     }
   },
   {
     "date": "2023-02-17",
-    "distance": 5,
+    "distance": 5.00350698970318,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 8
     }
   },
   {
     "date": "2023-02-20",
-    "distance": 5,
+    "distance": 5.00916936679959,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 11
     }
   },
   {
     "date": "2023-02-21",
-    "distance": 5.01,
+    "distance": 5.013135638595426,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 0
     }
   },
   {
     "date": "2023-02-22",
-    "distance": 5,
+    "distance": 5.0054232536947865,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 27
     }
   },
   {
     "date": "2023-02-23",
-    "distance": 5,
+    "distance": 5.0065026778080215,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 43
     }
   },
   {
     "date": "2023-02-24",
-    "distance": 5.01,
+    "distance": 5.013426405084972,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 49
     }
   },
   {
     "date": "2023-02-27",
-    "distance": 5.02,
+    "distance": 5.025852503000224,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 51
     }
   },
   {
     "date": "2023-03-01",
-    "distance": 5.03,
+    "distance": 5.035451068780484,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 30
     }
   },
   {
     "date": "2023-03-02",
-    "distance": 5.03,
+    "distance": 5.031393475085941,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 3
     }
   },
   {
     "date": "2023-03-03",
-    "distance": 5.02,
+    "distance": 5.022633096233549,
     "duration": {
+      "hours": 0,
       "mins": 27,
       "secs": 15
     }
   },
   {
     "date": "2023-03-06",
-    "distance": 5.02,
+    "distance": 5.021141744617985,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 59
     }
   },
   {
     "date": "2023-03-07",
-    "distance": 5.04,
+    "distance": 5.047952419209229,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 12
     }
   },
   {
     "date": "2023-03-08",
-    "distance": 5.01,
+    "distance": 5.01808499450864,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 39
     }
   },
   {
     "date": "2023-03-09",
-    "distance": 4.93,
+    "distance": 4.932058006454638,
     "duration": {
+      "hours": 0,
       "mins": 30,
       "secs": 44
     }
   },
   {
     "date": "2023-03-10",
-    "distance": 3.41,
+    "distance": 3.4191263018923426,
     "duration": {
+      "hours": 0,
       "mins": 21,
       "secs": 44
     }
   },
   {
     "date": "2023-03-13",
-    "distance": 5.03,
+    "distance": 5.034117209516994,
     "duration": {
+      "hours": 0,
       "mins": 29,
       "secs": 32
     }
   },
   {
     "date": "2023-03-14",
-    "distance": 5.04,
+    "distance": 5.043456828558343,
     "duration": {
+      "hours": 0,
       "mins": 26,
       "secs": 44
     }
   },
   {
     "date": "2023-03-15",
-    "distance": 5.05,
+    "distance": 5.057073063965792,
     "duration": {
+      "hours": 0,
       "mins": 28,
       "secs": 57
     }
   },
   {
     "date": "2023-03-16",
-    "distance": 5.03,
+    "distance": 5.032229452336389,
     "duration": {
-      "mins": 28,
-      "secs": 57
+      "hours": 0,
+      "mins": 24,
+      "secs": 30
     }
   },
   {
