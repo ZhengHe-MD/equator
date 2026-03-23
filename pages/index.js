@@ -267,14 +267,14 @@ export default function Home({viewModel}) {
               ref={carouselRef}
               sx={{
                 display: "flex",
-                gap: 2,
+                gap: {xs: 1, sm: 2},
                 overflowX: "auto",
                 scrollSnapType: "x mandatory",
                 scrollBehavior: "smooth",
                 perspective: "1600px",
-                scrollPaddingInline: {xs: "10px", md: "24px"},
+                scrollPaddingInline: {xs: 0, sm: "10px", md: "24px"},
                 pb: 1,
-                px: {xs: 0.5, md: 0},
+                px: {xs: 0, md: 0},
                 WebkitOverflowScrolling: "touch",
                 "&::-webkit-scrollbar": {
                   height: 8,
@@ -293,28 +293,34 @@ export default function Home({viewModel}) {
                 <Box
                   key={year.year}
                   sx={{
-                    minWidth: {xs: "96%", md: "93%"},
-                    flex: {xs: "0 0 96%", md: "0 0 93%"},
-                    scrollSnapAlign: "center",
-                    px: {xs: 0.25, md: 0.75},
+                    minWidth: {xs: "100%", sm: "96%", md: "93%"},
+                    flex: {xs: "0 0 100%", sm: "0 0 96%", md: "0 0 93%"},
+                    scrollSnapAlign: {xs: "start", sm: "center"},
+                    px: {xs: 0, md: 0.75},
                     py: 1.5,
                   }}
                 >
                   <Box
                     sx={{
-                      transform:
-                        year.year === asOfYear
-                          ? "perspective(1600px) rotateY(0deg) translateY(0)"
-                          : "perspective(1600px) rotateY(-2.5deg) translateY(2px)",
+                      transform: {
+                        xs: "none",
+                        sm:
+                          year.year === asOfYear
+                            ? "perspective(1600px) rotateY(0deg) translateY(0)"
+                            : "perspective(1600px) rotateY(-2.5deg) translateY(2px)",
+                      },
                       transformOrigin: "center center",
                       transition: "transform 220ms ease, filter 220ms ease",
-                      filter:
-                        year.year === asOfYear
-                          ? "drop-shadow(0 24px 40px rgba(20, 34, 28, 0.14))"
-                          : "drop-shadow(0 18px 30px rgba(20, 34, 28, 0.1))",
+                      filter: {
+                        xs: "drop-shadow(0 16px 24px rgba(20, 34, 28, 0.12))",
+                        sm:
+                          year.year === asOfYear
+                            ? "drop-shadow(0 24px 40px rgba(20, 34, 28, 0.14))"
+                            : "drop-shadow(0 18px 30px rgba(20, 34, 28, 0.1))",
+                      },
                       "&:hover": {
-                        transform: "perspective(1600px) rotateY(0deg) translateY(-2px)",
-                        filter: "drop-shadow(0 28px 44px rgba(20, 34, 28, 0.16))",
+                        transform: {sm: "perspective(1600px) rotateY(0deg) translateY(-2px)"},
+                        filter: {sm: "drop-shadow(0 28px 44px rgba(20, 34, 28, 0.16))"},
                       },
                     }}
                   >
@@ -348,7 +354,7 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
         position: "relative",
         overflow: "hidden",
         borderRadius: 7,
-        p: {xs: 3, md: 4},
+        p: {xs: 2.5, sm: 3, md: 4},
         background:
           "radial-gradient(circle at top left, rgba(31, 111, 90, 0.16), transparent 42%), linear-gradient(135deg, rgba(255,255,255,0.98), rgba(242, 247, 244, 0.96))",
         border: "1px solid rgba(33, 57, 45, 0.1)",
@@ -361,9 +367,13 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
           variant="h2"
           sx={{
             fontWeight: 800,
-            fontSize: {xs: "2.2rem", md: "3.2rem"},
+            fontSize: {xs: "2rem", sm: "2.2rem", md: "3.2rem"},
             letterSpacing: "-0.04em",
+            lineHeight: 1.05,
             pr: {sm: 2},
+            "@media (max-width:359.95px)": {
+              fontSize: "1.8rem",
+            },
           }}
         >
           {title}
@@ -378,8 +388,12 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
             variant="h4"
             sx={{
               fontWeight: 700,
-              fontSize: {xs: "1.45rem", sm: "2.125rem"},
+              fontSize: {xs: "1.3rem", sm: "2.125rem"},
               lineHeight: 1.15,
+              maxWidth: {xs: "100%", sm: "none"},
+              "@media (max-width:359.95px)": {
+                fontSize: "1.05rem",
+              },
             }}
           >
             {formatKm(summary.completedKm, 2)} / {formatKm(summary.goalKm, 2)} km
@@ -395,9 +409,13 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
               ...runnerPosition,
               display: "flex",
               alignItems: "center",
-              gap: {xs: 0.35, sm: 0.75},
+              gap: {xs: 0.25, sm: 0.75},
               transform: {xs: "translateX(-50%) scale(0.74)", sm: "translateX(-50%)"},
               transformOrigin: "center center",
+              "@media (max-width:359.95px)": {
+                gap: 0.15,
+                transform: "translateX(-50%) scale(0.66)",
+              },
             }}
           >
             <RunnerBadge src="/running-girl.gif" width={24} height={24} alt="女儿 1" />
@@ -409,8 +427,8 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
               position: "absolute",
               right: 0,
               top: "50%",
-              transform: "translate(-10%, -50%)",
-              fontSize: {xs: 20, md: 24},
+              transform: {xs: "translate(0, -50%)", sm: "translate(-10%, -50%)"},
+              fontSize: {xs: 18, md: 24},
               lineHeight: 1,
             }}
             aria-label="终点"
@@ -432,7 +450,7 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
             },
           }}
         />
-        <Box sx={{position: "relative", height: 54, mt: 0.9}}>
+        <Box sx={{position: "relative", height: {xs: 58, sm: 54}, mt: 0.9}}>
           <Box
             sx={{
               position: "absolute",
@@ -442,7 +460,7 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
               display: "flex",
               flexDirection: "column",
               alignItems: "flex-start",
-              width: 84,
+              width: {xs: 56, sm: 84},
             }}
           >
             <Box
@@ -453,7 +471,10 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
                 backgroundColor: "rgba(31, 111, 90, 0.42)",
               }}
             />
-            <Typography variant="caption" sx={{mt: 0.6, color: "var(--text)", fontWeight: 700}}>
+            <Typography
+              variant="caption"
+              sx={{mt: 0.6, color: "var(--text)", fontWeight: 700, fontSize: {xs: 11, sm: 12}}}
+            >
               起点
             </Typography>
             <Typography
@@ -462,6 +483,7 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
                 mt: 0.2,
                 color: "var(--muted)",
                 whiteSpace: "nowrap",
+                fontSize: {xs: 11, sm: 12},
               }}
             >
               <Box component="span" sx={{display: {xs: "inline", sm: "none"}}}>
@@ -483,7 +505,7 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                width: {xs: 34, sm: milestone[1] === 1 ? 72 : 84},
+                width: {xs: milestone[1] === 1 ? 38 : 30, sm: milestone[1] === 1 ? 72 : 84},
               }}
             >
               <Box
@@ -494,7 +516,10 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
                   backgroundColor: "rgba(198, 123, 49, 0.55)",
                 }}
               />
-              <Typography variant="caption" sx={{mt: 0.6, color: "var(--text)", fontWeight: 700}}>
+              <Typography
+                variant="caption"
+                sx={{mt: 0.6, color: "var(--text)", fontWeight: 700, fontSize: {xs: 11, sm: 12}}}
+              >
                 {milestone[0]}
               </Typography>
               <Typography
@@ -504,6 +529,7 @@ function HeroSummaryCard({summary, milestones, runnerPosition, title, actionSlot
                   color: "var(--muted)",
                   whiteSpace: "nowrap",
                   transform: milestone[1] === 1 ? "translateX(-8px)" : "none",
+                  fontSize: {xs: 11, sm: 12},
                 }}
               >
                 <Box component="span" sx={{display: {xs: "inline", sm: "none"}}}>

@@ -130,7 +130,7 @@ export default function Segment({year, asOfYear}) {
     <Box
       sx={{
         borderRadius: 5,
-        p: {xs: 2.25, md: 2.75},
+        p: {xs: 2, sm: 2.25, md: 2.75},
         backgroundColor: "var(--surface)",
         border: "1px solid var(--border)",
         boxShadow: "0 18px 55px rgba(20, 34, 28, 0.06)",
@@ -168,7 +168,7 @@ export default function Segment({year, asOfYear}) {
         </Typography>
 
         <Box ref={heatmapScrollRef} sx={{overflowX: "auto"}}>
-          <Box ref={heatmapContentRef} sx={{minWidth: 720}}>
+          <Box ref={heatmapContentRef} sx={{minWidth: {xs: 620, sm: 720}}}>
             <CalendarHeatmap
               values={values}
               gutterSize={3}
@@ -199,7 +199,7 @@ export default function Segment({year, asOfYear}) {
           sx={{
             display: "grid",
             gap: {xs: 1, sm: 0.75},
-            gridTemplateColumns: {xs: "repeat(3, minmax(0, 1fr))", sm: "repeat(4, minmax(0, 1fr))", md: "repeat(12, minmax(0, 1fr))"},
+            gridTemplateColumns: {xs: "repeat(2, minmax(0, 1fr))", sm: "repeat(4, minmax(0, 1fr))", md: "repeat(12, minmax(0, 1fr))"},
           }}
         >
           {year.months.map((actualKm, index) => (

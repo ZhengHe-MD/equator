@@ -87,3 +87,9 @@ svg text {
 .runner-image {
   mix-blend-mode: multiply;
 }
+
+@media (max-width: 359.95px) {
+  .react-calendar-heatmap text {
+    font-size: 9px;
+  }
+}
