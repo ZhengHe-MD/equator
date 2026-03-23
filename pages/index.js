@@ -80,7 +80,19 @@ export default function Home({viewModel}) {
   }, [])
 
   useEffect(() => {
-    setShowPosterPreview(new URLSearchParams(window.location.search).get("poster") === "1")
+    const syncPosterPreview = () => {
+      const wantsPosterPreview = new URLSearchParams(window.location.search).get("poster") === "1"
+      const canRenderPosterPreview = window.matchMedia("(min-width: 768px)").matches
+
+      setShowPosterPreview(wantsPosterPreview && canRenderPosterPreview)
+    }
+
+    syncPosterPreview()
+    window.addEventListener("resize", syncPosterPreview)
+
+    return () => {
+      window.removeEventListener("resize", syncPosterPreview)
+    }
   }, [])
 
   async function handleShareScreenshot() {
@@ -560,8 +572,8 @@ function SharePoster({posterRef, summary, milestones, runnerPosition, featuredYe
     <Box
       aria-hidden={hidden ? "true" : undefined}
       sx={{
-        position: hidden ? "absolute" : "relative",
-        left: hidden ? "-200vw" : "auto",
+        position: hidden ? "fixed" : "relative",
+        left: hidden ? "-10000px" : "auto",
         top: hidden ? 0 : "auto",
         width: 1080,
         pointerEvents: hidden ? "none" : "auto",
