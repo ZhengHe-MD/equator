@@ -15611,6 +15611,24 @@
     }
   },
   {
+    "date": "2026-08-11",
+    "distance": 4.802,
+    "duration": {
+      "hours": 0,
+      "mins": 28,
+      "secs": 21
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "distance": 4.891,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 21
+    }
+  },
+  {
     "date": "2026-08-14",
     "distance": 4.721526354274198,
     "duration": {
