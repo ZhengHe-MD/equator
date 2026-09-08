@@ -15717,5 +15717,14 @@
       "mins": 20,
       "secs": 24
     }
+  },
+  {
+    "date": "2026-09-07",
+    "distance": 4.814,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 22
+    }
   }
 ]
