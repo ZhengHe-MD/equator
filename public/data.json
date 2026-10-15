@@ -15861,5 +15861,59 @@
       "mins": 29,
       "secs": 28
     }
+  },
+  {
+    "date": "2026-10-08",
+    "distance": 5.029,
+    "duration": {
+      "hours": 0,
+      "mins": 30,
+      "secs": 3
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "distance": 4.583,
+    "duration": {
+      "hours": 0,
+      "mins": 27,
+      "secs": 21
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "distance": 4.728,
+    "duration": {
+      "hours": 0,
+      "mins": 27,
+      "secs": 39
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "distance": 4.18,
+    "duration": {
+      "hours": 0,
+      "mins": 25,
+      "secs": 57
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "distance": 5.077,
+    "duration": {
+      "hours": 0,
+      "mins": 27,
+      "secs": 15
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "distance": 4.783,
+    "duration": {
+      "hours": 0,
+      "mins": 26,
+      "secs": 32
+    }
   }
 ]
