@@ -15942,5 +15942,14 @@
       "mins": 27,
       "secs": 57
     }
+  },
+  {
+    "date": "2026-10-21",
+    "distance": 5.05,
+    "duration": {
+      "hours": 0,
+      "mins": 28,
+      "secs": 1
+    }
   }
 ]
