@@ -15953,12 +15953,30 @@
     }
   },
   {
+    "date": "2026-10-23",
+    "distance": 5.013,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 15
+    }
+  },
+  {
     "date": "2026-10-24",
     "distance": 5.0247097995497825,
     "duration": {
       "hours": 0,
       "mins": 29,
       "secs": 29
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "distance": 5.103138753289801,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 34
     }
   }
 ]
