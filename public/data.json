@@ -15980,6 +15980,15 @@
     }
   },
   {
+    "date": "2026-10-27",
+    "distance": 5.056,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 58
+    }
+  },
+  {
     "date": "2026-10-28",
     "distance": 5.005093908435254,
     "duration": {
@@ -16007,6 +16016,24 @@
     }
   },
   {
+    "date": "2026-11-03",
+    "distance": 5.068,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 9
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "distance": 4.63,
+    "duration": {
+      "hours": 0,
+      "mins": 26,
+      "secs": 52
+    }
+  },
+  {
     "date": "2026-11-06",
     "distance": 5.0690901905600265,
     "duration": {
@@ -16031,6 +16058,15 @@
       "hours": 0,
       "mins": 26,
       "secs": 41
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "distance": 5.050049282015933,
+    "duration": {
+      "hours": 0,
+      "mins": 28,
+      "secs": 54
     }
   }
 ]
