@@ -16077,5 +16077,23 @@
       "mins": 28,
       "secs": 48
     }
+  },
+  {
+    "date": "2026-11-16",
+    "distance": 5.077,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 50
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "distance": 5.086,
+    "duration": {
+      "hours": 0,
+      "mins": 29,
+      "secs": 21
+    }
   }
 ]
